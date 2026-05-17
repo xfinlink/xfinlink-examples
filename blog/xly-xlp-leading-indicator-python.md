@@ -40,7 +40,7 @@ Regime: Defensive (staples outperforming discretionary)
 
 ## What this tells us
 
-The relationship is non-linear. Both extremes -- Q1 (ratio very low) and Q5 (ratio very high) -- show weak forward returns (+0.9% and -0.3% respectively). The strongest forward returns occur in Q3-Q4 (both +5.9%). When the ratio is at its highest z-score (Q5), the market has already priced in maximum optimism -- forward returns turn negative. When it is at its lowest (Q1), the market is pricing in a downturn that tends to persist for at least 3 months. The current z-score of -0.94 places the market in Q1-Q2 territory -- the recovery zone where forward returns begin to improve. The ratio is just below its 50-day SMA, suggesting the current regime has not yet decisively shifted from defensive to risk-on.
+The relationship is non-linear. Both extremes -- Q1 (ratio very low) and Q5 (ratio very high) -- show weak forward returns (+0.9% and -0.3% respectively). The strongest forward returns occur in Q3-Q4 (both +5.9%). When the ratio is at its highest z-score (Q5), the market has already priced in maximum optimism -- forward returns turn negative. When it is at its lowest (Q1), the market is pricing in a downturn that tends to persist for at least 3 months. The current z-score of -0.94 places the market in Q1 territory -- the zone where forward returns are weakest at +0.9%, though historical evidence suggests 6-12 month recoveries from these levels tend to be stronger. The ratio is just below its 50-day SMA, suggesting the current regime has not yet decisively shifted from defensive to risk-on.
 
 ## So what?
 
