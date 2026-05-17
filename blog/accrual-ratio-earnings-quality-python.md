@@ -25,17 +25,17 @@ JNJ       2025-12-28     $  14.1B     $  22.2B     $ 178.3B        -0.045       
 XOM       2025-12-31     $  28.5B     $  55.3B     $ 452.7B        -0.059       High
 AMZN      2025-12-31     $  59.2B     $ 115.9B     $ 624.9B        -0.091       High
 GOOGL     2025-12-31     $  96.5B     $ 112.6B     $ 432.2B        -0.037       High
-META      2025-12-31     $  62.4B     $  91.3B     $ 256.2B        -0.113       Highest
+META      2025-12-31     $  62.4B     $  91.3B     $ 256.2B        -0.151       Highest
 
 === Summary ===
-Highest quality (most negative accrual ratio): META at -0.113
+Highest quality (most negative accrual ratio): META at -0.151
 Lowest quality (most positive accrual ratio):  NVDA at +0.084
 Spread: 0.197 — significant divergence in earnings quality
 ```
 
 ## What this tells us
 
-META produces the highest-quality earnings in this group with an accrual ratio of -0.113, meaning its operating cash flow exceeds net income by 11.3% of total assets. This reflects Meta's asset-light advertising business model where revenue is collected in cash before expenses are recognized. NVDA stands at the opposite end with an accrual ratio of +0.084 -- net income exceeds operating cash flow by 8.4% of total assets. This positive ratio reflects the timing mismatch inherent in NVDA's business: large GPU orders generate revenue recognition upon shipment, while cash collection and working capital cycles lag. It does not necessarily indicate accounting manipulation, but it does mean NVDA's reported earnings are less conservative than META's. AMZN at -0.091 benefits from its negative working capital cycle -- customers pay before Amazon pays suppliers -- which structurally drives cash flow above net income.
+META produces the highest-quality earnings in this group with an accrual ratio of -0.151, meaning its operating cash flow exceeds net income by 15.1% of total assets. This reflects Meta's asset-light advertising business model where revenue is collected in cash before expenses are recognized. NVDA stands at the opposite end with an accrual ratio of +0.084 -- net income exceeds operating cash flow by 8.4% of total assets. This positive ratio reflects the timing mismatch inherent in NVDA's business: large GPU orders generate revenue recognition upon shipment, while cash collection and working capital cycles lag. It does not necessarily indicate accounting manipulation, but it does mean NVDA's reported earnings are less conservative than META's. AMZN at -0.091 benefits from its negative working capital cycle -- customers pay before Amazon pays suppliers -- which structurally drives cash flow above net income.
 
 ## So what?
 
