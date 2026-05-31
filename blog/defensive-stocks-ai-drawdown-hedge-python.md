@@ -42,7 +42,7 @@ stress = monthly[monthly["AI basket"] <= threshold]
 print(stress[["AI basket", "Defensive basket", "SPY"]].mean())
 ```
 
-Full script with formatting and visualisation: [defensive-stocks-ai-drawdown-hedge-python.py](https://github.com/dignaga69/xfinlink-examples/blob/main/scripts/price-analysis/defensive-stocks-ai-drawdown-hedge-python.py)
+Full script with formatting and visualisation: [defensive-stocks-ai-drawdown-hedge-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/price-analysis/defensive-stocks-ai-drawdown-hedge-python.py)
 
 ## Output
 

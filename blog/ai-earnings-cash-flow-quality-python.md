@@ -46,7 +46,7 @@ latest["accrual_ratio"] = (
 print(latest[["ticker", "cash_conversion", "fcf_margin", "capex_to_ocf"]])
 ```
 
-Full script with formatting and visualisation: [ai-earnings-cash-flow-quality-python.py](https://github.com/dignaga69/xfinlink-examples/blob/main/scripts/fundamental-analysis/ai-earnings-cash-flow-quality-python.py)
+Full script with formatting and visualisation: [ai-earnings-cash-flow-quality-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/fundamental-analysis/ai-earnings-cash-flow-quality-python.py)
 
 ## Output
 

@@ -48,7 +48,7 @@ private_corr = corr.loc[private_credit, private_credit].where(
 print(ai_corr, private_corr, cross_corr)
 ```
 
-Full script with formatting and visualisation: [ai-private-credit-correlation-network-python.py](https://github.com/dignaga69/xfinlink-examples/blob/main/scripts/cross-endpoint/ai-private-credit-correlation-network-python.py)
+Full script with formatting and visualisation: [ai-private-credit-correlation-network-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/cross-endpoint/ai-private-credit-correlation-network-python.py)
 
 ## Output
 

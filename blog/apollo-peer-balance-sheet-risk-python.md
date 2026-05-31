@@ -38,7 +38,7 @@ print(latest.sort_values("assets_to_equity", ascending=False)[
 ])
 ```
 
-Full script with formatting and visualisation: [apollo-peer-balance-sheet-risk-python.py](https://github.com/dignaga69/xfinlink-examples/blob/main/scripts/fundamental-analysis/apollo-peer-balance-sheet-risk-python.py)
+Full script with formatting and visualisation: [apollo-peer-balance-sheet-risk-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/fundamental-analysis/apollo-peer-balance-sheet-risk-python.py)
 
 ## Output
 

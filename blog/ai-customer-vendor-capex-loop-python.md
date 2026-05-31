@@ -57,7 +57,7 @@ trend = pd.DataFrame({
 print(trend.loc[0] / 1000)
 ```
 
-Full script with formatting and visualisation: [ai-customer-vendor-capex-loop-python.py](https://github.com/dignaga69/xfinlink-examples/blob/main/scripts/cross-endpoint/ai-customer-vendor-capex-loop-python.py)
+Full script with formatting and visualisation: [ai-customer-vendor-capex-loop-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/cross-endpoint/ai-customer-vendor-capex-loop-python.py)
 
 ## Output
 
