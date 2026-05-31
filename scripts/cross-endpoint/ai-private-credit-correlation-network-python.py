@@ -29,11 +29,20 @@ df = df[df["ticker"].isin(TICKERS)].copy()
 require(not df.empty, "prices returned no rows")
 require(set(TICKERS).issubset(set(df["ticker"])), "missing one or more requested tickers")
 
-returns = (
-    df.pivot_table(index="date", columns="ticker", values="return_daily", aggfunc="last")
+prices = (
+    df.pivot_table(index="date", columns="ticker", values="close", aggfunc="last")
     .sort_index()
     .dropna(subset=TICKERS)
 )
+api_returns = (
+    df.pivot_table(index="date", columns="ticker", values="return_daily", aggfunc="last")
+    .sort_index()
+    .reindex(prices.index)
+)
+close_returns = prices[TICKERS].pct_change()
+returns = api_returns[TICKERS].copy()
+bad_returns = (returns.abs() > 0.50) & (close_returns.abs() < 0.20)
+returns = returns.mask(bad_returns, close_returns).dropna()
 require(len(returns) >= 250, "not enough complete daily return observations")
 
 corr = returns[TICKERS].corr()

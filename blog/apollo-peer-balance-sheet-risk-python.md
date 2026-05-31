@@ -46,7 +46,7 @@ Full script with formatting and visualisation: [apollo-peer-balance-sheet-risk-p
 
 ```
 === Asset-Manager Balance-Sheet Sensitivity Screen ===
-Latest annual periods through 2025-12-31
+Latest annual period per company (max period_end 2025-12-31)
 
 APO assets/equity: 19.7x
 Peer median assets/equity: 5.5x
@@ -78,4 +78,3 @@ The reinsurance and private-credit debate should start with balance-sheet classi
 For portfolio construction, this changes peer grouping. APO belongs in a stress test with KKR and other balance-sheet-sensitive financials, not only with traditional asset managers. The most useful next step is to track asset growth, equity growth, and operating cash flow together. A rising assets-to-equity multiple without improving cash flow productivity would be the warning sign.
 
 *Built with [xfinlink](https://xfinlink.com) — free financial data API for Python. `pip install xfinlink`*
-

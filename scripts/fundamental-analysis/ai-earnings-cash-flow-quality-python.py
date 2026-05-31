@@ -50,7 +50,7 @@ latest["sbc_to_revenue"] = latest["stock_based_compensation_cf"] / latest["reven
 latest = latest.sort_values("capex_to_ocf", ascending=False)
 
 print("=== AI Earnings Cash-Flow Quality Screen ===")
-print(f"Latest annual periods through {latest['period_end'].max().date()}")
+print(f"Latest annual period per company (max period_end {latest['period_end'].max().date()})")
 print()
 for _, row in latest.iterrows():
     print(

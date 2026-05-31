@@ -19,6 +19,8 @@ The analysis compares two baskets over two years of daily returns. The AI basket
 
 The test asks whether the linkage is stronger than ordinary equity-market exposure.
 
+The return series uses the split-aware daily return field, with a guardrail for isolated discontinuities: when the reported daily return is above 50% but the close-to-close move is below 20%, the close-to-close return is used instead. This prevents a single bad return observation from dominating the correlation matrix.
+
 ## Code
 
 ```python
@@ -33,10 +35,18 @@ private_credit = ["APO", "KKR", "BX", "ARES", "BAM"]
 tickers = ai + private_credit + ["SPY"]
 
 df = xfl.prices(tickers, period="2y", fields=["close", "return_daily"])
-returns = (
-    df.pivot_table(index="date", columns="ticker", values="return_daily")
+prices = (
+    df.pivot_table(index="date", columns="ticker", values="close")
     .dropna(subset=tickers)
 )
+api_returns = (
+    df.pivot_table(index="date", columns="ticker", values="return_daily")
+    .reindex(prices.index)
+)
+close_returns = prices[tickers].pct_change()
+returns = api_returns[tickers].copy()
+bad_returns = (returns.abs() > 0.50) & (close_returns.abs() < 0.20)
+returns = returns.mask(bad_returns, close_returns).dropna()
 
 corr = returns[tickers].corr()
 cross_corr = corr.loc[ai, private_credit].to_numpy().mean()
@@ -60,42 +70,41 @@ Sample: 2024-05-31 to 2026-05-29 (499 trading days)
 
 Average daily return correlations:
 Intra-AI basket:             0.458
-Intra-private-credit basket: 0.504
-AI / private-credit cross:   0.262
+Intra-private-credit basket: 0.770
+AI / private-credit cross:   0.426
 AI / SPY average:            0.631
-Private credit / SPY average:0.407
+Private credit / SPY average:0.677
 
-Latest 60-day AI/private-credit cross-correlation: 0.190
-Median 60-day cross-correlation:                  0.314
+Latest 60-day AI/private-credit cross-correlation: 0.313
+Median 60-day cross-correlation:                  0.340
 
 Highest AI/private-credit pair correlations:
+AMZN / KKR : 0.496
+AMZN / APO : 0.489
 AMZN / BAM : 0.470
+AMZN / ARES: 0.462
 NVDA / BAM : 0.450
-AMZN / BX  : 0.446
-MSFT / BX  : 0.441
-MSFT / BAM : 0.441
 
 Private-credit beta estimates:
-KKR  beta_to_NVDA=0.34  beta_to_SPY=1.86
-ARES beta_to_NVDA=0.33  beta_to_SPY=1.67
-APO  beta_to_NVDA=0.34  beta_to_SPY=1.62
+KKR  beta_to_NVDA=0.39  beta_to_SPY=1.75
+ARES beta_to_NVDA=0.37  beta_to_SPY=1.60
+APO  beta_to_NVDA=0.35  beta_to_SPY=1.59
 BX   beta_to_NVDA=0.31  beta_to_SPY=1.48
 BAM  beta_to_NVDA=0.29  beta_to_SPY=1.28
 ```
 
 ## What this tells us
 
-The two themes are connected, but not tightly enough to call them one trade. The AI/private-credit cross-correlation is 0.262. That is meaningful, but it is far below the intra-AI correlation of 0.458 and the intra-private-credit correlation of 0.504. In other words, stocks inside each theme move together much more closely than the two themes move with each other.
+The two themes are connected at the public-equity level. The AI/private-credit cross-correlation is 0.426, close to the intra-AI correlation of 0.458 and below the intra-private-credit correlation of 0.770. The private-credit basket is the more internally cohesive group. These stocks trade together strongly, and their daily returns are also meaningfully linked to the AI basket.
 
-The broad market explains a large part of the connection. AI stocks have an average correlation of 0.631 with SPY, and private-credit stocks have an average correlation of 0.407 with SPY. The private-credit beta estimates reinforce this point: KKR, ARES, APO, BX, and BAM all have higher betas to SPY than to NVDA. Their public equity risk is more market-beta sensitive than chip-cycle sensitive.
+The broad market explains a large part of the connection. AI stocks have an average correlation of 0.631 with SPY, and private-credit stocks have an average correlation of 0.677 with SPY. The beta estimates reinforce this point. KKR, ARES, APO, BX, and BAM all have much higher betas to SPY than to NVDA. Their public equity risk is more market-beta sensitive than chip-cycle sensitive.
 
-The rolling measure weakens the strongest version of the linkage claim. The latest 60-day cross-correlation is 0.190, below the full-period average and below the 60-day median of 0.314. Recent market pricing does not show a rising convergence between the two baskets.
+The rolling measure weakens the strongest version of the linkage claim. The latest 60-day cross-correlation is 0.313, below the full-period average and below the 60-day median of 0.340. Recent market pricing does not show a rising convergence between the two baskets.
 
 ## So what?
 
-The public-market evidence supports a moderate linkage, not a hidden single factor. A portfolio that owns both AI infrastructure winners and private-credit asset managers is not fully diversified, because both groups retain equity beta. But it is also not simply doubling the same exposure.
+The public-market evidence supports a meaningful linkage, but it does not reduce the two baskets to a single hidden factor. A portfolio that owns both AI infrastructure winners and private-credit asset managers is not fully diversified, because both groups retain equity beta. But the private-credit names are still more exposed to broad market risk than to NVDA specifically.
 
-For risk management, the practical approach is to monitor cross-correlation as a regime signal. If the rolling AI/private-credit correlation rises toward the intra-theme correlations, diversification is deteriorating and factor exposure should be reduced. At 0.190 today, the connection is visible but not dominant.
+For risk management, the practical approach is to monitor cross-correlation as a regime signal. If the rolling AI/private-credit correlation rises toward the intra-private-credit correlation, diversification is deteriorating and factor exposure should be reduced. At 0.313 today, the connection is visible but not dominant.
 
 *Built with [xfinlink](https://xfinlink.com) — free financial data API for Python. `pip install xfinlink`*
-

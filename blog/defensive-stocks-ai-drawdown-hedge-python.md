@@ -14,6 +14,8 @@ The AI basket is NVDA, MSFT, ORCL, AMZN, and META. The defensive basket is PG, J
 
 The test uses monthly returns because hedge decisions are usually made at portfolio-rebalancing frequency, not daily noise frequency. AI stress months are defined as the bottom decile of AI basket monthly returns. This avoids choosing an arbitrary crisis date and lets the data define the worst AI regimes.
 
+Although five years of prices are requested, the complete common panel begins in July 2022 after requiring every ticker to have data in the same monthly return series. The output reports the actual sample used.
+
 The analysis then compares average monthly returns for the AI basket, defensive basket, and SPY during stress months and all other months.
 
 ## Code
@@ -80,4 +82,3 @@ Defensive stocks are a practical hedge for AI concentration risk, but they are n
 For portfolio construction, the result supports a barbell approach: keep AI exposure where fundamentals justify it, but pair it with companies whose cash flows are less tied to the AI spending cycle. The hedge should be sized against stress-month behavior, not average full-period volatility. In this sample, the defensive basket earned its place because it helped exactly when AI exposure hurt.
 
 *Built with [xfinlink](https://xfinlink.com) — free financial data API for Python. `pip install xfinlink`*
-

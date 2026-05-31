@@ -54,7 +54,7 @@ Full script with formatting and visualisation: [ai-earnings-cash-flow-quality-py
 
 ```
 === AI Earnings Cash-Flow Quality Screen ===
-Latest annual periods through 2026-01-25
+Latest annual period per company (max period_end 2026-01-25)
 
 ORCL  OCF/net_income=1.67x  FCF_margin= -0.7%  capex/OCF=101.9%  accrual_ratio= -5.0%  SBC/revenue= 8.1%
 AMZN  OCF/net_income=1.80x  FCF_margin=  1.1%  capex/OCF=94.5%  accrual_ratio= -7.6%  SBC/revenue= 2.7%
@@ -84,4 +84,3 @@ The cash-flow evidence argues against a blanket claim that AI earnings are low q
 For forecasting, the key variable is not only revenue growth. It is the path from revenue to operating cash flow to free cash flow. A company can have excellent cash conversion and still be financially stretched if capex consumes the cash. AI valuation models should therefore separate operating quality from reinvestment burden before assigning multiples.
 
 *Built with [xfinlink](https://xfinlink.com) — free financial data API for Python. `pip install xfinlink`*
-

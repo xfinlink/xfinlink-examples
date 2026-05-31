@@ -49,7 +49,7 @@ median_assets_to_equity = latest[latest["ticker"] != "APO"]["assets_to_equity"].
 apo_vs_median = apo["assets_to_equity"] / median_assets_to_equity
 
 print("=== Asset-Manager Balance-Sheet Sensitivity Screen ===")
-print(f"Latest annual periods through {latest['period_end'].max().date()}")
+print(f"Latest annual period per company (max period_end {latest['period_end'].max().date()})")
 print()
 print(f"APO assets/equity: {apo['assets_to_equity']:.1f}x")
 print(f"Peer median assets/equity: {median_assets_to_equity:.1f}x")
