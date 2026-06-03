@@ -12,7 +12,7 @@ For public markets, the question is whether the stocks are trading like a crowde
 
 The AI basket is MSFT, AMZN, META, GOOG, ORCL, NVDA, and AVGO. Sector alternatives are represented by equal-weight baskets of large stocks in staples, healthcare, utilities, energy, financials, and industrials. Built from SEC EDGAR public filings and market data, the test uses three years of daily prices.
 
-1. Build split-adjusted daily returns from close prices and split ratios
+1. Build daily returns from `adj_close`, the split-adjusted closing price field
 2. Calculate a 60-day rolling annualized volatility series for the AI basket
 3. Calculate a 60-day rolling average pairwise correlation among AI basket stocks
 4. Compare each sector basket's full-period and latest 60-day correlation with the AI basket
@@ -23,8 +23,6 @@ This does not predict a crash. It identifies which sectors currently diversify t
 
 ```python
 import xfinlink as xfl
-import pandas as pd
-import numpy as np
 
 xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
 
@@ -39,18 +37,8 @@ sectors = {
 }
 
 tickers = ai + [ticker for group in sectors.values() for ticker in group]
-prices = xfl.prices(tickers, period="3y", fields=["close", "split_ratio"])
-
-def split_adjusted_prices(df):
-    pieces = []
-    for _, group in df.sort_values(["ticker", "date"]).groupby("ticker"):
-        ratio = group["split_ratio"].fillna(1.0).replace(0, 1.0)
-        factor = ratio.shift(-1, fill_value=1.0).iloc[::-1].cumprod().iloc[::-1]
-        pieces.append(group.assign(adj_close=group["close"] / factor))
-    adjusted = pd.concat(pieces)
-    return adjusted.pivot_table(index="date", columns="ticker", values="adj_close")
-
-adjusted = split_adjusted_prices(prices).dropna(subset=tickers)
+prices = xfl.prices(tickers, period="3y", fields=["adj_close"])
+adjusted = prices.pivot_table(index="date", columns="ticker", values="adj_close").dropna(subset=tickers)
 returns = adjusted[tickers].pct_change().dropna()
 returns["AI basket"] = returns[ai].mean(axis=1)
 
@@ -69,32 +57,32 @@ Full script with formatting and visualisation: [ai-capex-crowding-sector-rotatio
 
 ```text
 === AI Capex Crowding and Sector Rotation ===
-Sample: 2023-06-05 to 2026-05-29 (748 trading days)
+Sample: 2023-06-06 to 2026-06-02 (749 trading days)
 Rolling window: 60 trading days
 
-Latest AI basket volatility: 26.5%
+Latest AI basket volatility: 26.7%
 Median AI basket volatility: 24.7%
 Volatility percentile: 70%
-Latest AI pairwise correlation: 0.383
+Latest AI pairwise correlation: 0.353
 Median AI pairwise correlation: 0.431
-Correlation percentile: 32%
+Correlation percentile: 25%
 
 Sector basket correlation to AI basket:
-Energy      full_period=+0.070  latest_60d=-0.483
-Utilities   full_period=-0.147  latest_60d=-0.195
-Staples     full_period=-0.040  latest_60d=-0.005
-Healthcare  full_period=-0.064  latest_60d=+0.123
-Industrials full_period=+0.504  latest_60d=+0.421
-Financials  full_period=+0.429  latest_60d=+0.512
+Energy      full_period=+0.071  latest_60d=-0.463
+Utilities   full_period=-0.150  latest_60d=-0.239
+Staples     full_period=-0.041  latest_60d=+0.009
+Healthcare  full_period=-0.065  latest_60d=+0.124
+Industrials full_period=+0.503  latest_60d=+0.427
+Financials  full_period=+0.428  latest_60d=+0.513
 ```
 
 ## What this tells us
 
-The AI basket is volatile, but the crowding signal is not extreme. Latest 60-day annualized volatility is 26.5%, above the three-year median of 24.7% and in the 70th percentile. That says the basket is in a higher-volatility regime.
+The AI basket is volatile, but the crowding signal is not extreme. Latest 60-day annualized volatility is 26.7%, above the three-year median of 24.7% and in the 70th percentile. That says the basket is in a higher-volatility regime.
 
-The pairwise correlation result is more nuanced. The latest average AI pairwise correlation is 0.383, below the median of 0.431 and in only the 32nd percentile. The stocks are moving more than usual, but they are not all moving together more than usual. That weakens the argument that the trade is already in a uniform liquidation regime.
+The pairwise correlation result is more nuanced. The latest average AI pairwise correlation is 0.353, below the median of 0.431 and in only the 25th percentile. The stocks are moving more than usual, but they are not all moving together more than usual. That weakens the argument that the trade is already in a uniform liquidation regime.
 
-Sector correlations identify the practical hedges. Energy has a latest 60-day correlation of -0.483 to the AI basket. Utilities are also negative at -0.195. Financials and industrials are poor diversifiers in this sample, with latest correlations of +0.512 and +0.421.
+Sector correlations identify the practical hedges. Energy has a latest 60-day correlation of -0.463 to the AI basket. Utilities are also negative at -0.239. Financials and industrials are poor diversifiers in this sample, with latest correlations of +0.513 and +0.427.
 
 ## So what?
 

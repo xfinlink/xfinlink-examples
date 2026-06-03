@@ -14,7 +14,7 @@ Capex intensity is capital expenditure divided by revenue. It is a simple proxy 
 
 The candidate universe has two groups. The AI group is MSFT, AMZN, META, GOOG, ORCL, NVDA, and AVGO. The defensive group is PG, KO, JNJ, WMT, and MCD. Built from SEC EDGAR public filings and market data, the analysis combines two-year daily returns with latest annual fundamentals.
 
-1. Build split-adjusted daily returns from closing prices and split ratios
+1. Build daily returns from `adj_close`, the split-adjusted closing price field
 2. Estimate the annualized covariance matrix from daily returns
 3. Compute each company's latest capex intensity and free-cash-flow margin
 4. Minimize annualized volatility under capex, AI-exposure, and single-name constraints
@@ -26,7 +26,6 @@ The objective is not to forecast alpha. It is to show how much risk can be remov
 
 ```python
 import xfinlink as xfl
-import pandas as pd
 import numpy as np
 from scipy.optimize import minimize
 
@@ -36,18 +35,8 @@ ai = ["MSFT", "AMZN", "META", "GOOG", "ORCL", "NVDA", "AVGO"]
 defensive = ["PG", "KO", "JNJ", "WMT", "MCD"]
 tickers = ai + defensive
 
-prices = xfl.prices(tickers, period="2y", fields=["close", "split_ratio"])
-
-def split_adjusted_prices(df):
-    pieces = []
-    for _, group in df.sort_values(["ticker", "date"]).groupby("ticker"):
-        ratio = group["split_ratio"].fillna(1.0).replace(0, 1.0)
-        factor = ratio.shift(-1, fill_value=1.0).iloc[::-1].cumprod().iloc[::-1]
-        pieces.append(group.assign(adj_close=group["close"] / factor))
-    adjusted = pd.concat(pieces)
-    return adjusted.pivot_table(index="date", columns="ticker", values="adj_close")
-
-adjusted = split_adjusted_prices(prices).dropna(subset=tickers)
+prices = xfl.prices(tickers, period="2y", fields=["adj_close"])
+adjusted = prices.pivot_table(index="date", columns="ticker", values="adj_close").dropna(subset=tickers)
 returns = adjusted[tickers].pct_change().dropna()
 
 fund = xfl.fundamentals(tickers, period_type="annual", period="4y",
@@ -77,7 +66,7 @@ Full script with formatting and visualisation: [ai-capex-risk-portfolio-optimiza
 
 ```text
 === AI Capex-Risk Portfolio Optimization ===
-Return sample: 2024-06-04 to 2026-05-29 (497 trading days)
+Return sample: 2024-06-04 to 2026-06-02 (499 trading days)
 Constraints: capex intensity <= 60% of equal-weight portfolio; AI basket weight <= 45%; single name <= 25%
 
 Equal-weight annualized volatility: 17.2%
@@ -90,22 +79,22 @@ Optimized AI exposure:              25.6%
 Optimized weights:
 KO    weight=25.0%  capex_intensity= 4.4%  FCF_margin=11.0%
 JNJ   weight=25.0%  capex_intensity= 5.1%  FCF_margin=20.9%
-MSFT  weight=13.8%  capex_intensity=22.9%  FCF_margin=25.4%
+MSFT  weight=13.7%  capex_intensity=22.9%  FCF_margin=25.4%
 MCD   weight=12.3%  capex_intensity= 1.3%  FCF_margin=37.9%
-PG    weight= 9.4%  capex_intensity= 4.5%  FCF_margin=16.7%
-GOOG  weight= 3.5%  capex_intensity=22.7%  FCF_margin=18.2%
-NVDA  weight= 3.4%  capex_intensity= 2.8%  FCF_margin=44.8%
-WMT   weight= 2.8%  capex_intensity= 3.8%  FCF_margin= 2.1%
-AMZN  weight= 1.9%  capex_intensity=18.4%  FCF_margin= 1.1%
-AVGO  weight= 1.8%  capex_intensity= 1.0%  FCF_margin=42.1%
-ORCL  weight= 1.2%  capex_intensity=37.0%  FCF_margin=-0.7%
+PG    weight= 9.5%  capex_intensity= 4.5%  FCF_margin=16.7%
+GOOG  weight= 3.4%  capex_intensity=22.7%  FCF_margin=18.2%
+NVDA  weight= 3.3%  capex_intensity= 2.8%  FCF_margin=44.8%
+WMT   weight= 2.6%  capex_intensity= 3.8%  FCF_margin= 2.1%
+AMZN  weight= 2.0%  capex_intensity=18.4%  FCF_margin= 1.1%
+AVGO  weight= 1.9%  capex_intensity= 1.0%  FCF_margin=42.1%
+ORCL  weight= 1.3%  capex_intensity=37.0%  FCF_margin=-0.7%
 ```
 
 ## What this tells us
 
 The optimizer materially changes the risk profile. Equal weight produces 17.2% annualized volatility, 13.2% capex intensity, and 58.3% AI exposure. The optimized portfolio reduces annualized volatility to 10.5%, capex intensity to 7.9%, and AI exposure to 25.6%.
 
-The weights explain the result. KO and JNJ reach the 25% single-name cap because they have low capex intensity and historically lower volatility in the sample. MSFT remains the largest AI-related holding at 13.8%, which reflects its high free-cash-flow margin and lower volatility relative to the more capital-intensive buyers. META receives effectively no weight because its capex intensity is high at 34.7% in this setup, even though its free-cash-flow margin is strong.
+The weights explain the result. KO and JNJ reach the 25% single-name cap because they have low capex intensity and historically lower volatility in the sample. MSFT remains the largest AI-related holding at 13.7%, which reflects its high free-cash-flow margin and lower volatility relative to the more capital-intensive buyers. META receives effectively no weight because its capex intensity is high at 34.7% in this setup, even though its free-cash-flow margin is strong.
 
 The optimizer does not remove AI exposure entirely. It keeps small weights in GOOG, NVDA, AMZN, AVGO, and ORCL, but it makes the exposure subordinate to the risk constraint.
 

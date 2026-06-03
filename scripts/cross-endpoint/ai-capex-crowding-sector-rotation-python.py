@@ -32,23 +32,11 @@ def require(condition: bool, message: str) -> None:
         raise ValueError(message)
 
 
-def add_split_adjusted_close(df: pd.DataFrame) -> pd.DataFrame:
-    parts = []
-    for _, group in df.sort_values(["ticker", "date"]).groupby("ticker"):
-        adjusted = group.copy()
-        split_ratio = adjusted["split_ratio"].fillna(1.0).replace(0, 1.0)
-        future_split_factor = split_ratio.shift(-1, fill_value=1.0).iloc[::-1].cumprod().iloc[::-1]
-        adjusted["adj_close"] = adjusted["close"] / future_split_factor
-        parts.append(adjusted)
-    return pd.concat(parts, ignore_index=True)
-
-
-prices_raw = xfl.prices(TICKERS, period="3y", fields=["close", "split_ratio"])
+prices_raw = xfl.prices(TICKERS, period="3y", fields=["adj_close"])
 prices_raw = prices_raw[prices_raw["ticker"].isin(TICKERS)].copy()
 require(not prices_raw.empty, "prices returned no rows")
 require(set(TICKERS).issubset(set(prices_raw["ticker"])), "missing one or more requested tickers")
 
-prices_raw = add_split_adjusted_close(prices_raw)
 prices = prices_raw.pivot_table(index="date", columns="ticker", values="adj_close", aggfunc="last").dropna(subset=TICKERS)
 returns = prices[TICKERS].pct_change().dropna()
 require(len(returns) >= 500, "not enough complete return observations")

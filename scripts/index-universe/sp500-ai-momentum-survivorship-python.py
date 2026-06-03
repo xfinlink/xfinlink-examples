@@ -23,17 +23,6 @@ def require(condition: bool, message: str) -> None:
         raise ValueError(message)
 
 
-def add_split_adjusted_close(df: pd.DataFrame) -> pd.DataFrame:
-    parts = []
-    for _, group in df.sort_values(["ticker", "date"]).groupby("ticker"):
-        adjusted = group.copy()
-        split_ratio = adjusted["split_ratio"].fillna(1.0).replace(0, 1.0)
-        future_split_factor = split_ratio.shift(-1, fill_value=1.0).iloc[::-1].cumprod().iloc[::-1]
-        adjusted["adj_close"] = adjusted["close"] / future_split_factor
-        parts.append(adjusted)
-    return pd.concat(parts, ignore_index=True)
-
-
 constituents = xfl.index("sp500", as_of=AS_OF, limit=700).drop_duplicates("ticker")
 require(not constituents.empty, "index constituents returned no rows")
 sp500_tickers = set(constituents["ticker"])
@@ -42,12 +31,11 @@ point_in_time_members = [ticker for ticker in AI_TICKERS if ticker in sp500_tick
 non_members = [ticker for ticker in AI_TICKERS if ticker not in sp500_tickers]
 require(len(point_in_time_members) >= 5, "not enough point-in-time AI members")
 
-prices_raw = xfl.prices(AI_TICKERS + [BENCHMARK], start=AS_OF, fields=["close", "split_ratio"])
+prices_raw = xfl.prices(AI_TICKERS + [BENCHMARK], start=AS_OF, fields=["adj_close"])
 prices_raw = prices_raw[prices_raw["ticker"].isin(AI_TICKERS + [BENCHMARK])].copy()
 require(not prices_raw.empty, "prices returned no rows")
 require(set(AI_TICKERS + [BENCHMARK]).issubset(set(prices_raw["ticker"])), "missing one or more requested tickers")
 
-prices_raw = add_split_adjusted_close(prices_raw)
 prices = prices_raw.pivot_table(index="date", columns="ticker", values="adj_close", aggfunc="last").sort_index().ffill()
 valid = [
     ticker
