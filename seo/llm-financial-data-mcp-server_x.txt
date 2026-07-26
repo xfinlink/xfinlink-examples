@@ -1,0 +1,1 @@
+Ask a chat model for last week's closing price and it will happily invent one. An MCP server removes the guess: paste a URL into the connector settings and the model calls a real API. Which vendors publish one, what a tool call returns, and what to check first. [BLOG_LINK]
