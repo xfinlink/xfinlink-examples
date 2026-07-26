@@ -1,0 +1,1929 @@
+{
+  "generated": [
+    {
+      "date": "2026-05-08",
+      "category": "volatility_analysis",
+      "title": "How to Calculate and Compare Stock Volatility in Python",
+      "tickers": [
+        "AAPL",
+        "TSLA",
+        "JNJ",
+        "JPM"
+      ],
+      "status": "success",
+      "blog_slug": "stock-volatility-comparison-python",
+      "script_path": "scripts/price-analysis/stock-volatility-comparison-python.py"
+    },
+    {
+      "date": "2026-05-08",
+      "category": "valuation_ratios",
+      "title": "How to Screen Blue-Chip Stocks by P/E Ratio in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "JPM",
+        "BAC",
+        "GS",
+        "BRK.B",
+        "V",
+        "UNH",
+        "JNJ",
+        "PFE",
+        "LLY",
+        "ABBV",
+        "XOM",
+        "CVX",
+        "COP",
+        "PG",
+        "KO",
+        "PEP",
+        "WMT",
+        "COST",
+        "CAT",
+        "HON",
+        "UPS",
+        "NEE",
+        "DUK",
+        "AMT",
+        "PLD"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-pe-ratio-screening-python",
+      "script_path": "scripts/fundamental-analysis/sp500-pe-ratio-screening-python.py"
+    },
+    {
+      "date": "2026-05-08",
+      "category": "entity_resolution_showcase",
+      "title": "How to Track Companies Through Ticker Changes, Bankruptcies, and Renames in Python",
+      "tickers": [
+        "FB",
+        "GM",
+        "META",
+        "DELL"
+      ],
+      "status": "success",
+      "blog_slug": "track-companies-ticker-changes-python",
+      "script_path": "scripts/data-quality/track-companies-ticker-changes-python.py"
+    },
+    {
+      "date": "2026-05-08",
+      "category": "index_constituent_analysis",
+      "title": "S&P 500 Turnover: How Much the Index Has Changed Since 2010",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-sector-breakdown-historical",
+      "script_path": "scripts/index-universe/sp500-sector-breakdown-historical.py"
+    },
+    {
+      "date": "2026-05-08",
+      "category": "correlation_beta",
+      "title": "How to Calculate Stock Beta and Correlation in Python",
+      "tickers": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "PG",
+        "JPM",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "stock-beta-correlation-python",
+      "script_path": "scripts/cross-endpoint/stock-beta-correlation-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "momentum_screening",
+      "title": "How to Screen Stocks by Momentum in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "JPM",
+        "V",
+        "UNH",
+        "LLY",
+        "XOM",
+        "PG",
+        "COST",
+        "HD",
+        "AVGO",
+        "CRM",
+        "NFLX",
+        "ABBV",
+        "MRK",
+        "PEP",
+        "ORCL"
+      ],
+      "status": "success",
+      "blog_slug": "momentum-screening-sp500-python",
+      "script_path": "scripts/price-analysis/momentum-screening-sp500-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "dividend_screening",
+      "title": "How to Screen Dividend Stocks by Yield and Quality in Python",
+      "tickers": [
+        "JNJ",
+        "PG",
+        "KO",
+        "PEP",
+        "MCD",
+        "MMM",
+        "T",
+        "VZ",
+        "XOM",
+        "CVX",
+        "ABBV",
+        "IBM",
+        "HD",
+        "WMT",
+        "LOW"
+      ],
+      "status": "success",
+      "blog_slug": "dividend-yield-screening-python",
+      "script_path": "scripts/fundamental-analysis/dividend-yield-screening-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "drawdown_analysis",
+      "title": "How to Calculate Max Drawdown and Recovery Time for Any Stock in Python",
+      "tickers": [
+        "NVDA",
+        "TSLA",
+        "AAPL",
+        "JNJ",
+        "PG",
+        "KO"
+      ],
+      "status": "success",
+      "blog_slug": "stock-drawdown-recovery-python",
+      "script_path": "scripts/price-analysis/stock-drawdown-recovery-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "profitability_analysis",
+      "title": "How to Compare Profitability Across Mega-Cap Tech Stocks in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "NVDA"
+      ],
+      "status": "success",
+      "blog_slug": "mega-cap-tech-profitability-python",
+      "script_path": "scripts/fundamental-analysis/mega-cap-tech-profitability-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "ticker_recycling",
+      "title": "Why Ticker Symbols Are Unreliable: The Recycling Problem Every Quant Should Know",
+      "tickers": [
+        "FB",
+        "DELL",
+        "GM",
+        "TWX"
+      ],
+      "status": "success",
+      "blog_slug": "ticker-recycling-dangers-python",
+      "script_path": "scripts/data-quality/ticker-recycling-dangers-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "growth_screening",
+      "title": "How to Screen Tech Stocks by Revenue Growth in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "CRM",
+        "ADBE",
+        "NOW",
+        "PLTR"
+      ],
+      "status": "success",
+      "blog_slug": "revenue-growth-screening-python",
+      "script_path": "scripts/fundamental-analysis/revenue-growth-screening-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "balance_sheet_health",
+      "title": "How to Screen Stocks by Balance Sheet Health in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "TSLA",
+        "JPM",
+        "JNJ",
+        "XOM",
+        "T"
+      ],
+      "status": "success",
+      "blog_slug": "balance-sheet-health-screening-python",
+      "script_path": "scripts/fundamental-analysis/balance-sheet-health-screening-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "seasonality",
+      "title": "Is \"Sell in May\" Real? SPY Monthly Seasonality Over 10 Years",
+      "tickers": [
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "spy-monthly-seasonality-python",
+      "script_path": "scripts/price-analysis/spy-monthly-seasonality-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "sector_comparison",
+      "title": "How to Compare Sector Performance YTD Using Python",
+      "tickers": [
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU",
+        "XLRE",
+        "XLB",
+        "XLC"
+      ],
+      "status": "success",
+      "blog_slug": "sector-performance-ytd-python",
+      "script_path": "scripts/cross-endpoint/sector-performance-ytd-python.py"
+    },
+    {
+      "date": "2026-05-09",
+      "category": "index_rebalancing",
+      "title": "How to Track S&P 500 Additions and Removals Over Time in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-rebalancing-additions-removals-python",
+      "script_path": "scripts/index-universe/sp500-rebalancing-additions-removals-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "mean_reversion",
+      "title": "How to Find Oversold and Overbought Stocks Using Z-Scores in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG"
+      ],
+      "status": "success",
+      "blog_slug": "mean-reversion-z-score-python",
+      "script_path": "scripts/price-analysis/mean-reversion-z-score-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "earnings_quality",
+      "title": "How to Measure Earnings Quality: Cash Flow vs Net Income in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "CRM",
+        "ADBE"
+      ],
+      "status": "success",
+      "blog_slug": "earnings-quality-cash-flow-python",
+      "script_path": "scripts/fundamental-analysis/earnings-quality-cash-flow-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "factor_construction",
+      "title": "How to Build a Multi-Factor Stock Screen in Python (Value + Momentum + Quality)",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "JPM",
+        "JNJ",
+        "XOM",
+        "PG",
+        "HD",
+        "COST",
+        "UNH",
+        "LLY",
+        "ABBV"
+      ],
+      "status": "success",
+      "blog_slug": "three-factor-stock-screen-python",
+      "script_path": "scripts/cross-endpoint/three-factor-stock-screen-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "dcf_valuation",
+      "title": "How to Build a Simple DCF Model for Any Stock in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "NVDA"
+      ],
+      "status": "success",
+      "blog_slug": "simple-dcf-valuation-python",
+      "script_path": "scripts/cross-endpoint/simple-dcf-valuation-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "multi_endpoint_pipeline",
+      "title": "How to Build a Multi-Endpoint Financial Analysis Pipeline in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "JPM",
+        "JNJ",
+        "XOM",
+        "PG",
+        "BA",
+        "DIS",
+        "INTC"
+      ],
+      "status": "success",
+      "blog_slug": "multi-endpoint-sp500-pipeline-python",
+      "script_path": "scripts/cross-endpoint/multi-endpoint-sp500-pipeline-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "momentum_screening",
+      "title": "How to Rank Large-Cap Stocks by Momentum in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "NVDA",
+        "JPM",
+        "V",
+        "UNH",
+        "LLY",
+        "XOM",
+        "PG",
+        "COST",
+        "HD",
+        "AVGO",
+        "CRM"
+      ],
+      "status": "success",
+      "blog_slug": "momentum-large-cap-screen-python",
+      "script_path": "scripts/price-analysis/momentum-large-cap-screen-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "multi_endpoint_pipeline",
+      "title": "How to Build a Multi-Endpoint Financial Dashboard in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "JPM",
+        "JNJ",
+        "XOM",
+        "PG",
+        "UNH",
+        "HD",
+        "CRM"
+      ],
+      "status": "success",
+      "blog_slug": "multi-endpoint-dashboard-python",
+      "script_path": "scripts/cross-endpoint/multi-endpoint-dashboard-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "volatility_analysis",
+      "title": "How to Compare Volatility Across Energy Stocks in Python",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "SLB",
+        "EOG",
+        "MPC"
+      ],
+      "status": "success",
+      "blog_slug": "energy-sector-volatility-python",
+      "script_path": "scripts/price-analysis/energy-sector-volatility-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "valuation_ratios",
+      "title": "How to Screen Healthcare Stocks by Valuation in Python",
+      "tickers": [
+        "UNH",
+        "LLY",
+        "JNJ",
+        "ABBV",
+        "MRK",
+        "PFE",
+        "TMO",
+        "ABT",
+        "AMGN",
+        "BMY"
+      ],
+      "status": "success",
+      "blog_slug": "healthcare-valuation-screen-python",
+      "script_path": "scripts/fundamental-analysis/healthcare-valuation-screen-python.py"
+    },
+    {
+      "date": "2026-05-12",
+      "category": "index_constituent_analysis",
+      "title": "How to Build a Sector Correlation Matrix for Portfolio Diversification in Python",
+      "tickers": [
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "sector-correlation-matrix-python",
+      "script_path": "scripts/cross-endpoint/sector-correlation-matrix-python.py"
+    },
+    {
+      "date": "2026-05-13",
+      "category": "drawdown_analysis",
+      "title": "How to Analyze Drawdown and Recovery for Bank Stocks in Python",
+      "tickers": [
+        "BAC",
+        "GS",
+        "MS",
+        "WFC",
+        "C"
+      ],
+      "status": "success",
+      "blog_slug": "bank-drawdown-recovery-python",
+      "script_path": "scripts/price-analysis/bank-drawdown-recovery-python.py"
+    },
+    {
+      "date": "2026-05-13",
+      "category": "growth_screening",
+      "title": "How to Screen SaaS Stocks by Revenue Growth and Cash Flow in Python",
+      "tickers": [
+        "DDOG",
+        "ZS",
+        "CRWD",
+        "NET",
+        "MDB",
+        "SNOW"
+      ],
+      "status": "success",
+      "blog_slug": "saas-revenue-growth-screen-python",
+      "script_path": "scripts/fundamental-analysis/saas-revenue-growth-screen-python.py"
+    },
+    {
+      "date": "2026-05-13",
+      "category": "dividend_screening",
+      "title": "How to Screen REITs by Dividend Yield and Valuation in Python",
+      "tickers": [
+        "O",
+        "AMT",
+        "VICI",
+        "PSA",
+        "WELL",
+        "EQR"
+      ],
+      "status": "success",
+      "blog_slug": "reit-dividend-valuation-python",
+      "script_path": "scripts/fundamental-analysis/reit-dividend-valuation-python.py"
+    },
+    {
+      "date": "2026-05-13",
+      "category": "correlation_beta",
+      "title": "How Correlated Are the Magnificent 7? Intra-Group Correlation in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "NVDA",
+        "TSLA"
+      ],
+      "status": "success",
+      "blog_slug": "mag7-correlation-python",
+      "script_path": "scripts/cross-endpoint/mag7-correlation-python.py"
+    },
+    {
+      "date": "2026-05-13",
+      "category": "seasonality",
+      "title": "AAPL vs XOM: Do Individual Stocks Have Seasonal Patterns?",
+      "tickers": [
+        "AAPL",
+        "XOM"
+      ],
+      "status": "success",
+      "blog_slug": "aapl-vs-xom-seasonality-python",
+      "script_path": "scripts/price-analysis/aapl-vs-xom-seasonality-python.py"
+    },
+    {
+      "date": "2026-05-14",
+      "category": "volatility_analysis",
+      "title": "How to Forecast Stock Volatility with GARCH Models in Python",
+      "tickers": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "JPM"
+      ],
+      "status": "success",
+      "blog_slug": "garch-volatility-forecast-python",
+      "script_path": "scripts/price-analysis/garch-volatility-forecast-python.py"
+    },
+    {
+      "date": "2026-05-14",
+      "category": "mean_reversion",
+      "title": "Are Stock Prices Mean-Reverting? Augmented Dickey-Fuller Test in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "XOM",
+        "JNJ",
+        "NVDA",
+        "PG"
+      ],
+      "status": "success",
+      "blog_slug": "adf-mean-reversion-test-python",
+      "script_path": "scripts/price-analysis/adf-mean-reversion-test-python.py"
+    },
+    {
+      "date": "2026-05-14",
+      "category": "correlation_beta",
+      "title": "How to Calculate CAPM Alpha and Beta with Regression in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "XOM",
+        "JNJ",
+        "JPM",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "capm-alpha-beta-regression-python",
+      "script_path": "scripts/cross-endpoint/capm-alpha-beta-regression-python.py"
+    },
+    {
+      "date": "2026-05-14",
+      "category": "factor_construction",
+      "title": "How to Compare Sector Sharpe Ratios and Sortino Ratios in Python",
+      "tickers": [
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "sector-sharpe-sortino-python",
+      "script_path": "scripts/cross-endpoint/sector-sharpe-sortino-python.py"
+    },
+    {
+      "date": "2026-05-14",
+      "category": "entity_resolution_showcase",
+      "title": "DELL: Why Stitching Historical Price Data Together Is Wrong",
+      "tickers": [
+        "DELL"
+      ],
+      "status": "success",
+      "blog_slug": "dell-entity-resolution-prices-python",
+      "script_path": "scripts/data-quality/dell-entity-resolution-prices-python.py"
+    },
+    {
+      "date": "2026-05-15",
+      "category": "correlation_beta",
+      "title": "What Is Adjusted Beta? Merrill Lynch Beta Shrinkage in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "TSLA",
+        "XOM",
+        "JNJ",
+        "PG",
+        "JPM",
+        "GS",
+        "UNH",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "merrill-lynch-adjusted-beta-python",
+      "script_path": "scripts/cross-endpoint/merrill-lynch-adjusted-beta-python.py"
+    },
+    {
+      "date": "2026-05-15",
+      "category": "factor_construction",
+      "title": "How Good Is a Stock Pick? Information Ratio and Tracking Error in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "XOM",
+        "JNJ",
+        "JPM",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "information-ratio-tracking-error-python",
+      "script_path": "scripts/cross-endpoint/information-ratio-tracking-error-python.py"
+    },
+    {
+      "date": "2026-05-15",
+      "category": "volatility_analysis",
+      "title": "Do Stock Returns Follow a Normal Distribution? Testing for Fat Tails in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "TSLA",
+        "XOM",
+        "JNJ",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "fat-tails-kurtosis-python",
+      "script_path": "scripts/price-analysis/fat-tails-kurtosis-python.py"
+    },
+    {
+      "date": "2026-05-15",
+      "category": "profitability_analysis",
+      "title": "Which Large Caps Have the Highest Free Cash Flow Yield? FCF Screening in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "JPM",
+        "XOM",
+        "UNH",
+        "PG",
+        "MRK",
+        "ABBV",
+        "HD",
+        "CAT"
+      ],
+      "status": "success",
+      "blog_slug": "fcf-yield-ranking-python",
+      "script_path": "scripts/fundamental-analysis/fcf-yield-ranking-python.py"
+    },
+    {
+      "date": "2026-05-15",
+      "category": "sector_comparison",
+      "title": "Which Sectors Won Over 5 Years? Sector Rotation Analysis in Python",
+      "tickers": [
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "five-year-sector-rotation-python",
+      "script_path": "scripts/cross-endpoint/five-year-sector-rotation-python.py"
+    },
+    {
+      "date": "2026-05-16",
+      "category": "growth_screening",
+      "title": "Does Heavy Capex Predict Future Stock Returns? Capital Expenditure Analysis in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "XOM",
+        "CAT",
+        "UNH",
+        "HD"
+      ],
+      "status": "success",
+      "blog_slug": "capex-intensity-forward-returns-python",
+      "script_path": "scripts/fundamental-analysis/capex-intensity-forward-returns-python.py"
+    },
+    {
+      "date": "2026-05-16",
+      "category": "dcf_valuation",
+      "title": "How to Estimate Cost of Equity Using CAPM in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG",
+        "TSLA",
+        "UNH",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "capm-cost-of-equity-python",
+      "script_path": "scripts/cross-endpoint/capm-cost-of-equity-python.py"
+    },
+    {
+      "date": "2026-05-16",
+      "category": "volatility_analysis",
+      "title": "Is Volatility Predictable? Testing for Volatility Clustering in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "TSLA",
+        "XOM",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "volatility-clustering-ljungbox-python",
+      "script_path": "scripts/price-analysis/volatility-clustering-ljungbox-python.py"
+    },
+    {
+      "date": "2026-05-16",
+      "category": "balance_sheet_health",
+      "title": "Which Industrials Are Overleveraged? Net Debt to EBITDA Screening in Python",
+      "tickers": [
+        "XOM",
+        "DE",
+        "BA",
+        "LMT",
+        "RTX",
+        "HON",
+        "CAT"
+      ],
+      "status": "success",
+      "blog_slug": "net-debt-ebitda-leverage-python",
+      "script_path": "scripts/fundamental-analysis/net-debt-ebitda-leverage-python.py"
+    },
+    {
+      "date": "2026-05-16",
+      "category": "entity_resolution_showcase",
+      "title": "GM Before and After Bankruptcy: Why Entity Resolution Matters for Financial Data",
+      "tickers": [
+        "GM"
+      ],
+      "status": "success",
+      "blog_slug": "gm-bankruptcy-entity-resolution-python",
+      "script_path": "scripts/data-quality/gm-bankruptcy-entity-resolution-python.py"
+    },
+    {
+      "date": "2026-05-17",
+      "category": "sector_rotation",
+      "title": "Is Consumer Discretionary vs Staples a Leading Indicator? XLY/XLP Ratio Analysis in Python",
+      "tickers": [
+        "XLY",
+        "XLP",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "xly-xlp-leading-indicator-python",
+      "script_path": "scripts/cross-endpoint/xly-xlp-leading-indicator-python.py"
+    },
+    {
+      "date": "2026-05-17",
+      "category": "quantitative_research",
+      "title": "Are Markets Trending or Mean-Reverting? Hurst Exponent Analysis in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "XOM",
+        "JNJ",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "hurst-exponent-trending-python",
+      "script_path": "scripts/price-analysis/hurst-exponent-trending-python.py"
+    },
+    {
+      "date": "2026-05-17",
+      "category": "signal_evaluation",
+      "title": "Is Alpha Persistent or Decaying? Rolling Sharpe Ratio Analysis in Python",
+      "tickers": [
+        "AAPL",
+        "NVDA",
+        "XOM",
+        "JNJ"
+      ],
+      "status": "success",
+      "blog_slug": "rolling-sharpe-alpha-decay-python",
+      "script_path": "scripts/price-analysis/rolling-sharpe-alpha-decay-python.py"
+    },
+    {
+      "date": "2026-05-17",
+      "category": "earnings_quality",
+      "title": "Which Companies Have the Highest Accrual Ratios? Earnings Quality Screening in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "XOM",
+        "JNJ",
+        "PG",
+        "CRM",
+        "TSLA"
+      ],
+      "status": "success",
+      "blog_slug": "accrual-ratio-earnings-quality-python",
+      "script_path": "scripts/fundamental-analysis/accrual-ratio-earnings-quality-python.py"
+    },
+    {
+      "date": "2026-05-17",
+      "category": "macro_research",
+      "title": "Which Stocks Are Most Rate-Sensitive? Equity Duration via Bond Beta in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "XOM",
+        "JNJ",
+        "PG",
+        "JPM",
+        "UNH",
+        "TSLA",
+        "TLT"
+      ],
+      "status": "success",
+      "blog_slug": "equity-duration-rate-sensitivity-python",
+      "script_path": "scripts/cross-endpoint/equity-duration-rate-sensitivity-python.py"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "macro_research,correlation_beta,econometric_research",
+      "title": "Do Oil Stocks Hedge Inflation? Rolling Beta Analysis in Python",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP"
+      ],
+      "status": "success",
+      "blog_slug": "oil-inflation-hedge-beta-python",
+      "script_path": "scripts/cross-endpoint/oil-inflation-hedge-beta-python.py"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "macro_forecasting,drawdown_analysis,signal_evaluation",
+      "title": "Does the Corporate Credit Spread Predict Stock Market Crashes? BAA-AAA Spread Analysis in Python",
+      "tickers": [
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "credit-spread-drawdown-signal-python",
+      "script_path": "scripts/cross-endpoint/credit-spread-drawdown-signal-python.py"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "econometric_research,time_series_analysis,macro_research",
+      "title": "Do Grain Prices Predict Food Inflation? Granger Causality Test in Python",
+      "tickers": [
+        "DBA"
+      ],
+      "status": "success",
+      "blog_slug": "granger-grains-food-cpi-python",
+      "script_path": "scripts/price-analysis/granger-grains-food-cpi-python.py"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "quantitative_research,volatility_analysis,time_series_analysis",
+      "title": "Can a Hidden Markov Model Detect Oil Market Regimes? HMM Analysis in Python",
+      "tickers": [
+        "XLE"
+      ],
+      "status": "success",
+      "blog_slug": "oil-hmm-regime-detection-python",
+      "script_path": "scripts/price-analysis/oil-hmm-regime-detection-python.py"
+    },
+    {
+      "date": "2026-05-19",
+      "category": "factor_construction,macro_research,quantitative_trading",
+      "title": "Does a Long Energy / Short Bonds Portfolio Capture Inflation Surprises? Factor Construction in Python",
+      "tickers": [
+        "XLE",
+        "TLT"
+      ],
+      "status": "success",
+      "blog_slug": "inflation-surprise-factor-python",
+      "script_path": "scripts/cross-endpoint/inflation-surprise-factor-python.py"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "cross_sectional_analysis,earnings_quality,growth_screening",
+      "title": "Is AI Spending Crowding Out Free Cash Flow? Capex Sustainability Across the Mag 7 in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "NVDA"
+      ],
+      "status": "success",
+      "blog_slug": "ai-capex-sustainability-segments-python",
+      "script_path": "scripts/cross-endpoint/ai-capex-sustainability-segments-python.py"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "macro_forecasting,signal_evaluation,time_series_analysis",
+      "title": "Does the Oil-to-Gold Ratio Signal Recessions? XLE/GLD Backtest in Python",
+      "tickers": [
+        "XLE",
+        "GLD",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "oil-gold-ratio-recession-signal-python",
+      "script_path": "scripts/cross-endpoint/oil-gold-ratio-recession-signal-python.py"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "earnings_quality,cross_sectional_analysis,quantitative_trading",
+      "title": "Which Companies Have the Worst Earnings Quality? Sloan Accrual Screen with Geographic Revenue Data in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "XOM",
+        "JNJ",
+        "PG",
+        "JPM",
+        "UNH",
+        "HD",
+        "CRM",
+        "TSLA",
+        "MRK",
+        "ABBV",
+        "LLY",
+        "COST",
+        "V",
+        "AVGO",
+        "CAT"
+      ],
+      "status": "success",
+      "blog_slug": "sloan-accrual-screen-segments-python",
+      "script_path": "scripts/fundamental-analysis/sloan-accrual-screen-segments-python.py"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "volatility_analysis,financial_derivatives,sector_comparison",
+      "title": "How Much Are Options Sellers Overpaid? The Variance Risk Premium in Python",
+      "tickers": [
+        "SPY",
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "variance-risk-premium-vrp-python",
+      "script_path": "scripts/price-analysis/variance-risk-premium-vrp-python.py"
+    },
+    {
+      "date": "2026-05-20",
+      "category": "macro_research,market_timing_analysis,econometric_research",
+      "title": "How Fast Does the Market Price In Fed Decisions? FOMC Event Study in Python",
+      "tickers": [
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "fomc-event-study-spy-python",
+      "script_path": "scripts/price-analysis/fomc-event-study-spy-python.py"
+    },
+    {
+      "date": "2026-05-31",
+      "category": "cross_sectional_analysis,sector_research,signal_evaluation",
+      "title": "Is AI Revenue Circular? Customer-Vendor Capex Loop Analysis in Python",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "ORCL",
+        "NVDA",
+        "AVGO"
+      ],
+      "status": "success",
+      "blog_slug": "ai-customer-vendor-capex-loop-python",
+      "script_path": "scripts/cross-endpoint/ai-customer-vendor-capex-loop-python.py"
+    },
+    {
+      "date": "2026-05-31",
+      "category": "correlation_beta,sector_research,quantitative_research",
+      "title": "Is the AI Trade Connected to Private Credit? Rolling Correlation Network in Python",
+      "tickers": [
+        "NVDA",
+        "ORCL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "APO",
+        "KKR",
+        "BX",
+        "ARES",
+        "BAM",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "ai-private-credit-correlation-network-python",
+      "script_path": "scripts/cross-endpoint/ai-private-credit-correlation-network-python.py"
+    },
+    {
+      "date": "2026-05-31",
+      "category": "balance_sheet_health,sector_comparison,macro_research",
+      "title": "Is Apollo More Balance-Sheet Sensitive Than Peers? Leverage Screen in Python",
+      "tickers": [
+        "APO",
+        "KKR",
+        "BX",
+        "BLK",
+        "ARES",
+        "OWL",
+        "BEN",
+        "TROW"
+      ],
+      "status": "success",
+      "blog_slug": "apollo-peer-balance-sheet-risk-python",
+      "script_path": "scripts/fundamental-analysis/apollo-peer-balance-sheet-risk-python.py"
+    },
+    {
+      "date": "2026-05-31",
+      "category": "earnings_quality,cross_sectional_analysis,financial_forecasting",
+      "title": "Are AI Earnings Supported by Cash Flow? Accrual and Capex Screen in Python",
+      "tickers": [
+        "NVDA",
+        "ORCL",
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "AVGO",
+        "PLTR"
+      ],
+      "status": "success",
+      "blog_slug": "ai-earnings-cash-flow-quality-python",
+      "script_path": "scripts/fundamental-analysis/ai-earnings-cash-flow-quality-python.py"
+    },
+    {
+      "date": "2026-05-31",
+      "category": "sector_rotation,market_timing_analysis,drawdown_analysis",
+      "title": "Can Defensive Stocks Hedge AI Drawdowns? Basket Regime Test in Python",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "ORCL",
+        "AMZN",
+        "META",
+        "PG",
+        "JNJ",
+        "KO",
+        "WMT",
+        "MCD",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "defensive-stocks-ai-drawdown-hedge-python",
+      "script_path": "scripts/price-analysis/defensive-stocks-ai-drawdown-hedge-python.py"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "financial_forecasting,dcf_valuation,macro_research",
+      "title": "Is AI Capex Paying Back Fast Enough? Revenue Hurdle Forecasting in Python",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "ORCL"
+      ],
+      "status": "success",
+      "blog_slug": "ai-capex-payback-hurdle-python",
+      "script_path": "scripts/fundamental-analysis/ai-capex-payback-hurdle-python.py"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "balance_sheet_health,earnings_quality,financial_forecasting",
+      "title": "Could Shorter AI Asset Lives Hit Earnings? Depreciation Stress Test in Python",
+      "tickers": [
+        "AMZN",
+        "MSFT",
+        "GOOG",
+        "META",
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "status": "success",
+      "blog_slug": "ai-depreciation-policy-stress-test-python",
+      "script_path": "scripts/fundamental-analysis/ai-depreciation-policy-stress-test-python.py"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "optimization_problem,quantitative_research,sector_comparison",
+      "title": "How Much AI Capex Risk Can a Portfolio Remove? Constrained Optimization in Python",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "PG",
+        "KO",
+        "JNJ",
+        "WMT",
+        "MCD"
+      ],
+      "status": "success",
+      "blog_slug": "ai-capex-risk-portfolio-optimization-python",
+      "script_path": "scripts/cross-endpoint/ai-capex-risk-portfolio-optimization-python.py"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "volatility_analysis,sector_rotation,game_theory",
+      "title": "Is the AI Capex Trade Crowded? Rolling Volatility and Sector Rotation in Python",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "ORCL",
+        "NVDA",
+        "AVGO",
+        "PG",
+        "KO",
+        "WMT",
+        "JNJ",
+        "UNH",
+        "MRK",
+        "NEE",
+        "DUK",
+        "SO",
+        "XOM",
+        "CVX",
+        "COP",
+        "JPM",
+        "BAC",
+        "GS",
+        "CAT",
+        "HON",
+        "GE"
+      ],
+      "status": "success",
+      "blog_slug": "ai-capex-crowding-sector-rotation-python",
+      "script_path": "scripts/cross-endpoint/ai-capex-crowding-sector-rotation-python.py"
+    },
+    {
+      "date": "2026-06-01",
+      "category": "index_constituent_analysis,momentum_screening,signal_evaluation",
+      "title": "Did the AI Boom Come From Existing S&P 500 Members? Point-in-Time Momentum Test in Python",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOG",
+        "ORCL",
+        "AMD",
+        "ANET",
+        "VRT",
+        "SMCI",
+        "TSM",
+        "PLTR",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-ai-momentum-survivorship-python",
+      "script_path": "scripts/index-universe/sp500-ai-momentum-survivorship-python.py"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "correlation_beta,volatility_analysis,drawdown_analysis",
+      "title": "Is MSTR a Leveraged Bitcoin Proxy? Rolling Beta Analysis in Python",
+      "tickers": [
+        "MSTR",
+        "IBIT",
+        "COIN",
+        "MARA",
+        "RIOT"
+      ],
+      "status": "success",
+      "blog_slug": "mstr-bitcoin-proxy-beta-python",
+      "script_path": "scripts/price-analysis/mstr-bitcoin-proxy-beta-python.py"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "financial_forecasting,sector_research,time_series_analysis",
+      "title": "Is Micron's Memory Cycle Recovering? Inventory and Margin Forecasting in Python",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "QCOM"
+      ],
+      "status": "success",
+      "blog_slug": "micron-memory-cycle-forecast-python",
+      "script_path": "scripts/fundamental-analysis/micron-memory-cycle-forecast-python.py"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "macro_forecasting,sector_rotation,momentum_screening",
+      "title": "Which Sectors Work When Bonds Rally? Rate-Sensitive Rotation in Python",
+      "tickers": [
+        "TLT",
+        "SPY",
+        "XLK",
+        "XLF",
+        "XLI",
+        "XLV",
+        "XLP",
+        "XLU",
+        "XLE"
+      ],
+      "status": "success",
+      "blog_slug": "rate-sensitive-sector-rotation-python",
+      "script_path": "scripts/price-analysis/rate-sensitive-sector-rotation-python.py"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "mean_reversion,technical_analysis,signal_evaluation",
+      "title": "Do One-Month Price Extremes Reverse? Signal Evaluation in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "extreme-return-reversal-signal-python",
+      "script_path": "scripts/price-analysis/extreme-return-reversal-signal-python.py"
+    },
+    {
+      "date": "2026-06-05",
+      "category": "index_constituent_analysis,factor_construction,drawdown_analysis",
+      "title": "Do Low-Volatility S&P 500 Stocks Reduce Drawdowns? Factor Test in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOG",
+        "AVGO",
+        "JPM",
+        "V",
+        "XOM",
+        "UNH",
+        "MA",
+        "HD",
+        "PG",
+        "COST",
+        "JNJ",
+        "ABBV",
+        "BAC",
+        "KO",
+        "CRM",
+        "NFLX",
+        "WMT",
+        "ORCL",
+        "CSCO",
+        "MRK",
+        "CVX",
+        "AMD",
+        "PEP",
+        "MCD",
+        "TMO",
+        "ABT",
+        "ACN",
+        "LIN",
+        "DIS",
+        "ADBE",
+        "WFC",
+        "CAT",
+        "QCOM",
+        "GE",
+        "TXN",
+        "AMGN",
+        "PM",
+        "INTU",
+        "VZ",
+        "IBM",
+        "NOW",
+        "ISRG",
+        "GS",
+        "SPGI",
+        "HON",
+        "RTX",
+        "LOW",
+        "BKNG",
+        "AXP",
+        "PFE",
+        "NEE",
+        "UNP",
+        "T",
+        "BLK",
+        "LMT"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-low-volatility-drawdown-python",
+      "script_path": "scripts/index-universe/sp500-low-volatility-drawdown-python.py"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "signal_evaluation,profitability_analysis,financial_forecasting",
+      "title": "Do Healthcare Cash-Flow Margins Predict Returns? Signal Evaluation in Python",
+      "tickers": [
+        "UNH",
+        "JNJ",
+        "LLY",
+        "MRK",
+        "ABBV",
+        "PFE"
+      ],
+      "status": "success",
+      "blog_slug": "healthcare-margin-inflection-python",
+      "script_path": "scripts/fundamental-analysis/healthcare-margin-inflection-python.py"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "dividend_screening,balance_sheet_health,valuation_ratios",
+      "title": "Which Dividend Stocks Survive a Cash-Flow Stress Test? Dividend Screening in Python",
+      "tickers": [
+        "T",
+        "VZ",
+        "MO",
+        "PM",
+        "KO",
+        "PEP",
+        "PG",
+        "WMT",
+        "DUK",
+        "XOM",
+        "CVX"
+      ],
+      "status": "success",
+      "blog_slug": "dividend-cash-flow-stress-python",
+      "script_path": "scripts/fundamental-analysis/dividend-cash-flow-stress-python.py"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "multi_endpoint_pipeline,signal_evaluation,quantitative_research",
+      "title": "Does Heavy Insider Selling Predict Weak Returns? Insider Flow Test in Python",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "AMZN",
+        "COIN",
+        "PLTR",
+        "CRM",
+        "ORCL",
+        "AVGO",
+        "MSFT"
+      ],
+      "status": "success",
+      "blog_slug": "insider-selling-forward-returns-python",
+      "script_path": "scripts/insider-transactions/insider-selling-forward-returns-python.py"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "index_constituent_analysis,balance_sheet_health,cross_sectional_analysis",
+      "title": "Can Quality Screens Reduce Small-Cap Balance-Sheet Risk? Russell 2000 Test in Python",
+      "tickers": [
+        "RUSSELL2000"
+      ],
+      "status": "success",
+      "blog_slug": "russell2000-quality-balance-sheet-python",
+      "script_path": "scripts/index-universe/russell2000-quality-balance-sheet-python.py"
+    },
+    {
+      "date": "2026-06-12",
+      "category": "profitability_analysis,growth_screening,financial_forecasting",
+      "title": "Which Retailers Have Positive Operating Leverage? Margin Screening in Python",
+      "tickers": [
+        "WMT",
+        "COST",
+        "TGT",
+        "HD",
+        "LOW",
+        "LULU",
+        "ROST",
+        "BJ",
+        "DLTR",
+        "DG",
+        "KR"
+      ],
+      "status": "success",
+      "blog_slug": "retail-operating-leverage-python",
+      "script_path": "scripts/fundamental-analysis/retail-operating-leverage-python.py"
+    },
+    {
+      "date": "2026-06-15",
+      "category": "optimization_problem,factor_construction,drawdown_analysis",
+      "title": "Can Risk Parity Reduce Mega-Cap Drawdowns? Portfolio Optimization in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOG",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG"
+      ],
+      "status": "success",
+      "blog_slug": "risk-parity-mega-cap-drawdown-python",
+      "script_path": "scripts/price-analysis/risk-parity-mega-cap-drawdown-python.py"
+    },
+    {
+      "date": "2026-06-15",
+      "category": "growth_screening,profitability_analysis,balance_sheet_health",
+      "title": "Which Growth Stocks Are Self-Funding? Cash-Flow Quality Screening in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOG",
+        "AVGO",
+        "CRM",
+        "ORCL",
+        "ADBE",
+        "AMD",
+        "QCOM"
+      ],
+      "status": "success",
+      "blog_slug": "self-funding-growth-quality-python",
+      "script_path": "scripts/fundamental-analysis/self-funding-growth-quality-python.py"
+    },
+    {
+      "date": "2026-06-15",
+      "category": "macro_forecasting,sector_rotation,market_timing_analysis",
+      "title": "Which Sectors Struggle When the Dollar Rallies? Sector Rotation Analysis in Python",
+      "tickers": [
+        "UUP",
+        "XLK",
+        "XLF",
+        "XLV",
+        "XLE",
+        "XLY",
+        "XLP",
+        "XLI",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "dollar-strength-sector-rotation-python",
+      "script_path": "scripts/price-analysis/dollar-strength-sector-rotation-python.py"
+    },
+    {
+      "date": "2026-06-15",
+      "category": "valuation_ratios,macro_research,rotation_strategies",
+      "title": "Do Cheap Stocks Hold Up When Bonds Sell Off? Valuation Rotation in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOG",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG",
+        "HD",
+        "COST",
+        "CAT",
+        "BA",
+        "TLT"
+      ],
+      "status": "success",
+      "blog_slug": "earnings-yield-bond-selloff-python",
+      "script_path": "scripts/cross-endpoint/earnings-yield-bond-selloff-python.py"
+    },
+    {
+      "date": "2026-06-15",
+      "category": "index_constituent_analysis,cross_sectional_analysis,growth_screening",
+      "title": "Does the Nasdaq 100 Have Better Growth Quality Than the Dow? Index Constituent Analysis in Python",
+      "tickers": [
+        "NDX100",
+        "DJIA"
+      ],
+      "status": "success",
+      "blog_slug": "nasdaq100-dow-growth-quality-python",
+      "script_path": "scripts/index-universe/nasdaq100-dow-growth-quality-python.py"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "sector_rotation,momentum_screening,financial_forecasting",
+      "title": "Are Power Stocks Becoming an AI Infrastructure Trade? Momentum Screening in Python",
+      "tickers": [
+        "CEG",
+        "VST",
+        "NRG",
+        "ETN",
+        "PWR",
+        "GEV",
+        "NEE",
+        "SO",
+        "DUK",
+        "AEP"
+      ],
+      "status": "success",
+      "blog_slug": "ai-power-infrastructure-momentum-python",
+      "script_path": "scripts/price-analysis/ai-power-infrastructure-momentum-python.py"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "profitability_analysis,time_series_analysis,financial_forecasting",
+      "title": "Which AI Chip Stocks Have Margin Momentum? Profitability Trend Analysis in Python",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "QCOM",
+        "INTC",
+        "AMAT",
+        "LRCX"
+      ],
+      "status": "success",
+      "blog_slug": "ai-chip-margin-momentum-python",
+      "script_path": "scripts/fundamental-analysis/ai-chip-margin-momentum-python.py"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "valuation_ratios,growth_screening,sector_comparison",
+      "title": "Which AI Stocks Are Cheapest Relative to Growth? Growth-Adjusted Valuation in Python",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "PLTR",
+        "MSFT",
+        "META",
+        "GOOG",
+        "AMZN",
+        "ORCL",
+        "ADBE"
+      ],
+      "status": "success",
+      "blog_slug": "ai-growth-valuation-screen-python",
+      "script_path": "scripts/fundamental-analysis/ai-growth-valuation-screen-python.py"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "quantitative_trading,momentum_screening,signal_evaluation",
+      "title": "Does AI Stock Leadership Persist? Momentum Backtest in Python",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MSFT",
+        "META",
+        "AMZN",
+        "GOOG",
+        "ORCL",
+        "PLTR",
+        "SMCI"
+      ],
+      "status": "success",
+      "blog_slug": "ai-momentum-leadership-backtest-python",
+      "script_path": "scripts/price-analysis/ai-momentum-leadership-backtest-python.py"
+    },
+    {
+      "date": "2026-06-17",
+      "category": "balance_sheet_health,sector_comparison,financial_forecasting",
+      "title": "Which AI Stocks Have the Cleanest Balance Sheets? Net Cash Screening in Python",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "PLTR",
+        "MSFT",
+        "META",
+        "GOOG",
+        "AMZN",
+        "ORCL",
+        "ADBE",
+        "INTC",
+        "CRM"
+      ],
+      "status": "success",
+      "blog_slug": "ai-balance-sheet-net-cash-python",
+      "script_path": "scripts/fundamental-analysis/ai-balance-sheet-net-cash-python.py"
+    },
+    {
+      "date": "2026-06-18",
+      "category": "quantitative_trading,momentum_screening,sector_rotation",
+      "title": "Which Commodities Have the Strongest Momentum? Rotation Backtest in Python",
+      "tickers": [
+        "GLD",
+        "SLV",
+        "USO",
+        "UNG",
+        "DBA",
+        "DBB",
+        "DBC"
+      ],
+      "status": "success",
+      "blog_slug": "commodity-momentum-rotation-python",
+      "script_path": "scripts/price-analysis/commodity-momentum-rotation-python.py"
+    },
+    {
+      "date": "2026-06-18",
+      "category": "volatility_analysis,drawdown_analysis,quantitative_research",
+      "title": "Which Commodity ETFs Have the Worst Tail Risk? Expected Shortfall in Python",
+      "tickers": [
+        "GLD",
+        "SLV",
+        "USO",
+        "UNG",
+        "DBA",
+        "DBB",
+        "DBC"
+      ],
+      "status": "success",
+      "blog_slug": "commodity-tail-risk-expected-shortfall-python",
+      "script_path": "scripts/price-analysis/commodity-tail-risk-expected-shortfall-python.py"
+    },
+    {
+      "date": "2026-06-18",
+      "category": "correlation_beta,volatility_analysis,sector_research",
+      "title": "Are Gold Miners Leveraged Gold Bets? Rolling Beta Analysis in Python",
+      "tickers": [
+        "GLD",
+        "GDX",
+        "NEM",
+        "AEM",
+        "GOLD"
+      ],
+      "status": "success",
+      "blog_slug": "gold-miner-beta-python",
+      "script_path": "scripts/price-analysis/gold-miner-beta-python.py"
+    },
+    {
+      "date": "2026-06-18",
+      "category": "macro_forecasting,market_timing_analysis,signal_evaluation",
+      "title": "Does the Base-Metals-to-Gold Ratio Lead Cyclical Stocks? Signal Test in Python",
+      "tickers": [
+        "DBB",
+        "GLD",
+        "XLI",
+        "XLB",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "base-metals-gold-cyclical-signal-python",
+      "script_path": "scripts/price-analysis/base-metals-gold-cyclical-signal-python.py"
+    },
+    {
+      "date": "2026-06-18",
+      "category": "optimization_problem,factor_construction,volatility_analysis",
+      "title": "Can Risk Parity Tame Commodity Volatility? Portfolio Optimization in Python",
+      "tickers": [
+        "GLD",
+        "SLV",
+        "USO",
+        "UNG",
+        "DBA",
+        "DBB",
+        "DBC"
+      ],
+      "status": "success",
+      "blog_slug": "commodity-risk-parity-python",
+      "script_path": "scripts/price-analysis/commodity-risk-parity-python.py"
+    },
+    {
+      "date": "2026-06-28",
+      "category": "econometric_research,time_series_analysis,macro_forecasting",
+      "title": "Do Bond Returns Predict Stock Returns? Granger Causality Test in Python",
+      "tickers": [
+        "SPY",
+        "TLT",
+        "IEF",
+        "SHY",
+        "AGG"
+      ],
+      "status": "success",
+      "blog_slug": "bond-returns-granger-causality-stock-python",
+      "script_path": "scripts/econometric-research/bond-returns-granger-causality-stock-python.py"
+    },
+    {
+      "date": "2026-06-28",
+      "category": "game_theory,optimization_problem,factor_construction",
+      "title": "Which Stocks Actually Drive Portfolio Returns? Shapley Value Attribution in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "JPM",
+        "XOM",
+        "JNJ",
+        "PG",
+        "UNH"
+      ],
+      "status": "success",
+      "blog_slug": "shapley-value-portfolio-attribution-python",
+      "script_path": "scripts/game-theory/shapley-value-portfolio-attribution-python.py"
+    },
+    {
+      "date": "2026-06-28",
+      "category": "mean_reversion,econometric_research,correlation_beta",
+      "title": "Are KO and PEP Cointegrated? Pairs Trading Signal Construction in Python",
+      "tickers": [
+        "KO",
+        "PEP",
+        "CVX",
+        "XOM",
+        "HD",
+        "LOW"
+      ],
+      "status": "success",
+      "blog_slug": "pairs-cointegration-signal-python",
+      "script_path": "scripts/econometric-research/pairs-cointegration-signal-python.py"
+    },
+    {
+      "date": "2026-06-28",
+      "category": "seasonality,technical_analysis,quantitative_trading",
+      "title": "Does \"Sell in May\" Still Work? Calendar Anomaly Backtest in Python",
+      "tickers": [
+        "SPY",
+        "XLK",
+        "XLF",
+        "XLE",
+        "XLV",
+        "XLY",
+        "XLP",
+        "XLI"
+      ],
+      "status": "success",
+      "blog_slug": "sell-in-may-calendar-anomaly-backtest-python",
+      "script_path": "scripts/seasonality/sell-in-may-calendar-anomaly-backtest-python.py"
+    },
+    {
+      "date": "2026-06-28",
+      "category": "entity_resolution_showcase,ticker_recycling,multi_endpoint_pipeline",
+      "title": "How to Build Complete Price History Through Ticker Changes? Entity Resolution in Python",
+      "tickers": [
+        "META",
+        "FB",
+        "GM",
+        "DELL"
+      ],
+      "status": "success",
+      "blog_slug": "entity-resolution-ticker-changes-python",
+      "script_path": "scripts/data-quality/entity-resolution-ticker-changes-python.py"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "factor_construction,correlation_beta,sector_research",
+      "title": "Which Stocks Benefit Most When Oil Prices Fall? Oil Beta Screening in Python",
+      "tickers": ["DAL", "UAL", "LUV", "AAL", "FDX", "UPS", "AMZN", "WMT", "TGT", "HD", "COST", "MAR", "USO"],
+      "status": "success",
+      "blog_slug": "oil-beta-beneficiaries-screen-python",
+      "script_path": "scripts/cross-endpoint/oil-beta-beneficiaries-screen-python.py"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "sector_research,momentum_screening,volatility_analysis",
+      "title": "Is the Semiconductor Rally Broadening Beyond NVIDIA? Return Dispersion Analysis in Python",
+      "tickers": ["NVDA", "MU", "AVGO", "AMD", "AMAT", "LRCX", "KLAC", "MRVL", "QCOM", "TXN"],
+      "status": "success",
+      "blog_slug": "semiconductor-breadth-dispersion-python",
+      "script_path": "scripts/sector-research/semiconductor-breadth-dispersion-python.py"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "sector_rotation,earnings_quality,cross_sectional_analysis",
+      "title": "Is the Rotation From Tech to Industrials Backed by Earnings? Relative EPS Growth Analysis in Python",
+      "tickers": ["AAPL", "MSFT", "NVDA", "META", "GOOG", "CAT", "HON", "GE", "RTX", "DE", "JPM", "GS", "BAC", "MS", "BLK", "XLK", "XLI", "XLF"],
+      "status": "success",
+      "blog_slug": "tech-industrials-rotation-earnings-python",
+      "script_path": "scripts/cross-endpoint/tech-industrials-rotation-earnings-python.py"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "macro_forecasting,signal_evaluation,econometric_research",
+      "title": "Do Weak Jobs Reports Predict Market Drawdowns? NFP Surprise Event Study in Python",
+      "tickers": ["SPY"],
+      "status": "success",
+      "blog_slug": "weak-nfp-market-drawdown-signal-python",
+      "script_path": "scripts/macro-research/weak-nfp-market-drawdown-signal-python.py"
+    },
+    {
+      "date": "2026-07-10",
+      "category": "profitability_analysis,macro_research,sector_comparison",
+      "title": "Are Consumer Staples Margins Shrinking Under Inflation? Gross Margin Trend Analysis in Python",
+      "tickers": ["PEP", "KO", "PG", "CL", "WMT", "COST", "MDLZ", "GIS", "KHC", "SJM"],
+      "status": "success",
+      "blog_slug": "consumer-staples-margin-inflation-python",
+      "script_path": "scripts/fundamental-analysis/consumer-staples-margin-inflation-python.py"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "dcf_valuation,economic_forecasting,profitability_analysis",
+      "title": "What Growth Rate Is the Market Pricing In? Reverse DCF in Python",
+      "tickers": ["NVDA", "GOOGL", "MSFT", "AAPL", "META", "MA", "COST", "JNJ", "PG", "PEP"],
+      "status": "success",
+      "blog_slug": "reverse-dcf-implied-growth-rate-python",
+      "script_path": "scripts/fundamental-analysis/reverse-dcf-implied-growth-rate-python.py"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "balance_sheet_health,drawdown_analysis,quantitative_research",
+      "title": "Does a Strong Balance Sheet Cushion Drawdowns? Leverage and Downside Risk in Python",
+      "tickers": ["SP500"],
+      "status": "success",
+      "blog_slug": "balance-sheet-drawdown-protection-python",
+      "script_path": "scripts/fundamental-analysis/balance-sheet-drawdown-protection-python.py"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "mean_reversion,ticker_recycling,time_series_analysis",
+      "title": "Does Ticker Recycling Corrupt a Mean-Reversion Backtest? Entity-Resolved Z-Scores in Python",
+      "tickers": ["AA", "HWM", "GM", "DELL", "BG"],
+      "status": "success",
+      "blog_slug": "ticker-recycling-mean-reversion-backtest-python",
+      "script_path": "scripts/data-quality/ticker-recycling-mean-reversion-backtest-python.py"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "growth_screening,index_constituent_analysis,sector_rotation",
+      "title": "How Much of a Growth Screen's Backtested Edge Is Survivorship Bias? Point-in-Time Index Testing in Python",
+      "tickers": ["MRNA", "HOOD", "DASH", "COIN", "SQ", "CRWD", "FIS", "FRCB", "SPY"],
+      "status": "success",
+      "blog_slug": "growth-screen-survivorship-bias-python",
+      "script_path": "scripts/index-universe/growth-screen-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "financial_derivatives,volatility_analysis,time_series_analysis",
+      "title": "Why Do Leveraged ETFs Decay? Measuring Volatility Drag in Python",
+      "tickers": ["TQQQ", "QQQ", "UPRO", "SPY", "SOXL", "SOXX", "TNA", "IWM", "QLD", "SSO"],
+      "status": "success",
+      "blog_slug": "why-do-leveraged-etfs-decay-volatility-drag-python",
+      "script_path": "scripts/price-analysis/why-do-leveraged-etfs-decay-volatility-drag-python.py"
+    }
+  ]
+}
