@@ -2050,6 +2050,17 @@
       "status": "success",
       "blog_slug": "sp500-index-effect-event-study-python",
       "script_path": "scripts/index-universe/sp500-index-effect-event-study-python.py"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "signal_evaluation,cross_sectional_analysis,multi_endpoint_pipeline,earnings_quality",
+      "title": "Does Post-Earnings Announcement Drift Survive Real Filing Dates? PEAD Event Study in Python",
+      "tickers": [
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "post-earnings-announcement-drift-filing-date-python",
+      "script_path": "scripts/cross-endpoint/post-earnings-announcement-drift-filing-date-python.py"
     }
   ]
 }
