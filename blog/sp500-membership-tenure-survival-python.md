@@ -19,7 +19,7 @@ The S&P 500 membership event log runs from 3 July 1957 to 7 May 2026 and holds 2
 5. Rebuild it a third time from raw event counts: removals in a period divided by index seats gives an annual exit rate, compounding to an implied ten-year survival. Nothing is paired.
 6. Test 1980s cohorts against 2005 to 2014 cohorts with a two-proportion z-test.
 
-Only dates and counts enter these calculations, and the three estimators share no logic, so agreement between them counts as evidence rather than repetition. Two limits belong on the record. Founding-roster additions are suppressed by design, since they record who was already a member when the log opens, so 42 current constituents get no cohort. Reconstructed rosters also run short of 500 for older dates, holding 433 names in 1990 against 492 in 2026, so cohorts before 1980 are excluded and rates use the count actually observed.
+Only dates and counts enter these calculations, and the three estimators share no logic, so agreement between them counts as evidence rather than repetition. Two limits belong on the record. Founding-roster additions are suppressed by design, since they record who was already a member when the log opens, so 42 current constituents get no cohort. Roster sizes are taken as observed at each date, 433 names in 1990 against 492 in 2026, so cohorts before 1980 are excluded and every rate is computed on the observed count rather than a nominal 500.
 
 ## Code
 
