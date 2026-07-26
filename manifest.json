@@ -1839,7 +1839,21 @@
       "date": "2026-07-10",
       "category": "factor_construction,correlation_beta,sector_research",
       "title": "Which Stocks Benefit Most When Oil Prices Fall? Oil Beta Screening in Python",
-      "tickers": ["DAL", "UAL", "LUV", "AAL", "FDX", "UPS", "AMZN", "WMT", "TGT", "HD", "COST", "MAR", "USO"],
+      "tickers": [
+        "DAL",
+        "UAL",
+        "LUV",
+        "AAL",
+        "FDX",
+        "UPS",
+        "AMZN",
+        "WMT",
+        "TGT",
+        "HD",
+        "COST",
+        "MAR",
+        "USO"
+      ],
       "status": "success",
       "blog_slug": "oil-beta-beneficiaries-screen-python",
       "script_path": "scripts/cross-endpoint/oil-beta-beneficiaries-screen-python.py"
@@ -1848,7 +1862,18 @@
       "date": "2026-07-10",
       "category": "sector_research,momentum_screening,volatility_analysis",
       "title": "Is the Semiconductor Rally Broadening Beyond NVIDIA? Return Dispersion Analysis in Python",
-      "tickers": ["NVDA", "MU", "AVGO", "AMD", "AMAT", "LRCX", "KLAC", "MRVL", "QCOM", "TXN"],
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AVGO",
+        "AMD",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "MRVL",
+        "QCOM",
+        "TXN"
+      ],
       "status": "success",
       "blog_slug": "semiconductor-breadth-dispersion-python",
       "script_path": "scripts/sector-research/semiconductor-breadth-dispersion-python.py"
@@ -1857,7 +1882,26 @@
       "date": "2026-07-10",
       "category": "sector_rotation,earnings_quality,cross_sectional_analysis",
       "title": "Is the Rotation From Tech to Industrials Backed by Earnings? Relative EPS Growth Analysis in Python",
-      "tickers": ["AAPL", "MSFT", "NVDA", "META", "GOOG", "CAT", "HON", "GE", "RTX", "DE", "JPM", "GS", "BAC", "MS", "BLK", "XLK", "XLI", "XLF"],
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "META",
+        "GOOG",
+        "CAT",
+        "HON",
+        "GE",
+        "RTX",
+        "DE",
+        "JPM",
+        "GS",
+        "BAC",
+        "MS",
+        "BLK",
+        "XLK",
+        "XLI",
+        "XLF"
+      ],
       "status": "success",
       "blog_slug": "tech-industrials-rotation-earnings-python",
       "script_path": "scripts/cross-endpoint/tech-industrials-rotation-earnings-python.py"
@@ -1866,7 +1910,9 @@
       "date": "2026-07-10",
       "category": "macro_forecasting,signal_evaluation,econometric_research",
       "title": "Do Weak Jobs Reports Predict Market Drawdowns? NFP Surprise Event Study in Python",
-      "tickers": ["SPY"],
+      "tickers": [
+        "SPY"
+      ],
       "status": "success",
       "blog_slug": "weak-nfp-market-drawdown-signal-python",
       "script_path": "scripts/macro-research/weak-nfp-market-drawdown-signal-python.py"
@@ -1875,7 +1921,18 @@
       "date": "2026-07-10",
       "category": "profitability_analysis,macro_research,sector_comparison",
       "title": "Are Consumer Staples Margins Shrinking Under Inflation? Gross Margin Trend Analysis in Python",
-      "tickers": ["PEP", "KO", "PG", "CL", "WMT", "COST", "MDLZ", "GIS", "KHC", "SJM"],
+      "tickers": [
+        "PEP",
+        "KO",
+        "PG",
+        "CL",
+        "WMT",
+        "COST",
+        "MDLZ",
+        "GIS",
+        "KHC",
+        "SJM"
+      ],
       "status": "success",
       "blog_slug": "consumer-staples-margin-inflation-python",
       "script_path": "scripts/fundamental-analysis/consumer-staples-margin-inflation-python.py"
@@ -1884,7 +1941,18 @@
       "date": "2026-07-17",
       "category": "dcf_valuation,economic_forecasting,profitability_analysis",
       "title": "What Growth Rate Is the Market Pricing In? Reverse DCF in Python",
-      "tickers": ["NVDA", "GOOGL", "MSFT", "AAPL", "META", "MA", "COST", "JNJ", "PG", "PEP"],
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "AAPL",
+        "META",
+        "MA",
+        "COST",
+        "JNJ",
+        "PG",
+        "PEP"
+      ],
       "status": "success",
       "blog_slug": "reverse-dcf-implied-growth-rate-python",
       "script_path": "scripts/fundamental-analysis/reverse-dcf-implied-growth-rate-python.py"
@@ -1893,7 +1961,9 @@
       "date": "2026-07-17",
       "category": "balance_sheet_health,drawdown_analysis,quantitative_research",
       "title": "Does a Strong Balance Sheet Cushion Drawdowns? Leverage and Downside Risk in Python",
-      "tickers": ["SP500"],
+      "tickers": [
+        "SP500"
+      ],
       "status": "success",
       "blog_slug": "balance-sheet-drawdown-protection-python",
       "script_path": "scripts/fundamental-analysis/balance-sheet-drawdown-protection-python.py"
@@ -1902,7 +1972,13 @@
       "date": "2026-07-17",
       "category": "mean_reversion,ticker_recycling,time_series_analysis",
       "title": "Does Ticker Recycling Corrupt a Mean-Reversion Backtest? Entity-Resolved Z-Scores in Python",
-      "tickers": ["AA", "HWM", "GM", "DELL", "BG"],
+      "tickers": [
+        "AA",
+        "HWM",
+        "GM",
+        "DELL",
+        "BG"
+      ],
       "status": "success",
       "blog_slug": "ticker-recycling-mean-reversion-backtest-python",
       "script_path": "scripts/data-quality/ticker-recycling-mean-reversion-backtest-python.py"
@@ -1911,7 +1987,17 @@
       "date": "2026-07-17",
       "category": "growth_screening,index_constituent_analysis,sector_rotation",
       "title": "How Much of a Growth Screen's Backtested Edge Is Survivorship Bias? Point-in-Time Index Testing in Python",
-      "tickers": ["MRNA", "HOOD", "DASH", "COIN", "SQ", "CRWD", "FIS", "FRCB", "SPY"],
+      "tickers": [
+        "MRNA",
+        "HOOD",
+        "DASH",
+        "COIN",
+        "SQ",
+        "CRWD",
+        "FIS",
+        "FRCB",
+        "SPY"
+      ],
       "status": "success",
       "blog_slug": "growth-screen-survivorship-bias-python",
       "script_path": "scripts/index-universe/growth-screen-survivorship-bias-python.py"
@@ -1920,10 +2006,50 @@
       "date": "2026-07-17",
       "category": "financial_derivatives,volatility_analysis,time_series_analysis",
       "title": "Why Do Leveraged ETFs Decay? Measuring Volatility Drag in Python",
-      "tickers": ["TQQQ", "QQQ", "UPRO", "SPY", "SOXL", "SOXX", "TNA", "IWM", "QLD", "SSO"],
+      "tickers": [
+        "TQQQ",
+        "QQQ",
+        "UPRO",
+        "SPY",
+        "SOXL",
+        "SOXX",
+        "TNA",
+        "IWM",
+        "QLD",
+        "SSO"
+      ],
       "status": "success",
       "blog_slug": "why-do-leveraged-etfs-decay-volatility-drag-python",
       "script_path": "scripts/price-analysis/why-do-leveraged-etfs-decay-volatility-drag-python.py"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "index_constituent_analysis,index_rebalancing,survival_analysis",
+      "title": "Are Companies Leaving the S&P 500 Faster Than They Used To? Index Survival Analysis in Python",
+      "tickers": [],
+      "status": "success",
+      "blog_slug": "sp500-membership-tenure-survival-python",
+      "script_path": "scripts/index-universe/sp500-membership-tenure-survival-python.py"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "profitability_analysis,factor_construction,signal_evaluation",
+      "title": "Does Gross Profitability Predict Stock Returns? Quintile Factor Test in Python",
+      "tickers": [],
+      "status": "success",
+      "blog_slug": "gross-profitability-forward-returns-python",
+      "script_path": "scripts/fundamental-analysis/gross-profitability-forward-returns-python.py"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "index_rebalancing,index_constituent_analysis,signal_evaluation,cross_sectional_analysis",
+      "title": "Does the S&P 500 Index Effect Still Exist? Event Study in Python",
+      "tickers": [
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-index-effect-event-study-python",
+      "script_path": "scripts/index-universe/sp500-index-effect-event-study-python.py"
     }
   ]
 }
