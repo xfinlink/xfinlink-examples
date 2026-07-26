@@ -1,0 +1,5 @@
+Backtesting the S&P 500 on today's roster quietly deletes Lehman, Bear Stearns and Merrill from history. 461 companies have been removed since 2005, and none of them are in the list you scraped this morning.
+
+xfl.index("sp500", as_of="2008-09-12")
+
+[BLOG_LINK]
