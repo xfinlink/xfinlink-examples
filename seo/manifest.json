@@ -41,5 +41,20 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-07-27",
+    "type": "concept explainer",
+    "title": "What Is Survivorship Bias in Backtesting?",
+    "slug": "what-is-survivorship-bias-in-backtesting",
+    "competitors_mentioned": [
+      "Wikipedia",
+      "Alpha Vantage",
+      "Massive (polygon.io)",
+      "yfinance"
+    ],
+    "claims_verified": true,
+    "status": "published",
+    "note": "Concept explainer, not a sourcing list; deliberately kept off the 'where to get constituents' angle held from 2026-07-26. A point-in-time-vs-restated-fundamentals guide was attempted first and abandoned: version='original' returns no rows (logged in docs/data-quality-tracker.md)."
   }
 ]
