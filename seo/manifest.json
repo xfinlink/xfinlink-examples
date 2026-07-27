@@ -26,5 +26,20 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-07-27",
+    "type": "buyers guide",
+    "title": "Free Stock Market Data APIs: What You Actually Get",
+    "slug": "free-stock-market-data-apis",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (polygon.io)",
+      "SEC EDGAR APIs"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]

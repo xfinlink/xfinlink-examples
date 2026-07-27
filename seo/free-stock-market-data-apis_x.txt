@@ -1,0 +1,1 @@
+Free stock data APIs advertise a daily request count and stay quiet about the part that decides whether the job finishes. Alpha Vantage: 25 requests a day. Twelve Data: 800. Massive: two years of history. Six free tiers, read off their own pricing pages this week. [BLOG_LINK]
