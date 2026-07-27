@@ -2061,6 +2061,23 @@
       "status": "success",
       "blog_slug": "post-earnings-announcement-drift-filing-date-python",
       "script_path": "scripts/cross-endpoint/post-earnings-announcement-drift-filing-date-python.py"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "market_timing_analysis,signal_evaluation,time_series_analysis,technical_analysis",
+      "title": "Does Volatility Targeting Improve Sharpe Ratios? Seven-Asset Backtest in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "VNQ",
+        "TLT",
+        "GLD"
+      ],
+      "status": "success",
+      "blog_slug": "volatility-targeting-sharpe-ratio-backtest-python",
+      "script_path": "scripts/price-analysis/volatility-targeting-sharpe-ratio-backtest-python.py"
     }
   ]
 }
