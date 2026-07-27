@@ -2124,6 +2124,17 @@
       "status": "success",
       "blog_slug": "downside-beta-asymmetry-python",
       "script_path": "scripts/price-analysis/downside-beta-asymmetry-python.py"
+    },
+    {
+      "date": "2026-07-27",
+      "category": "valuation_ratios,dividend_screening,sector_comparison,cross_sectional_analysis",
+      "title": "Do High Dividend Yields Come From Bigger Payouts or Falling Prices? Yield Decomposition in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "dividend-yield-payout-price-decomposition-python",
+      "script_path": "scripts/fundamental-analysis/dividend-yield-payout-price-decomposition-python.py"
     }
   ]
 }
