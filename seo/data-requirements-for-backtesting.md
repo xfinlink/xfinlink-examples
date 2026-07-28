@@ -13,27 +13,27 @@ import xfinlink as xfl
 xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
 
 df = xfl.prices("NVDA", start="2024-06-05", end="2024-06-12",
-                fields=["close", "adj_close", "split_ratio", "dividend", "return_daily"])
+                fields=["close", "adj_close", "split_ratio", "dividend"])
 print(df.drop(columns=["gics_sector"]).to_string(index=False))
 ```
 
 ```
- entity_id ticker entity_name       date      close  adj_close  split_ratio  dividend  return_daily
-     29109   NVDA NVIDIA CORP 2024-06-05 1224.40002 122.440002          NaN       NaN      0.051556
-     29109   NVDA NVIDIA CORP 2024-06-06 1209.97998 120.997998          NaN       NaN     -0.011777
-     29109   NVDA NVIDIA CORP 2024-06-07 1208.88000 120.888000          NaN       NaN     -0.000909
-     29109   NVDA NVIDIA CORP 2024-06-10  121.79000 121.790000         10.0       NaN      0.007461
-     29109   NVDA NVIDIA CORP 2024-06-11  120.91000 120.910000          NaN      0.01     -0.007143
-     29109   NVDA NVIDIA CORP 2024-06-12  125.20000 125.200000          NaN       NaN      0.035481
+ entity_id ticker entity_name       date      close  adj_close  split_ratio  dividend
+     29109   NVDA NVIDIA CORP 2024-06-05 1224.40002 122.440002          NaN       NaN
+     29109   NVDA NVIDIA CORP 2024-06-06 1209.97998 120.997998          NaN       NaN
+     29109   NVDA NVIDIA CORP 2024-06-07 1208.88000 120.888000          NaN       NaN
+     29109   NVDA NVIDIA CORP 2024-06-10  121.79000 121.790000         10.0       NaN
+     29109   NVDA NVIDIA CORP 2024-06-11  120.91000 120.910000          NaN      0.01
+     29109   NVDA NVIDIA CORP 2024-06-12  125.20000 125.200000          NaN       NaN
 ```
 
 Friday's raw close of $1,208.88 becomes Monday's $121.79. A backtest differencing that column books an 89.93% single-day loss on a stock that went up. The `adj_close` column restates the earlier history onto the current share basis, so the same Monday reads 120.888 to 121.790, a gain of 0.75%, which is what the holder actually experienced. `split_ratio` carries the factor of 10 on the event date, so a corporate action can be detected rather than inferred from a suspicious return.
 
 ## Do the returns include dividends?
 
-Read the next row down. 11 June 2024 was the record date for NVIDIA's raised quarterly dividend, $0.10 per share before the split, which the company described as "equivalent to $0.01 per share on a post-split basis". The close fell from 121.79 to 120.91, a price return of −0.7226%. `return_daily` reads −0.7143%, because it puts the cent back: (120.91 + 0.01) / 121.79 − 1.
+Read the next row down. 11 June 2024 was the record date for NVIDIA's raised quarterly dividend, $0.10 per share before the split, which the company described as "equivalent to $0.01 per share on a post-split basis". The close fell from 121.79 to 120.91, a price return of −0.7226%. The cash did not evaporate; it left the share price and arrived in the holder’s account, so the return that holder earned is (120.91 + 0.01) / 121.79 − 1, or −0.7143%. The `dividend` column carries the payment on the row where it went ex, which is what makes that arithmetic possible without a second source.
 
-Under one basis point, on one day, on a stock with a token yield. A company paying 3% a year loses roughly three points annually to the same omission, compounding across the length of the test, and the size of the error scales with the yield, so it lands hardest on the income and value names those strategies select. Two conventions decide which column answers which question, and the [xfinlink docs](https://xfinlink.com/docs) state both: `adj_close` is adjusted for splits only, while `return_daily` is the total return series including dividends.
+Under one basis point, on one day, on a stock with a token yield. A company paying 3% a year loses roughly three points annually to the same omission, compounding across the length of the test, and the size of the error scales with the yield, so it lands hardest on the income and value names those strategies select. The requirement is not one magic column but a payout series aligned to the price series: take `adj_close` for a split-consistent level, and add the `dividend` back on the rows where it went ex whenever the strategy is judged on total return rather than price alone.
 
 ## How much history is enough?
 
@@ -64,7 +64,7 @@ Every figure below was read off the provider's own pages on 28 July 2026.
 | yfinance | `download()` takes an `auto_adjust` argument, documented as "Adjust all OHLC automatically", default `True` | No key; the docs state the project is "not affiliated, endorsed, or vetted by Yahoo, Inc." and is "intended for research and educational purposes" |
 | Alpha Vantage | `TIME_SERIES_DAILY` returns a "raw (as-traded) daily time series"; adjusted close plus split and dividend events come from `TIME_SERIES_DAILY_ADJUSTED`, which the documentation labels "a premium API function" | 25 API requests per day |
 | Massive (polygon.io redirects here) | The Stocks Basic feature list includes "Corporate Actions" | Stocks Basic at $0/month: "5 API Calls / Minute", "2 Years Historical Data", "End of Day Data", "Individual use" |
-| xfinlink | `close` raw as traded, `adj_close` split-adjusted, `split_ratio` and `dividend` on the event date, `return_daily` as total return | 100 requests per day on a rolling one-year window |
+| xfinlink | `close` raw as traded, `adj_close` split-adjusted, `split_ratio` and `dividend` sitting on the event date so both corporate actions and total return can be reconstructed | 100 requests per day on a rolling one-year window |
 
 Sources in row order: the [yfinance download reference](https://ranaroussi.github.io/yfinance/reference/api/yfinance.download.html) and its [documentation home](https://ranaroussi.github.io/yfinance/); the [Alpha Vantage documentation](https://www.alphavantage.co/documentation/) and [premium page](https://www.alphavantage.co/premium/); [massive.com/pricing](https://massive.com/pricing), reached because polygon.io returns a 301 redirect to massive.com; the xfinlink [docs](https://xfinlink.com/docs) and [pricing page](https://xfinlink.com/pricing).
 
@@ -73,7 +73,7 @@ Adjusting by default, as yfinance does, is the friendlier choice for someone plo
 ## FAQ
 
 **Is adjusted close enough on its own?**
-No. Split adjustment removes the artificial cliffs, but total return needs the dividends as well, and a split-adjusted price series does not contain them. Compound `return_daily` for performance and read `adj_close` for levels.
+No. Split adjustment removes the artificial cliffs, but total return needs the dividends as well, and a split-adjusted price series does not contain them. Read `adj_close` for levels, and add the `dividend` column back on ex-date rows to compound a total return.
 
 **How far back should a backtest start?**
 Far enough to include at least one market regime the strategy was not fitted to. A window opening after 2009 does not contain the 2008 credit crisis, so the worst drawdown it reports is a lower bound rather than a measurement.
