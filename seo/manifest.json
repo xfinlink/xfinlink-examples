@@ -56,5 +56,17 @@
     "claims_verified": true,
     "status": "published",
     "note": "Concept explainer, not a sourcing list; deliberately kept off the 'where to get constituents' angle held from 2026-07-26. A point-in-time-vs-restated-fundamentals guide was attempted first and abandoned: version='original' returns no rows (logged in docs/data-quality-tracker.md)."
+  },
+  {
+    "date": "2026-07-28",
+    "type": "use-case guide",
+    "title": "Data Requirements for Backtesting a Trading Strategy",
+    "slug": "data-requirements-for-backtesting",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage",
+      "Massive"
+    ],
+    "claims_verified": true
   }
 ]

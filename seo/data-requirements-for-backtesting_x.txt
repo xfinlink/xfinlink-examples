@@ -1,0 +1,1 @@
+Your backtest thinks NVIDIA fell 89.93% on 10 June 2024. It didn't. That was the ten-for-one split, and a raw close column records it as a crash. Four things a backtest needs from its data before any of the strategy logic matters. [BLOG_LINK]
