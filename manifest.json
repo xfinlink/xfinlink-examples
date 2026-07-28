@@ -2199,6 +2199,15 @@
       "status": "success",
       "blog_slug": "overnight-vs-intraday-return-decomposition-python",
       "script_path": "scripts/price-analysis/overnight-vs-intraday-return-decomposition-python.py"
+    },
+    {
+      "date": "2026-07-28",
+      "category": "quantitative_research,cross_sectional_analysis,time_series_analysis,factor_construction",
+      "title": "How Concentrated Are Institutional Equity Portfolios? Form 13F Concentration Analysis in Python",
+      "tickers": [],
+      "status": "success",
+      "blog_slug": "institutional-13f-portfolio-concentration-python",
+      "script_path": "scripts/cross-endpoint/institutional-13f-portfolio-concentration-python.py"
     }
   ]
 }
