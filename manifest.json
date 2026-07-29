@@ -2208,6 +2208,22 @@
       "status": "success",
       "blog_slug": "institutional-13f-portfolio-concentration-python",
       "script_path": "scripts/cross-endpoint/institutional-13f-portfolio-concentration-python.py"
+    },
+    {
+      "date": "2026-07-29",
+      "category": "volatility_analysis,time_series_analysis,financial_forecasting,signal_evaluation",
+      "title": "Which Volatility Forecast Wins One Month Ahead? HAR vs EWMA in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "AAPL",
+        "MSFT",
+        "JPM",
+        "KO"
+      ],
+      "status": "success",
+      "blog_slug": "volatility-forecast-har-vs-ewma-python",
+      "script_path": "scripts/price-analysis/volatility-forecast-har-vs-ewma-python.py"
     }
   ]
 }
