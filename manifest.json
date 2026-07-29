@@ -2224,6 +2224,25 @@
       "status": "success",
       "blog_slug": "volatility-forecast-har-vs-ewma-python",
       "script_path": "scripts/price-analysis/volatility-forecast-har-vs-ewma-python.py"
+    },
+    {
+      "date": "2026-07-29",
+      "category": "correlation_beta,quantitative_research,factor_construction,cross_sectional_analysis",
+      "title": "How Many Independent Bets Does a Nine-Sector Portfolio Give You? Eigenvalue Analysis in Python",
+      "tickers": [
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY"
+      ],
+      "status": "success",
+      "blog_slug": "sector-diversification-effective-bets-pca-python",
+      "script_path": "scripts/econometric-research/sector-diversification-effective-bets-pca-python.py"
     }
   ]
 }
