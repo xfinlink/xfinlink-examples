@@ -1,0 +1,3 @@
+Yahoo's terms: you may not reuse the Services "for any commercial purpose". yfinance's own docs: personal use only. Most people learn this after the dashboard ships.
+
+Where every major stock data source draws the line, and what a commercial licence actually costs: [BLOG_LINK]

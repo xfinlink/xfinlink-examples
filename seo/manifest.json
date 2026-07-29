@@ -68,5 +68,20 @@
       "Massive"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-07-29",
+    "type": "question post",
+    "title": "Can You Use Yahoo Finance Data Commercially?",
+    "slug": "can-you-use-yahoo-finance-data-commercially",
+    "competitors_mentioned": [
+      "Yahoo Finance",
+      "yfinance",
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (polygon.io)",
+      "SEC EDGAR APIs"
+    ],
+    "claims_verified": true
   }
 ]
