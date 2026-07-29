@@ -2243,6 +2243,23 @@
       "status": "success",
       "blog_slug": "sector-diversification-effective-bets-pca-python",
       "script_path": "scripts/econometric-research/sector-diversification-effective-bets-pca-python.py"
+    },
+    {
+      "date": "2026-07-29",
+      "category": "seasonality,market_timing_analysis,signal_evaluation,quantitative_trading",
+      "title": "Which Trading Day of the Month Pays Best? Turn-of-the-Month Analysis in Python",
+      "tickers": [
+        "SPY",
+        "MDY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "TLT",
+        "LQD"
+      ],
+      "status": "success",
+      "blog_slug": "turn-of-the-month-first-trading-day-python",
+      "script_path": "scripts/seasonality/turn-of-the-month-first-trading-day-python.py"
     }
   ]
 }
