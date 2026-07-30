@@ -2260,6 +2260,15 @@
       "status": "success",
       "blog_slug": "turn-of-the-month-first-trading-day-python",
       "script_path": "scripts/seasonality/turn-of-the-month-first-trading-day-python.py"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "growth_screening, earnings_quality, cross_sectional_analysis, financial_forecasting, quantitative_research",
+      "title": "Does Fast Earnings Growth Persist? Rank Correlation Analysis in Python",
+      "tickers": [],
+      "status": "success",
+      "blog_slug": "earnings-growth-persistence-rank-correlation-python",
+      "script_path": "scripts/fundamental-analysis/earnings-growth-persistence-rank-correlation-python.py"
     }
   ]
 }
