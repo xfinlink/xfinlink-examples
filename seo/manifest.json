@@ -83,5 +83,16 @@
       "SEC EDGAR APIs"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-07-30",
+    "type": "concept explainer",
+    "title": "Split Adjustment Explained: Adjusted Close vs Close",
+    "slug": "split-adjustment-explained",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]
