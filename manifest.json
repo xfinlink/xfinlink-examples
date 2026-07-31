@@ -2269,6 +2269,31 @@
       "status": "success",
       "blog_slug": "earnings-growth-persistence-rank-correlation-python",
       "script_path": "scripts/fundamental-analysis/earnings-growth-persistence-rank-correlation-python.py"
+    },
+    {
+      "date": "2026-07-31",
+      "category": "balance_sheet_health, profitability_analysis, cross_sectional_analysis, sector_comparison",
+      "title": "Do Faster Inventory Turns Mean Thinner Margins? Gross Margin Return on Inventory in Python",
+      "tickers": [
+        "FFIV",
+        "KMI",
+        "COP",
+        "AVGO",
+        "TRGP",
+        "BG",
+        "DOW",
+        "CAH",
+        "ADM",
+        "SMCI",
+        "COST",
+        "ORLY",
+        "LMT",
+        "NKE",
+        "VRTX"
+      ],
+      "status": "success",
+      "blog_slug": "inventory-turns-gross-margin-tradeoff-python",
+      "script_path": "scripts/fundamental-analysis/inventory-turns-gross-margin-tradeoff-python.py"
     }
   ]
 }
