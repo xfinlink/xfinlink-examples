@@ -2334,6 +2334,35 @@
       "status": "success",
       "blog_slug": "covariance-shrinkage-minimum-variance-portfolio-python",
       "script_path": "scripts/econometric-research/covariance-shrinkage-minimum-variance-portfolio-python.py"
+    },
+    {
+      "date": "2026-07-31",
+      "category": "macro_research, econometric_research, factor_construction, market_timing_analysis",
+      "title": "Which Assets Hedge Inflation Shocks? Macro Factor Betas in Python",
+      "tickers": [
+        "DBB",
+        "GLD",
+        "TIP",
+        "IEF",
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLY",
+        "VNQ",
+        "TLT",
+        "LQD",
+        "HYG"
+      ],
+      "status": "success",
+      "blog_slug": "macro-factor-betas-growth-inflation-python",
+      "script_path": "scripts/econometric-research/macro-factor-betas-growth-inflation-python.py"
     }
   ]
 }
