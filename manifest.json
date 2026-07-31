@@ -2294,6 +2294,46 @@
       "status": "success",
       "blog_slug": "inventory-turns-gross-margin-tradeoff-python",
       "script_path": "scripts/fundamental-analysis/inventory-turns-gross-margin-tradeoff-python.py"
+    },
+    {
+      "date": "2026-07-31",
+      "category": "optimization_problem, factor_construction, correlation_beta, quantitative_research",
+      "title": "Does Covariance Shrinkage Beat the Sample Covariance? Minimum-Variance Portfolios in Python",
+      "tickers": [
+        "MMM",
+        "AXP",
+        "AMGN",
+        "AAPL",
+        "AMZN",
+        "BA",
+        "CAT",
+        "CVX",
+        "CSCO",
+        "KO",
+        "DIS",
+        "GS",
+        "HD",
+        "HON",
+        "IBM",
+        "JNJ",
+        "JPM",
+        "MCD",
+        "MRK",
+        "MSFT",
+        "NKE",
+        "NVDA",
+        "PG",
+        "CRM",
+        "SHW",
+        "TRV",
+        "UNH",
+        "VZ",
+        "V",
+        "WMT"
+      ],
+      "status": "success",
+      "blog_slug": "covariance-shrinkage-minimum-variance-portfolio-python",
+      "script_path": "scripts/econometric-research/covariance-shrinkage-minimum-variance-portfolio-python.py"
     }
   ]
 }
