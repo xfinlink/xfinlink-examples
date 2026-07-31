@@ -17,7 +17,7 @@ The test sorts the index into quintiles by gross profitability every 30 June fro
 5. Equal-weight the quintiles within each cohort and take the top fifth minus the bottom fifth. Eleven annual spreads give eleven independent observations for a one-sample t-test.
 6. Repeat the sort neutral to sector, on net income over assets, and with the filing-date rule off.
 
-Financials and real estate are excluded, since gross profit means nothing for a bank or a landlord. And 63 of the 688 tickers return no filings, almost all acquired or delisted, thinning the earliest cohort to 410 of 491 members.
+Financials and real estate are excluded, since gross profit means nothing for a bank or a landlord. Names without usable filings for the formation window, almost all acquired or delisted, drop from the sample, leaving 410 of 491 members in the earliest cohort. The output below is the run of 26 July 2026. Filings coverage for delisted names has been extended since that run: as of 31 July 2026 the same eleven point-in-time rosters return filings for 664 of their 699 symbols.
 
 ## Code
 
