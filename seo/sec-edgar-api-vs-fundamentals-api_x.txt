@@ -1,0 +1,1 @@
+Apple's companyfacts file on SEC EDGAR is 3.7 MB and holds 505 distinct XBRL tags. Revenue alone sits under three of them, changing as the accounting standard changed. Free data, but the tag mapping is the actual job. When EDGAR is the right call, and when it is not: [BLOG_LINK]

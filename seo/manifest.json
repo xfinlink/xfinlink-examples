@@ -94,5 +94,16 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-07-31",
+    "type": "comparison",
+    "title": "SEC EDGAR API vs Fundamentals API: Which to Use",
+    "slug": "sec-edgar-api-vs-fundamentals-api",
+    "competitors_mentioned": [
+      "SEC EDGAR APIs (data.sec.gov)",
+      "SEC Financial Statement Data Sets"
+    ],
+    "claims_verified": true
   }
 ]
