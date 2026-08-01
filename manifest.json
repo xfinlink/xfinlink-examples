@@ -2400,6 +2400,17 @@
       "status": "success",
       "blog_slug": "time-series-momentum-trend-following-python",
       "script_path": "scripts/price-analysis/time-series-momentum-trend-following-python.py"
+    },
+    {
+      "date": "2026-08-01",
+      "category": "volatility_analysis, cross_sectional_analysis, factor_construction, signal_evaluation",
+      "title": "Do Low-Volatility Stocks Deliver Better Risk-Adjusted Returns? S&P 500 Quintile Sorts in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "low-volatility-anomaly-sp500-quintiles-python",
+      "script_path": "scripts/index-universe/low-volatility-anomaly-sp500-quintiles-python.py"
     }
   ]
 }
