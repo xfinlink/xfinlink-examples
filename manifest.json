@@ -2363,6 +2363,21 @@
       "status": "success",
       "blog_slug": "macro-factor-betas-growth-inflation-python",
       "script_path": "scripts/econometric-research/macro-factor-betas-growth-inflation-python.py"
+    },
+    {
+      "date": "2026-08-01",
+      "category": "correlation_beta, macro_research, time_series_analysis, quantitative_research",
+      "title": "Has the Stock-Bond Correlation Flipped? 60/40 Portfolio Risk in Python",
+      "tickers": [
+        "SPY",
+        "TLT",
+        "IEF",
+        "LQD",
+        "TIP"
+      ],
+      "status": "success",
+      "blog_slug": "stock-bond-correlation-60-40-portfolio-risk-python",
+      "script_path": "scripts/econometric-research/stock-bond-correlation-60-40-portfolio-risk-python.py"
     }
   ]
 }
