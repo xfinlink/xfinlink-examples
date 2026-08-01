@@ -2378,6 +2378,28 @@
       "status": "success",
       "blog_slug": "stock-bond-correlation-60-40-portfolio-risk-python",
       "script_path": "scripts/econometric-research/stock-bond-correlation-60-40-portfolio-risk-python.py"
+    },
+    {
+      "date": "2026-08-01",
+      "category": "market_timing_analysis, signal_evaluation, quantitative_trading, time_series_analysis",
+      "title": "Does Trend Following Beat Buy and Hold? Time-Series Momentum in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "VNQ",
+        "TLT",
+        "IEF",
+        "LQD",
+        "HYG",
+        "GLD",
+        "DBC",
+        "BIL"
+      ],
+      "status": "success",
+      "blog_slug": "time-series-momentum-trend-following-python",
+      "script_path": "scripts/price-analysis/time-series-momentum-trend-following-python.py"
     }
   ]
 }
