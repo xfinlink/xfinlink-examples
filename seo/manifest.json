@@ -105,5 +105,19 @@
       "SEC Financial Statement Data Sets"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-01",
+    "type": "use-case guide",
+    "title": "What API to Use for a Stock Screener",
+    "slug": "what-api-to-use-for-a-stock-screener",
+    "competitors_mentioned": [
+      "yfinance",
+      "Yahoo Finance",
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (polygon.io)"
+    ],
+    "claims_verified": true
   }
 ]

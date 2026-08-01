@@ -1,0 +1,1 @@
+Screening 500 stocks through an API that returns one symbol per call is 500 requests. On a 25-a-day free tier that's a month of work for a single pass. What a screener actually needs is width per request and a universe you can pin to a date. [BLOG_LINK]
