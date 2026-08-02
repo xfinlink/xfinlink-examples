@@ -1,0 +1,5 @@
+Everyone scales daily vol by sqrt(252). Twenty years says variance grows slower than time: SPY's variance ratio is 0.740 at 20 days, XLU's 0.566 at 60. All 30 sit below 1.
+
+Standard errors are huge though. Nothing rejects past 10 days.
+
+[BLOG_LINK]

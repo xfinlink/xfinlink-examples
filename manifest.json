@@ -2441,6 +2441,22 @@
       "status": "success",
       "blog_slug": "goodwill-adjusted-price-to-book-python",
       "script_path": "scripts/fundamental-analysis/goodwill-adjusted-price-to-book-python.py"
+    },
+    {
+      "date": "2026-08-02",
+      "category": "econometric_research, time_series_analysis, mean_reversion, market_timing_analysis",
+      "title": "Does Volatility Scale With the Square Root of Time? Variance Ratio Test in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "TLT",
+        "XLE",
+        "XLU"
+      ],
+      "status": "success",
+      "blog_slug": "variance-ratio-square-root-of-time-python",
+      "script_path": "scripts/econometric-research/variance-ratio-square-root-of-time-python.py"
     }
   ]
 }
