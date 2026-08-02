@@ -1,0 +1,6 @@
+21.6% of the non-financial S&P 500 carries more goodwill than total book equity. Nine of those names screen inside the cheapest price-to-book quintile.
+
+df["book_ex"] = df["total_equity"] - df["goodwill"]
+df["pb_ex"] = df["market_cap"] / df["book_ex"]
+
+[BLOG_LINK]

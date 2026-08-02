@@ -2411,6 +2411,36 @@
       "status": "success",
       "blog_slug": "low-volatility-anomaly-sp500-quintiles-python",
       "script_path": "scripts/index-universe/low-volatility-anomaly-sp500-quintiles-python.py"
+    },
+    {
+      "date": "2026-08-02",
+      "category": "valuation_ratios, balance_sheet_health, cross_sectional_analysis, sector_comparison",
+      "title": "Does Goodwill Distort the Price-to-Book Screen? Goodwill-Adjusted Valuation in Python",
+      "tickers": [
+        "SP500",
+        "CZR",
+        "CHTR",
+        "CPB",
+        "ROP",
+        "CVS",
+        "BDX",
+        "CI",
+        "BLDR",
+        "AMCR",
+        "RVTY",
+        "MKC",
+        "SWK",
+        "KDP",
+        "WBD",
+        "PFE",
+        "ZBH",
+        "DIS",
+        "ELV",
+        "HRL"
+      ],
+      "status": "success",
+      "blog_slug": "goodwill-adjusted-price-to-book-python",
+      "script_path": "scripts/fundamental-analysis/goodwill-adjusted-price-to-book-python.py"
     }
   ]
 }
