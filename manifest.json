@@ -2457,6 +2457,17 @@
       "status": "success",
       "blog_slug": "variance-ratio-square-root-of-time-python",
       "script_path": "scripts/econometric-research/variance-ratio-square-root-of-time-python.py"
+    },
+    {
+      "date": "2026-08-02",
+      "category": "index_constituent_analysis, cross_sectional_analysis, multi_endpoint_pipeline, quantitative_research",
+      "title": "How Concentrated Are S&P 500 Earnings? Point-in-Time Index Analysis in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-earnings-concentration-point-in-time-python",
+      "script_path": "scripts/index-universe/sp500-earnings-concentration-point-in-time-python.py"
     }
   ]
 }

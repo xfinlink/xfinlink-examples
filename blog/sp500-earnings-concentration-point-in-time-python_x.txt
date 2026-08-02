@@ -1,0 +1,9 @@
+The 10 biggest S&P 500 companies earned 23.4% of index profit in fiscal 2010. In 2025 they earned 35.9%.
+
+Their revenue share barely moved: 21.8% -> 25.4%. So the whole gap is margin, not scale.
+
+Rebuilt on point-in-time rosters, not today's survivors:
+
+xfl.index("sp500", as_of="2015-12-31")
+
+[BLOG_LINK]
