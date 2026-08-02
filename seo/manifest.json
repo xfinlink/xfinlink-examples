@@ -119,5 +119,15 @@
       "Massive (polygon.io)"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-02",
+    "type": "question post",
+    "title": "How Are Shares Outstanding Reported (and Why They Disagree)",
+    "slug": "how-are-shares-outstanding-reported",
+    "competitors_mentioned": [
+      "yfinance"
+    ],
+    "claims_verified": true
   }
 ]
