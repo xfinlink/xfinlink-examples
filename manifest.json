@@ -2486,6 +2486,34 @@
       "status": "success",
       "blog_slug": "value-at-risk-backtest-kupiec-christoffersen-python",
       "script_path": "scripts/econometric-research/value-at-risk-backtest-kupiec-christoffersen-python.py"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "index_constituent_analysis, cross_sectional_analysis, multi_endpoint_pipeline, quantitative_research",
+      "title": "How Much of the Nasdaq 100 Is Already in the S&P 500? Index Overlap Analysis in Python",
+      "tickers": [
+        "NDX100",
+        "SP500",
+        "ASML",
+        "AZN",
+        "PDD",
+        "ARM",
+        "APP",
+        "MRVL",
+        "MELI",
+        "MSTR",
+        "DASH",
+        "TEAM",
+        "TTD",
+        "DDOG",
+        "CCEP",
+        "ZS",
+        "GFS",
+        "MDB"
+      ],
+      "status": "success",
+      "blog_slug": "nasdaq-100-sp500-overlap-python",
+      "script_path": "scripts/index-universe/nasdaq-100-sp500-overlap-python.py"
     }
   ]
 }
