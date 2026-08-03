@@ -129,5 +129,18 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-03",
+    "type": "buyers guide",
+    "title": "Real-Time vs End-of-Day Market Data: Which Do You Need?",
+    "slug": "real-time-vs-end-of-day-market-data",
+    "competitors_mentioned": [
+      "Massive",
+      "Alpha Vantage",
+      "Twelve Data",
+      "yfinance"
+    ],
+    "claims_verified": true
   }
 ]
