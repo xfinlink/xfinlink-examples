@@ -1,0 +1,3 @@
+A 99% VaR limit should break 1 day in 100. Across 8 ETFs since 2016 the normal-distribution version broke on 1.96% of days, historical simulation on 1.36%. Both still fail on timing: 23% of all breaches landed in one 10-week stretch in 2020.
+
+[BLOG_LINK]

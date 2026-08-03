@@ -2468,6 +2468,24 @@
       "status": "success",
       "blog_slug": "sp500-earnings-concentration-point-in-time-python",
       "script_path": "scripts/index-universe/sp500-earnings-concentration-point-in-time-python.py"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "volatility_analysis, econometric_research, time_series_analysis, quantitative_research",
+      "title": "How Often Does a 99% Value-at-Risk Limit Actually Break? VaR Backtesting in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "TLT",
+        "LQD",
+        "HYG",
+        "VNQ"
+      ],
+      "status": "success",
+      "blog_slug": "value-at-risk-backtest-kupiec-christoffersen-python",
+      "script_path": "scripts/econometric-research/value-at-risk-backtest-kupiec-christoffersen-python.py"
     }
   ]
 }
