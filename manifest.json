@@ -2514,6 +2514,17 @@
       "status": "success",
       "blog_slug": "nasdaq-100-sp500-overlap-python",
       "script_path": "scripts/index-universe/nasdaq-100-sp500-overlap-python.py"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "profitability_analysis, growth_screening, cross_sectional_analysis, sector_comparison, financial_forecasting",
+      "title": "Does Revenue Growth Explain Profit Growth? Cross-Sectional Decomposition in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "revenue-growth-vs-margin-profit-decomposition-python",
+      "script_path": "scripts/fundamental-analysis/revenue-growth-vs-margin-profit-decomposition-python.py"
     }
   ]
 }
