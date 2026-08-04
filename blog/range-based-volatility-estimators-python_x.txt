@@ -1,0 +1,7 @@
+Closing prices are a wasteful way to measure volatility.
+
+Across 8 liquid ETFs and 912 split-sample tests, a Yang-Zhang estimate from 7 days of open-high-low-close bars is as precise as 21 days of closes. Garman-Klass gets there in 5.
+
+The high and low are free.
+
+[BLOG_LINK]

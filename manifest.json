@@ -2536,6 +2536,24 @@
       "status": "success",
       "blog_slug": "stock-based-compensation-share-of-cash-flow-python",
       "script_path": "scripts/fundamental-analysis/stock-based-compensation-share-of-cash-flow-python.py"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "volatility_analysis, econometric_research, time_series_analysis, signal_evaluation, quantitative_research",
+      "title": "How Many Days of Data Does a Volatility Estimate Need? Range-Based Estimators in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "DIA",
+        "EFA",
+        "EEM",
+        "TLT",
+        "XLK",
+        "XLF"
+      ],
+      "status": "success",
+      "blog_slug": "range-based-volatility-estimators-python",
+      "script_path": "scripts/econometric-research/range-based-volatility-estimators-python.py"
     }
   ]
 }
