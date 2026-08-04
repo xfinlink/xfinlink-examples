@@ -2554,6 +2554,18 @@
       "status": "success",
       "blog_slug": "range-based-volatility-estimators-python",
       "script_path": "scripts/econometric-research/range-based-volatility-estimators-python.py"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "optimization_problem, correlation_beta, drawdown_analysis, volatility_analysis, quantitative_research",
+      "title": "How Many Stocks Do You Need to Diversify? Random Portfolio Simulation in Python",
+      "tickers": [
+        "SP500",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "how-many-stocks-to-diversify-python",
+      "script_path": "scripts/price-analysis/how-many-stocks-to-diversify-python.py"
     }
   ]
 }
