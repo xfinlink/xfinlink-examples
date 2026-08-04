@@ -2525,6 +2525,17 @@
       "status": "success",
       "blog_slug": "revenue-growth-vs-margin-profit-decomposition-python",
       "script_path": "scripts/fundamental-analysis/revenue-growth-vs-margin-profit-decomposition-python.py"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "earnings_quality, profitability_analysis, cross_sectional_analysis, sector_comparison, quantitative_research",
+      "title": "How Much of S&P 500 Cash Flow Is Stock Compensation? Cross-Sectional Analysis in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "stock-based-compensation-share-of-cash-flow-python",
+      "script_path": "scripts/fundamental-analysis/stock-based-compensation-share-of-cash-flow-python.py"
     }
   ]
 }

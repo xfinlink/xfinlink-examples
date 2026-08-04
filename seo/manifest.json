@@ -142,5 +142,17 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-04",
+    "type": "concept explainer",
+    "title": "What Is a 13F Filing? Institutional Holdings Explained",
+    "slug": "what-is-a-13f-filing",
+    "competitors_mentioned": [
+      "SEC EDGAR",
+      "SEC Form 13F data sets",
+      "WhaleWisdom"
+    ],
+    "claims_verified": true
   }
 ]
