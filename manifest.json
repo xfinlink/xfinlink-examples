@@ -2558,7 +2558,7 @@
     {
       "date": "2026-08-04",
       "category": "optimization_problem, correlation_beta, drawdown_analysis, volatility_analysis, quantitative_research",
-      "title": "How Many Stocks Do You Need to Diversify? Random Portfolio Simulation in Python",
+      "title": "How Many Stocks Does It Take to Diversify? Random Portfolio Simulation in Python",
       "tickers": [
         "SP500",
         "SPY"
