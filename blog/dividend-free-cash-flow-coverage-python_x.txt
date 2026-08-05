@@ -1,0 +1,8 @@
+18 S&P 500 dividend payers have a payout ratio under 60% and still don't cover the dividend from free cash flow. 11 are utilities.
+
+AEP: 54% payout, -$1.5bn FCF
+Oracle: 33% payout, -$23.7bn FCF
+
+coverage = (op_cash_flow - capex) / dividends_paid
+
+[BLOG_LINK]
