@@ -2592,6 +2592,17 @@
       "status": "success",
       "blog_slug": "cointegration-out-of-sample-pairs-python",
       "script_path": "scripts/econometric-research/cointegration-out-of-sample-pairs-python.py"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "momentum_screening, cross_sectional_analysis, factor_construction, signal_evaluation",
+      "title": "Does Skipping the Most Recent Month Improve Momentum? S&P 500 Decile Sorts in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "momentum-12-1-skip-month-deciles-python",
+      "script_path": "scripts/price-analysis/momentum-12-1-skip-month-deciles-python.py"
     }
   ]
 }
