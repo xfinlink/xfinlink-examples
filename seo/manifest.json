@@ -154,5 +154,20 @@
       "WhaleWisdom"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-05",
+    "type": "comparison",
+    "title": "GICS vs SIC vs NAICS: Which Industry Classification to Use",
+    "slug": "gics-vs-sic-vs-naics",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "yfinance",
+      "SEC EDGAR",
+      "MSCI",
+      "S&P Dow Jones Indices"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]
