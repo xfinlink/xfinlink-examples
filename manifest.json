@@ -2581,6 +2581,17 @@
       "status": "success",
       "blog_slug": "dividend-free-cash-flow-coverage-python",
       "script_path": "scripts/fundamental-analysis/dividend-free-cash-flow-coverage-python.py"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "mean_reversion, time_series_analysis, signal_evaluation, quantitative_trading",
+      "title": "Does Cointegration Survive Out of Sample? Pairs Trading Validation in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "cointegration-out-of-sample-pairs-python",
+      "script_path": "scripts/econometric-research/cointegration-out-of-sample-pairs-python.py"
     }
   ]
 }

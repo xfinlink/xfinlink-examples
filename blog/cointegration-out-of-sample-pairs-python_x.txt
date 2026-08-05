@@ -1,0 +1,7 @@
+Screened 1,048 same-industry S&P 500 pairs for cointegration over 2020-2023. 49 passed. Chance alone predicts 52.4.
+
+Only 1 of those 49 passed again over 2023-2026. The pairs the screen rejected passed at 6.1%.
+
+An in-sample p-value is not a pairs trade.
+
+[BLOG_LINK]
