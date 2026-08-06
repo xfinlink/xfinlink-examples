@@ -2621,6 +2621,29 @@
       "status": "success",
       "blog_slug": "golden-cross-50-200-moving-average-backtest-python",
       "script_path": "scripts/price-analysis/golden-cross-50-200-moving-average-backtest-python.py"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "index_constituent_analysis, index_rebalancing, cross_sectional_analysis, multi_endpoint_pipeline, entity_resolution_showcase",
+      "title": "What Happens to Stocks Removed From the S&P 500? Replacement Pair Analysis in Python",
+      "tickers": [
+        "LUMN",
+        "FICO",
+        "SWN",
+        "DXC",
+        "THC",
+        "ULTA",
+        "EQT",
+        "GT",
+        "GME",
+        "AAP",
+        "PCG",
+        "XEC",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-replacement-pairs-deletion-returns-python",
+      "script_path": "scripts/index-universe/sp500-replacement-pairs-deletion-returns-python.py"
     }
   ]
 }
