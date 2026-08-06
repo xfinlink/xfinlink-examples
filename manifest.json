@@ -2603,6 +2603,24 @@
       "status": "success",
       "blog_slug": "momentum-12-1-skip-month-deciles-python",
       "script_path": "scripts/price-analysis/momentum-12-1-skip-month-deciles-python.py"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "technical_analysis, market_timing_analysis, time_series_analysis",
+      "title": "Does the Golden Cross Work? 50/200 Moving Average Crossover Backtest in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM",
+        "XLK",
+        "XLE",
+        "TLT",
+        "LQD"
+      ],
+      "status": "success",
+      "blog_slug": "golden-cross-50-200-moving-average-backtest-python",
+      "script_path": "scripts/price-analysis/golden-cross-50-200-moving-average-backtest-python.py"
     }
   ]
 }
