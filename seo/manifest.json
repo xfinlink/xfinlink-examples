@@ -169,5 +169,19 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-08-06",
+    "type": "use-case guide",
+    "title": "Financial Data for Academic Finance Research",
+    "slug": "financial-data-for-academic-research",
+    "competitors_mentioned": [
+      "SEC EDGAR APIs",
+      "Kenneth French Data Library",
+      "FRED",
+      "Alpha Vantage",
+      "Yahoo Finance"
+    ],
+    "claims_verified": true
   }
 ]
