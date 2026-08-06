@@ -2644,6 +2644,29 @@
       "status": "success",
       "blog_slug": "sp500-replacement-pairs-deletion-returns-python",
       "script_path": "scripts/index-universe/sp500-replacement-pairs-deletion-returns-python.py"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "financial_derivatives, balance_sheet_health, quantitative_research, signal_evaluation, optimization_problem",
+      "title": "Which S&P 500 Companies Are Closest to Default? Merton Distance-to-Default in Python",
+      "tickers": [
+        "SP500",
+        "CHTR",
+        "SMCI",
+        "NCLH",
+        "KMX",
+        "NRG",
+        "LITE",
+        "CZR",
+        "ORCL",
+        "BLDR",
+        "DOW",
+        "VST",
+        "CCL"
+      ],
+      "status": "success",
+      "blog_slug": "merton-distance-to-default-sp500-python",
+      "script_path": "scripts/fundamental-analysis/merton-distance-to-default-sp500-python.py"
     }
   ]
 }
