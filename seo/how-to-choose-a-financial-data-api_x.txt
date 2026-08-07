@@ -1,0 +1,5 @@
+Most people pick a financial data API by comparing endpoint counts and prices.
+
+Then they find the licence forbids what they're building, or that the ticker they keyed everything on used to belong to a different company.
+
+Four questions, in the order that matters. [BLOG_LINK]

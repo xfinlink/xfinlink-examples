@@ -183,5 +183,17 @@
       "Yahoo Finance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-07",
+    "type": "buyers guide",
+    "title": "How to Choose a Financial Data API",
+    "slug": "how-to-choose-a-financial-data-api",
+    "competitors_mentioned": [
+      "SEC EDGAR",
+      "Alpha Vantage",
+      "Yahoo Finance"
+    ],
+    "claims_verified": true
   }
 ]
