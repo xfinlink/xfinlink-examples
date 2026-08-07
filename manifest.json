@@ -2667,6 +2667,21 @@
       "status": "success",
       "blog_slug": "merton-distance-to-default-sp500-python",
       "script_path": "scripts/fundamental-analysis/merton-distance-to-default-sp500-python.py"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "optimization_problem, quantitative_research, cross_sectional_analysis, signal_evaluation",
+      "title": "Does Rebalancing Add Return? Fixed-Weight vs Drift Portfolios in Python",
+      "tickers": [
+        "SPY",
+        "EFA",
+        "EEM",
+        "TLT",
+        "VNQ"
+      ],
+      "status": "success",
+      "blog_slug": "portfolio-rebalancing-premium-python",
+      "script_path": "scripts/portfolio-construction/portfolio-rebalancing-premium-python.py"
     }
   ]
 }
