@@ -2682,6 +2682,20 @@
       "status": "success",
       "blog_slug": "portfolio-rebalancing-premium-python",
       "script_path": "scripts/portfolio-construction/portfolio-rebalancing-premium-python.py"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "market_timing_analysis, quantitative_research, drawdown_analysis, signal_evaluation",
+      "title": "What If You Miss the Market's Best Days? Extreme-Day Analysis in Python",
+      "tickers": [
+        "SPY",
+        "IWM",
+        "EFA",
+        "EEM"
+      ],
+      "status": "success",
+      "blog_slug": "missing-best-worst-days-market-timing-python",
+      "script_path": "scripts/price-analysis/missing-best-worst-days-market-timing-python.py"
     }
   ]
 }
