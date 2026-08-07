@@ -1,0 +1,5 @@
+Two small-cap index funds, same slice of the market, 2000-2024.
+
+IJR (S&P 600) returned 9.55% a year. IWM (Russell 2000) returned 7.85%. Large caps: 7.86%.
+
+The S&P 600 requires positive earnings to join. The Russell 2000 doesn't. That rule is the size premium. [BLOG_LINK]

@@ -2696,6 +2696,20 @@
       "status": "success",
       "blog_slug": "missing-best-worst-days-market-timing-python",
       "script_path": "scripts/price-analysis/missing-best-worst-days-market-timing-python.py"
+    },
+    {
+      "date": "2026-08-07",
+      "category": "factor_construction, cross_sectional_analysis, quantitative_research, index_constituent_analysis",
+      "title": "Do Small Caps Actually Beat Large Caps? Size Premium Test in Python",
+      "tickers": [
+        "SPY",
+        "MDY",
+        "IJR",
+        "IWM"
+      ],
+      "status": "success",
+      "blog_slug": "small-cap-size-premium-test-python",
+      "script_path": "scripts/price-analysis/small-cap-size-premium-test-python.py"
     }
   ]
 }
