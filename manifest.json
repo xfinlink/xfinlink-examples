@@ -2710,6 +2710,26 @@
       "status": "success",
       "blog_slug": "small-cap-size-premium-test-python",
       "script_path": "scripts/price-analysis/small-cap-size-premium-test-python.py"
+    },
+    {
+      "date": "2026-08-08",
+      "category": "sector_rotation, drawdown_analysis, market_timing_analysis, cross_sectional_analysis",
+      "title": "Do Defensive Sectors Actually Defend? Up and Down Capture in Python",
+      "tickers": [
+        "SPY",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLY",
+        "XLB"
+      ],
+      "status": "success",
+      "blog_slug": "defensive-sector-up-down-capture-python",
+      "script_path": "scripts/portfolio-construction/defensive-sector-up-down-capture-python.py"
     }
   ]
 }
