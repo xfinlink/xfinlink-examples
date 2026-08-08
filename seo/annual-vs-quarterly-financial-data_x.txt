@@ -1,0 +1,3 @@
+Picking between annual and quarterly financials is not a data question, it is a question about what you are asking. Ratios and long-horizon work want annual. Anything that depends on a date wants quarterly. And "FY2025" means Jan 2025 at Walmart and Sep 2025 at Apple, nearly eight months apart.
+
+[BLOG_LINK]

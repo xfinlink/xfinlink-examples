@@ -195,5 +195,13 @@
       "Yahoo Finance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-08",
+    "type": "concept explainer",
+    "title": "Annual vs Quarterly Financial Data: Which to Use",
+    "slug": "annual-vs-quarterly-financial-data",
+    "competitors_mentioned": [],
+    "claims_verified": true
   }
 ]
