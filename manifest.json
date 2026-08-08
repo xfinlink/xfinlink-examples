@@ -2730,6 +2730,18 @@
       "status": "success",
       "blog_slug": "defensive-sector-up-down-capture-python",
       "script_path": "scripts/portfolio-construction/defensive-sector-up-down-capture-python.py"
+    },
+    {
+      "date": "2026-08-08",
+      "category": "correlation_beta, econometric_research, signal_evaluation, quantitative_research",
+      "title": "Does Past Beta Predict Future Beta? Beta Stability Testing in Python",
+      "tickers": [
+        "SP500",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "does-past-beta-predict-future-beta-python",
+      "script_path": "scripts/econometric-research/does-past-beta-predict-future-beta-python.py"
     }
   ]
 }

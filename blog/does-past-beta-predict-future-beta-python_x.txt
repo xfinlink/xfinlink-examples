@@ -1,0 +1,3 @@
+Two-year betas on S&P 500 names, 2016-2025: the correlation between one window's beta and the next is 0.502. Across windows containing 2020 it falls to ~0.42. Bloomberg's 0.67 shrinkage cuts mean forecast error from 0.350 to 0.313; fitting the slope on the sample does slightly better.
+
+[BLOG_LINK]
