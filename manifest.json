@@ -2742,6 +2742,17 @@
       "status": "success",
       "blog_slug": "does-past-beta-predict-future-beta-python",
       "script_path": "scripts/econometric-research/does-past-beta-predict-future-beta-python.py"
+    },
+    {
+      "date": "2026-08-08",
+      "category": "profitability_analysis, cross_sectional_analysis, quantitative_research, factor_construction",
+      "title": "Do High Returns on Capital Persist? ROIC Fade Analysis in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "does-high-roic-persist-fade-python",
+      "script_path": "scripts/fundamental-analysis/does-high-roic-persist-fade-python.py"
     }
   ]
 }
