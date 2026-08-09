@@ -1,0 +1,1 @@
+Screening for balance-sheet risk and assembling five ratios per company by hand? Four come off the filings. The fifth needs a current market cap, which no filing carries. One call returns the Altman Z-Score and the inputs to check it. [BLOG_LINK]
