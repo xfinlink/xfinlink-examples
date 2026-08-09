@@ -1,0 +1,1 @@
+Ranked the S&P 500 on five valuation multiples on one day. Only 9 of 236 names are in the cheapest 20% on all five. P/E and EV/EBIT agree at 0.89 rank correlation; P/B agrees with nothing, and its cheap bucket earns 8.8% on equity against 19.2% for the sample. [BLOG_LINK]

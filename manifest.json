@@ -2753,6 +2753,25 @@
       "status": "success",
       "blog_slug": "does-high-roic-persist-fade-python",
       "script_path": "scripts/fundamental-analysis/does-high-roic-persist-fade-python.py"
+    },
+    {
+      "date": "2026-08-09",
+      "category": "valuation_ratios, profitability_analysis, balance_sheet_health",
+      "title": "Do Value Screens Agree on Which Stocks Are Cheap? Multiple Overlap Analysis in Python",
+      "tickers": [
+        "CHTR",
+        "CMCSA",
+        "CPB",
+        "CTSH",
+        "DHI",
+        "EPAM",
+        "FI",
+        "HIG",
+        "UHS"
+      ],
+      "status": "success",
+      "blog_slug": "do-value-screens-agree-multiple-overlap-python",
+      "script_path": "scripts/fundamental-analysis/do-value-screens-agree-multiple-overlap-python.py"
     }
   ]
 }
