@@ -1,0 +1,7 @@
+Five predictors fitted to 23 years of monthly SPY returns explain 3.6% of the variance.
+
+Run them as live forecasts and the out-of-sample R-squared is -6.85%. Worse than just using the historical average.
+
+Only trailing volatility survives, at +1.2%.
+
+[BLOG_LINK]
