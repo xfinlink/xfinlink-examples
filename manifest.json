@@ -2772,6 +2772,17 @@
       "status": "success",
       "blog_slug": "do-value-screens-agree-multiple-overlap-python",
       "script_path": "scripts/fundamental-analysis/do-value-screens-agree-multiple-overlap-python.py"
+    },
+    {
+      "date": "2026-08-09",
+      "category": "sector_comparison, cross_sectional_analysis, index_constituent_analysis, quantitative_research",
+      "title": "How Much of a Stock's Return Comes From Its Sector? Variance Decomposition in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "how-much-of-stock-return-is-sector-python",
+      "script_path": "scripts/cross-endpoint/how-much-of-stock-return-is-sector-python.py"
     }
   ]
 }

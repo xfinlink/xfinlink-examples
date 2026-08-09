@@ -1,0 +1,7 @@
+Split 62,045 monthly S&P 500 returns into market, sector and company parts.
+
+Sector explains 13.1% of the variance. The company itself explains 57.3%.
+
+Hedge out market and sector and you still carry three quarters of the vol. Sector-neutral isn't risk control.
+
+[BLOG_LINK]
