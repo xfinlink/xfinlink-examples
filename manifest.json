@@ -2839,6 +2839,25 @@
       "status": "success",
       "blog_slug": "net-share-count-reduction-forward-returns-python",
       "script_path": "scripts/fundamental-analysis/net-share-count-reduction-forward-returns-python.py"
+    },
+    {
+      "date": "2026-08-10",
+      "category": "drawdown_analysis, time_series_analysis, quantitative_research",
+      "title": "How Long Does a Stock Take to Recover From a 50% Fall? Drawdown Analysis in Python",
+      "tickers": [
+        "SP500",
+        "GLW",
+        "CSCO",
+        "NTAP",
+        "QCOM",
+        "INTC",
+        "BAC",
+        "THC",
+        "CIEN"
+      ],
+      "status": "success",
+      "blog_slug": "how-long-do-stock-drawdowns-take-to-recover-python",
+      "script_path": "scripts/price-analysis/how-long-do-stock-drawdowns-take-to-recover-python.py"
     }
   ]
 }
