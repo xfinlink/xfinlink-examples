@@ -2799,6 +2799,27 @@
       "status": "success",
       "blog_slug": "out-of-sample-return-predictability-python",
       "script_path": "scripts/econometric-research/out-of-sample-return-predictability-python.py"
+    },
+    {
+      "date": "2026-08-10",
+      "category": "index_constituent_analysis, cross_sectional_analysis, quantitative_research",
+      "title": "How Much Does the Dow's Price Weighting Distort It? Index Weighting Analysis in Python",
+      "tickers": [
+        "DJIA",
+        "GS",
+        "CAT",
+        "MSFT",
+        "UNH",
+        "AMGN",
+        "AAPL",
+        "NVDA",
+        "AMZN",
+        "WMT",
+        "NKE"
+      ],
+      "status": "success",
+      "blog_slug": "dow-price-weighting-vs-cap-weighting-python",
+      "script_path": "scripts/index-universe/dow-price-weighting-vs-cap-weighting-python.py"
     }
   ]
 }

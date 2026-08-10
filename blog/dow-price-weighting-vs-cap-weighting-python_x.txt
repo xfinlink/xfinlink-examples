@@ -1,0 +1,7 @@
+Goldman Sachs is 12.37% of the Dow. Its actual share of the 30 companies' market value: 1.26%.
+
+NVIDIA is the reverse, 2.55% by price and 21.32% by cap.
+
+Same 30 names over 5 years: price-weighted +62.92%, cap-weighted +108.76%. Weighting alone.
+
+[BLOG_LINK]
