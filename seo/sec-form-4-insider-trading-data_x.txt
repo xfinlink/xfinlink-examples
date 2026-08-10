@@ -1,0 +1,7 @@
+Most "insider selling" numbers are counting tax withholding. Across 8 large caps over 3 years, treating every Form 4 disposition as a sale reports $3.43bn sold. Open-market only: $2.01bn.
+
+Code F isn't a trade.
+
+xfl.insiders(t, transaction_type="open_market_buy")
+
+[BLOG_LINK]

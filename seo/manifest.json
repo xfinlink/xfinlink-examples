@@ -213,5 +213,17 @@
       "SEC EDGAR APIs"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-10",
+    "type": "use-case guide",
+    "title": "How to Get SEC Form 4 Insider Trading Data in Python",
+    "slug": "sec-form-4-insider-trading-data",
+    "competitors_mentioned": [
+      "SEC EDGAR APIs",
+      "SEC Insider Transactions Data Sets"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]
