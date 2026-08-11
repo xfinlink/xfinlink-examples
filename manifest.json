@@ -2898,6 +2898,28 @@
       "status": "success",
       "blog_slug": "are-one-time-charges-really-one-time-python",
       "script_path": "scripts/fundamental-analysis/are-one-time-charges-really-one-time-python.py"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "econometric_research, macro_forecasting, time_series_analysis, market_timing_analysis",
+      "title": "How Many Years of Data Do You Need to Estimate Expected Return? Standard Errors in Python",
+      "tickers": [
+        "SPY",
+        "XLK",
+        "IWM",
+        "EFA",
+        "EEM",
+        "TLT",
+        "IEF",
+        "LQD",
+        "GLD",
+        "VNQ",
+        "XLU",
+        "XLP"
+      ],
+      "status": "success",
+      "blog_slug": "how-many-years-of-data-to-estimate-expected-return-python",
+      "script_path": "scripts/econometric-research/how-many-years-of-data-to-estimate-expected-return-python.py"
     }
   ]
 }
