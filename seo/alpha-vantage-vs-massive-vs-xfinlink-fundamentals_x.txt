@@ -1,0 +1,1 @@
+Your backtest starts in 1995 and your fundamentals API starts in 2009. Checked 11 Aug 2026: Alpha Vantage returned 20 annual income statements for IBM, Massive documents records from March 2009, xfinlink returned 66 annual periods from 1960. Full comparison: [BLOG_LINK]

@@ -225,5 +225,18 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-08-11",
+    "type": "comparison",
+    "title": "Alpha Vantage vs Massive vs xfinlink for Fundamentals",
+    "slug": "alpha-vantage-vs-massive-vs-xfinlink-fundamentals",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "Massive (polygon.io)",
+      "yfinance",
+      "SEC Financial Statement Data Sets"
+    ],
+    "claims_verified": true
   }
 ]
