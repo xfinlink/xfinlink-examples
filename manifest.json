@@ -2876,6 +2876,28 @@
       "status": "success",
       "blog_slug": "does-buying-the-dip-work-volatility-regime-python",
       "script_path": "scripts/price-analysis/does-buying-the-dip-work-volatility-regime-python.py"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "earnings_quality, profitability_analysis, sector_comparison, cross_sectional_analysis",
+      "title": "Are One-Time Charges Really One-Time? Charge Frequency Analysis in Python",
+      "tickers": [
+        "SP500",
+        "PFE",
+        "MRK",
+        "MDLZ",
+        "JCI",
+        "CAG",
+        "EOG",
+        "WMT",
+        "AMZN",
+        "AAPL",
+        "HD",
+        "LMT"
+      ],
+      "status": "success",
+      "blog_slug": "are-one-time-charges-really-one-time-python",
+      "script_path": "scripts/fundamental-analysis/are-one-time-charges-really-one-time-python.py"
     }
   ]
 }
