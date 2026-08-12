@@ -2955,6 +2955,25 @@
    "status": "success",
    "blog_slug": "is-volatility-seasonal-calendar-month-python",
    "script_path": "scripts/seasonality/is-volatility-seasonal-calendar-month-python.py"
+  },
+  {
+   "date": "2026-08-12",
+   "category": "index_constituent_analysis, index_rebalancing, cross_sectional_analysis, quantitative_research",
+   "title": "Does Joining the S&P 500 Bring New Institutional Owners? 13F Event Study in Python",
+   "tickers": [
+    "SP500",
+    "IR",
+    "VTRS",
+    "WBD",
+    "WAB",
+    "FOXA",
+    "CE",
+    "MXIM",
+    "LVS"
+   ],
+   "status": "success",
+   "blog_slug": "sp500-addition-institutional-ownership-13f-python",
+   "script_path": "scripts/index-universe/sp500-addition-institutional-ownership-13f-python.py"
   }
  ]
 }
