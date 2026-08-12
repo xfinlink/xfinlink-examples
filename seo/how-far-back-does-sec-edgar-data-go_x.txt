@@ -1,0 +1,3 @@
+"EDGAR starts in 1993" is misleading. Four 10-Ks were filed there in 1993. Full-text search only reaches 2001, and the structured XBRL data behind data.sec.gov starts in 2009, so a panel built from SEC sources alone begins after the credit crisis, not before it.
+
+[BLOG_LINK]
