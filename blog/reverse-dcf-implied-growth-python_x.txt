@@ -1,7 +1,0 @@
-Ran a reverse DCF on all 342 S&P 500 non-financials with positive free cash flow.
-
-Median company is priced for 4.46% cash flow growth forever. Long-run nominal GDP is about 4.5%.
-
-Half the index needs to beat the economy permanently. They can't all be right.
-
-[BLOG_LINK]
