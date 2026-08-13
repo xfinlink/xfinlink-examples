@@ -2993,6 +2993,17 @@
       "status": "success",
       "blog_slug": "sp500-index-turnover-survivorship-python",
       "script_path": "scripts/index-universe/sp500-index-turnover-survivorship-python.py"
+    },
+    {
+      "date": "2026-08-13",
+      "category": "dcf_valuation, valuation_ratios, cross_sectional_analysis, sector_comparison, quantitative_research",
+      "title": "What Growth Is Already Priced In? Reverse DCF on the S&P 500 in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "reverse-dcf-implied-growth-python",
+      "script_path": "scripts/fundamental-analysis/reverse-dcf-implied-growth-python.py"
     }
   ]
 }
