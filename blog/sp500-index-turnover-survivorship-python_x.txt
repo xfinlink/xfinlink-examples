@@ -1,0 +1,7 @@
+238 of the 500 companies in the S&P 500 of 2005 are still in it today.
+
+Match on ticker instead of company identity and you'd count 246. WM meant Washington Mutual back then. It means Waste Management now.
+
+Half the index turns over in 20 years. Backtest accordingly.
+
+[BLOG_LINK]
