@@ -1,0 +1,7 @@
+If you compute historical market cap as old price × today's share count, Nvidia was a $5.7 trillion company at the end of 2019.
+
+It was $144bn. Two splits since, 40x cumulative.
+
+Market cap needs the share count from that same day, not this one.
+
+[BLOG_LINK]
