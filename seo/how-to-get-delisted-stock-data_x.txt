@@ -1,0 +1,5 @@
+Four different issuers have held the ticker SHLD since 1972. One was Sears.
+
+If your backtest reads that symbol as one series, it's stitching a department store to an ETF across a five-year gap.
+
+Delisted companies keep their data. Stop asking by ticker. [BLOG_LINK]

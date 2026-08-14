@@ -260,5 +260,16 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-14",
+    "type": "use-case guide",
+    "title": "How to Get Historical Data for Delisted Stocks",
+    "slug": "how-to-get-delisted-stock-data",
+    "competitors_mentioned": [
+      "yfinance",
+      "SEC EDGAR"
+    ],
+    "claims_verified": true
   }
 ]
