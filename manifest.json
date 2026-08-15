@@ -3004,6 +3004,26 @@
       "status": "success",
       "blog_slug": "book-vs-cash-tax-rate-sp500-python",
       "script_path": "scripts/fundamental-analysis/book-vs-cash-tax-rate-sp500-python.py"
+    },
+    {
+      "date": "2026-08-15",
+      "category": "game_theory, optimization_problem, sector_research, rotation_strategies, quantitative_research",
+      "title": "Do Worst-Case Sector Portfolios Hold Up Out of Sample? Maximin and Minimax Regret in Python",
+      "tickers": [
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "maximin-minimax-regret-sector-portfolios-python",
+      "script_path": "scripts/game-theory/maximin-minimax-regret-sector-portfolios-python.py"
     }
   ]
 }

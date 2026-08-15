@@ -1,0 +1,7 @@
+Maximin sector weights fitted on 2006-2015 pick 100% consumer staples. One row (2008) decides everything.
+
+Out of sample it finished last on worst-year loss: -8.1% vs -6.4% for equal weight.
+
+xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
+
+[BLOG_LINK]
