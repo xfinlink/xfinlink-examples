@@ -2,7 +2,7 @@
 
 August 15, 2026 · GUIDES
 
-Price return measures the change in a stock's price and nothing else. Total return adds what the company handed to holders along the way: cash dividends, reinvested at the price on each ex-date, and the value of any shares distributed in a spin-off. For a stock that pays little, the two barely differ. For an income stock they can disagree on the sign: over the ten years to 21 May 2026, AT&T's price fell 33.9% while its total return was positive 45.3%. Any backtest, screen, or performance table built on a price series is measuring a different quantity from what an investor actually earned, and the difference is largest exactly where the strategy is aimed at income.
+Price return measures the change in a stock's price and nothing else. Total return adds what the company handed to holders along the way: cash dividends, reinvested at the price on each ex-date, and the value of any shares distributed in a spin-off. For a stock that pays little, the two barely differ. For an income stock they can disagree on the sign: over the ten years to 31 December 2024, AT&T's price fell 32.2% while its total return was positive 61.7%. Any backtest, screen, or performance table built on a price series is measuring a different quantity from what an investor actually earned, and the difference is largest exactly where the strategy is aimed at income.
 
 ## What is the difference, exactly?
 
@@ -14,28 +14,28 @@ Both are correct measures of different things. Confusing them is what causes tro
 
 ## How large is the gap in practice?
 
-Ten years of daily bars for nine US names, from 23 May 2016 to 21 May 2026, 2,514 trading days each. The gap column is the difference in percentage points.
+Ten years of daily bars for nine US names, from 31 December 2014 to 31 December 2024, 2,517 trading days each. The gap column is the difference in percentage points.
 
 ```
         price ret  total ret  gap (pp)  price CAGR  total CAGR
-SPY        261.9%     320.2%      58.3      13.74%      15.45%
-AAPL      1165.1%    1280.7%     115.5      28.91%      30.04%
-JNJ        106.6%     160.6%      54.0       7.53%      10.06%
-KO          84.6%     143.7%      59.0       6.33%       9.32%
-PG          78.8%     125.7%      46.9       5.99%       8.49%
-XOM         73.3%     154.7%      81.4       5.66%       9.81%
-MO          16.6%     110.7%      94.1       1.54%       7.74%
-T          -33.9%      45.3%      79.1      -4.05%       3.81%
-AMZN       670.6%     670.6%      -0.0      22.67%      22.67%
+SPY        185.1%     239.7%      54.5      11.05%      13.01%
+AAPL       807.5%     918.8%     111.3      24.67%      26.12%
+JNJ         38.3%      82.2%      43.9       3.30%       6.18%
+KO          47.5%     102.6%      55.2       3.96%       7.32%
+PG          84.0%     144.0%      60.0       6.29%       9.33%
+XOM         16.4%      80.1%      63.7       1.53%       6.06%
+MO           6.1%     101.7%      95.6       0.60%       7.27%
+T          -32.2%      61.7%      93.9      -3.81%       4.92%
+AMZN      1313.8%    1313.8%      -0.0      30.32%      30.32%
 ```
 
-Altria is the clearest case. Its price rose 16.6% across a decade, which reads as a decade wasted; its total return was 110.7%, which is a respectable result for a stock that went nowhere. AT&T flips sign outright. Even the S&P 500 tracker gives up 1.71 percentage points a year when dividends are dropped, and compounded over ten years that is 58 points of cumulative return.
+Altria is the clearest case. Its price rose 6.1% across a decade, which reads as a decade wasted; its total return was 101.7%, which is a respectable result for a stock that went nowhere. AT&T flips sign outright. Even the S&P 500 tracker gives up 1.96 percentage points a year when dividends are dropped, and compounded over ten years that is 54.5 points of cumulative return.
 
 Amazon paid nothing across the window and its gap is exactly zero. That is the arithmetic check on the whole exercise: where there is no cash to reinvest, the two definitions must coincide, and they do.
 
 AT&T's gap is not all dividends. The company completed the distribution of its WarnerMedia business at the close of business on 8 April 2022, and each distributed share converted into 0.241917 shares of Warner Bros. Discovery in the merger step that followed (AT&T investor relations, checked August 2026). On the next session the traded price fell from 24.14 to 19.63, down 18.7%, while `return_daily` records positive 6.15% for that day because the distributed shares count as value received. A price column alone books that Monday as a collapse.
 
-One caution on reading the gap column. Apple's 115-point gap is the largest in the table despite a dividend yield below 1%, because a small yield compounding on a position that grew twelvefold produces a large absolute number. Annualised figures are the honest comparison: Apple gives up 1.13 points a year, Altria gives up 6.20.
+One caution on reading the gap column. Apple's 111-point gap is the largest in the table despite a dividend yield below 1%, because a small yield compounding on a position that grew ninefold produces a large absolute number. Annualised figures are the honest comparison: Apple gives up 1.45 points a year, Altria gives up 6.67.
 
 ## Does an adjusted close solve this?
 
@@ -58,7 +58,7 @@ import xfinlink as xfl
 
 xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
 
-df = xfl.prices("T", start="2016-05-21", end="2026-05-21",
+df = xfl.prices("T", start="2014-12-31", end="2024-12-31",
                 fields=["adj_close", "return_daily"]).sort_values("date")
 
 price_return = df["adj_close"].iloc[-1] / df["adj_close"].iloc[0] - 1
@@ -68,7 +68,7 @@ print(f"price {price_return:.1%}  total {total_return:.1%}")
 ```
 
 ```
-price -33.9%  total 45.3%
+price -32.2%  total 61.7%
 ```
 
 The first daily return is dropped because it measures the move into the starting day, which sits outside the window the price return covers. Skipping that detail overstates total return by one day and quietly breaks the comparison.
@@ -79,7 +79,7 @@ When the question is about the traded price itself.
 
 Signals defined on price levels belong on a price series: a 200-day moving average, a breakout above a prior high, a drawdown measured from a peak. A stop-loss triggers on the price a broker sees, not on a dividend-reinvested index, and backfilling distributions into that series moves every historical threshold. Chart-based rules should be generated on price and evaluated on total return.
 
-Headline comparisons need matching conventions on both sides. Quoting a strategy's total return against an index level quoted as price return manufactures an advantage of roughly the index's dividend yield each year, which for the S&P 500 tracker above was 1.71 points annually.
+Headline comparisons need matching conventions on both sides. Quoting a strategy's total return against an index level quoted as price return manufactures an advantage of roughly the index's dividend yield each year, which for the S&P 500 tracker above was 1.96 points annually.
 
 The working rule is short. Generate signals on whichever series the rule actually observes, then measure every result, benchmark included, on total return. Our guide to [data requirements for backtesting](https://xfinlink.com/blog/data-requirements-for-backtesting) covers the rest of the inputs a credible backtest needs, and the [decomposition of dividend yield into payout and price](https://xfinlink.com/blog/dividend-yield-payout-price-decomposition-python) shows where the income half of the return comes from.
 
@@ -91,7 +91,7 @@ It depends on the provider, and it has to be checked rather than assumed. In xfi
 
 **Can total return be positive when price return is negative?**
 
-Yes, and AT&T above is the example: down 33.9% on price, up 45.3% on total return over the same decade. Any stock with a high enough payout and a long enough window can produce this.
+Yes, and AT&T above is the example: down 32.2% on price, up 61.7% on total return over the same decade. Any stock with a high enough payout and a long enough window can produce this.
 
 **Do total return figures account for tax?**
 
