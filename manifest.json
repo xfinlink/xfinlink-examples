@@ -2993,6 +2993,17 @@
       "status": "success",
       "blog_slug": "sp500-index-turnover-survivorship-python",
       "script_path": "scripts/index-universe/sp500-index-turnover-survivorship-python.py"
+    },
+    {
+      "date": "2026-08-15",
+      "category": "earnings_quality, balance_sheet_health, profitability_analysis, cross_sectional_analysis, valuation_ratios",
+      "title": "Do Companies Pay the Tax Rate They Report? Book vs Cash Tax Rates in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "book-vs-cash-tax-rate-sp500-python",
+      "script_path": "scripts/fundamental-analysis/book-vs-cash-tax-rate-sp500-python.py"
     }
   ]
 }
