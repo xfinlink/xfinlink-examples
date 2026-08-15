@@ -271,5 +271,16 @@
       "SEC EDGAR"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-15",
+    "type": "concept explainer",
+    "title": "Total Return vs Price Return: What Backtests Miss",
+    "slug": "total-return-vs-price-return",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]
