@@ -1,0 +1,5 @@
+Measuring portfolio risk needs three things: total-return series (not just prices), enough history to cover a real crisis, and holdings aligned to common dates.
+
+Over 2015-2025, long Treasuries (TLT) had a deeper max drawdown than stocks: -48.4% vs -33.7%. Volatility alone would have missed it.
+
+[BLOG_LINK]

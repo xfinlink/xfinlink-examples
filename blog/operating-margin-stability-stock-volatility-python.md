@@ -19,7 +19,7 @@ The sample is 43 large non-financial companies with a full decade of annual fili
 3. Separately, compute the annualised volatility of daily stock returns over 2015 to 2025.
 4. Rank the companies on both measures and compute the Spearman rank correlation, which captures whether the ordering agrees without assuming the relationship is a straight line. Then sort the companies into three equal groups by margin stability and compare the average stock volatility of each group.
 
-Ranks are used rather than raw values because both measures have long right tails. A single company with an extreme margin swing should not dominate the result, and rank correlation is robust to that.
+Ranks are used rather than raw values because both measures have long right tails. A single company with an extreme margin swing should not dominate the result, and rank correlation is insensitive to that.
 
 **Code**
 

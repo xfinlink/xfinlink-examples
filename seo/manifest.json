@@ -282,5 +282,15 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-16",
+    "type": "use-case guide",
+    "title": "What Data Do You Need to Measure Portfolio Risk?",
+    "slug": "data-for-measuring-portfolio-risk",
+    "competitors_mentioned": [
+      "yfinance"
+    ],
+    "claims_verified": true
   }
 ]
