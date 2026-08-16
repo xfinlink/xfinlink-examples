@@ -1,0 +1,7 @@
+Steady margins, calmer stock. Across 43 large caps (2015-2025):
+
+steadiest-margin third averaged 24.5% stock volatility, most-variable third 29.9%. Spearman rho 0.42, p=0.006.
+
+Steadiest: COST, WMT, PEP. Most variable: XOM, NVDA, COP. The income statement carries a risk signal the price series does not.
+
+[BLOG_LINK]

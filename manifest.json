@@ -3061,6 +3061,17 @@
       "status": "success",
       "blog_slug": "sector-correlations-calm-vs-stress-python",
       "script_path": "scripts/price-analysis/sector-correlations-calm-vs-stress-python.py"
+    },
+    {
+      "date": "2026-08-16",
+      "category": "profitability_analysis, cross_sectional_analysis, risk_management, fundamental_analysis",
+      "title": "Do Steady Margins Mean Calmer Stocks? Cross-Sectional Analysis in Python",
+      "tickers": [
+        "43 non-financial large caps (AAPL, MSFT, KO, XOM, NVDA, ...)"
+      ],
+      "status": "success",
+      "blog_slug": "operating-margin-stability-stock-volatility-python",
+      "script_path": "scripts/fundamental-analysis/operating-margin-stability-stock-volatility-python.py"
     }
   ]
 }
