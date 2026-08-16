@@ -3072,6 +3072,18 @@
       "status": "success",
       "blog_slug": "operating-margin-stability-stock-volatility-python",
       "script_path": "scripts/fundamental-analysis/operating-margin-stability-stock-volatility-python.py"
+    },
+    {
+      "date": "2026-08-16",
+      "category": "portfolio_construction, drawdown_analysis, risk_management, time_series_analysis",
+      "title": "Does a 60/40 Portfolio Actually Cut Drawdowns? Stocks and Bonds in Python",
+      "tickers": [
+        "SPY",
+        "AGG"
+      ],
+      "status": "success",
+      "blog_slug": "does-a-60-40-portfolio-cut-drawdowns-python",
+      "script_path": "scripts/portfolio-construction/does-a-60-40-portfolio-cut-drawdowns-python.py"
     }
   ]
 }
