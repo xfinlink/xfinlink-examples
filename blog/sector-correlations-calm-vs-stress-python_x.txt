@@ -1,0 +1,8 @@
+Sector diversification is a fair-weather asset.
+
+Average pairwise correlation across the 10 SPDR sectors, 2016-2025:
+calm markets 0.40, stressed markets 0.73.
+
+Effective independent sectors: 5.7 in calm, 2.7 in stress. The spread you paid for thins out exactly when losses hit.
+
+[BLOG_LINK]
