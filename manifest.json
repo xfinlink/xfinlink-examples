@@ -3095,6 +3095,17 @@
       "status": "success",
       "blog_slug": "dupont-roe-decomposition-sp500-python",
       "script_path": "scripts/fundamental-analysis/dupont-roe-decomposition-sp500-python.py"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "growth_screening, cross_sectional_analysis, signal_evaluation, financial_forecasting",
+      "title": "Does R&D Spending Predict Revenue Growth? Cross-Sectional Test in Python",
+      "tickers": [
+        "249 S&P 500 R&D reporters (NVDA, MSFT, AMZN, PFE, ...)"
+      ],
+      "status": "success",
+      "blog_slug": "rd-intensity-forward-revenue-growth-python",
+      "script_path": "scripts/fundamental-analysis/rd-intensity-forward-revenue-growth-python.py"
     }
   ]
 }
