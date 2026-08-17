@@ -3084,6 +3084,17 @@
       "status": "success",
       "blog_slug": "does-a-60-40-portfolio-cut-drawdowns-python",
       "script_path": "scripts/portfolio-construction/does-a-60-40-portfolio-cut-drawdowns-python.py"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "profitability_analysis, balance_sheet_health, cross_sectional_analysis, sector_comparison",
+      "title": "What Actually Drives Return on Equity? DuPont Decomposition in Python",
+      "tickers": [
+        "443 S&P 500 members (AAPL, WMT, JPM, NVDA, XOM, KO, ...)"
+      ],
+      "status": "success",
+      "blog_slug": "dupont-roe-decomposition-sp500-python",
+      "script_path": "scripts/fundamental-analysis/dupont-roe-decomposition-sp500-python.py"
     }
   ]
 }

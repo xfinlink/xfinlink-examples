@@ -1,0 +1,5 @@
+Banks are the most levered part of the S&P 500: median equity multiplier 5.25, against roughly 2.3 everywhere else.
+
+Yet leverage explains only 10% of why one bank's return on equity beats another's. Asset turnover explains 55%.
+
+DuPont decomposition, 443 companies, fiscal 2024. [BLOG_LINK]
