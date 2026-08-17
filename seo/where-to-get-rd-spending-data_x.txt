@@ -1,0 +1,5 @@
+R&D spending is free at source: SEC EDGAR serves ResearchAndDevelopmentExpense with no API key.
+
+The hard part is comparing Microsoft's June year-end against Nvidia's January one across 500 companies. That is two lines of pandas, and most people skip it.
+
+[BLOG_LINK]

@@ -292,5 +292,16 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-17",
+    "type": "question post",
+    "title": "Where to Get R&D Spending Data for Public Companies",
+    "slug": "where-to-get-rd-spending-data",
+    "competitors_mentioned": [
+      "SEC EDGAR XBRL API",
+      "yfinance"
+    ],
+    "claims_verified": true
   }
 ]
