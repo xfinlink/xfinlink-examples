@@ -3106,6 +3106,17 @@
       "status": "success",
       "blog_slug": "rd-intensity-forward-revenue-growth-python",
       "script_path": "scripts/fundamental-analysis/rd-intensity-forward-revenue-growth-python.py"
+    },
+    {
+      "date": "2026-08-17",
+      "category": "signal_evaluation, volatility_analysis, quantitative_research, factor_construction",
+      "title": "Does Illiquidity Still Pay? Amihud Measure in the S&P 500 in Python",
+      "tickers": [
+        "503 S&P 500 members, daily prices and volume 2022-2025"
+      ],
+      "status": "success",
+      "blog_slug": "amihud-illiquidity-sp500-python",
+      "script_path": "scripts/price-analysis/amihud-illiquidity-sp500-python.py"
     }
   ]
 }

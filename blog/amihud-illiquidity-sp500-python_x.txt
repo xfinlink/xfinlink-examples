@@ -1,0 +1,5 @@
+The least liquid fifth of the S&P 500 returned 28.7% a year, the most liquid 18.1%. A 9-point illiquidity premium.
+
+Except t = 1.52 and the middle quintiles are out of order. 30 months can't tell 9 points from zero; you'd need 52.
+
+Volatility, though, rises at every step. [BLOG_LINK]
