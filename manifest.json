@@ -3152,6 +3152,17 @@
       "status": "success",
       "blog_slug": "ticker-recycling-sp500-symbol-decay-python",
       "script_path": "scripts/index-universe/ticker-recycling-sp500-symbol-decay-python.py"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "dividend_screening, earnings_quality, cross_sectional_analysis, signal_evaluation",
+      "title": "Does a High Dividend Yield Predict a Dividend Cut? Yield-Trap Screening in Python",
+      "tickers": [
+        "524 point-in-time S&P 500 dividend payers, 2013-2023 formation years"
+      ],
+      "status": "success",
+      "blog_slug": "high-dividend-yield-cut-risk-python",
+      "script_path": "scripts/fundamental-analysis/high-dividend-yield-cut-risk-python.py"
     }
   ]
 }

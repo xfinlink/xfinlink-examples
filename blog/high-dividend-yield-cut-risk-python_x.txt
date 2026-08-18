@@ -1,0 +1,5 @@
+Sorted 11 years of S&P 500 dividend payers by yield, then checked who actually cut.
+
+Bottom fifth: 3.1% cut within two years. Top fifth: 17.0%.
+
+Quintiles 1 to 4 are flat though. Cut risk isn't a gradient, it lives entirely in the top bucket. [BLOG_LINK]
