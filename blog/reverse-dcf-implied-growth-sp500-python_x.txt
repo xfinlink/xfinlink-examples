@@ -1,0 +1,5 @@
+Reverse DCF on 323 S&P 500 names. The cheapest fifth trades at 10x free cash flow, so the price assumes cash flow shrinks 3.7%/yr for a decade. Those same firms grew it 7.2%/yr since 2015.
+
+Shift the discount rate 1 point and implied growth shifts 2.12.
+
+[BLOG_LINK]

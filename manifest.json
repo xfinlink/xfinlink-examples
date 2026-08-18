@@ -3117,6 +3117,17 @@
       "status": "success",
       "blog_slug": "amihud-illiquidity-sp500-python",
       "script_path": "scripts/price-analysis/amihud-illiquidity-sp500-python.py"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "dcf_valuation, valuation_ratios, optimization_problem, quantitative_research",
+      "title": "What Growth Is Priced Into the S&P 500? Reverse DCF in Python",
+      "tickers": [
+        "323 S&P 500 members outside financials and real estate (AAPL, MSFT, XOM, KO, NVDA, ...)"
+      ],
+      "status": "success",
+      "blog_slug": "reverse-dcf-implied-growth-sp500-python",
+      "script_path": "scripts/fundamental-analysis/reverse-dcf-implied-growth-sp500-python.py"
     }
   ]
 }
