@@ -303,5 +303,17 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-18",
+    "type": "comparison",
+    "title": "Ticker vs CIK vs FIGI: Which Company ID to Use",
+    "slug": "ticker-vs-cik-vs-figi",
+    "competitors_mentioned": [
+      "SEC EDGAR",
+      "OpenFIGI (Bloomberg / Object Management Group)",
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]

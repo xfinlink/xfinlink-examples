@@ -1,0 +1,5 @@
+The letters GM covered one company until 2009 and a different one from 2010. Two CIKs, two price histories, one string.
+
+A ticker is a label, not a key. The CIK names a filer, the FIGI names an instrument, and neither one names the company.
+
+Which to store: [BLOG_LINK]
