@@ -3128,6 +3128,30 @@
       "status": "success",
       "blog_slug": "reverse-dcf-implied-growth-sp500-python",
       "script_path": "scripts/fundamental-analysis/reverse-dcf-implied-growth-sp500-python.py"
+    },
+    {
+      "date": "2026-08-18",
+      "category": "ticker_recycling, entity_resolution_showcase, index_constituent_analysis, multi_endpoint_pipeline, cross_sectional_analysis",
+      "title": "Do Old Ticker Symbols Still Point to the Same Company? S&P 500 Ticker Recycling in Python",
+      "tickers": [
+        "SP500",
+        "APC",
+        "PD",
+        "MEDI",
+        "BR",
+        "LU",
+        "S",
+        "EMC",
+        "SHLD",
+        "UST",
+        "STI",
+        "PX",
+        "GM",
+        "DELL"
+      ],
+      "status": "success",
+      "blog_slug": "ticker-recycling-sp500-symbol-decay-python",
+      "script_path": "scripts/index-universe/ticker-recycling-sp500-symbol-decay-python.py"
     }
   ]
 }
