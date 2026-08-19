@@ -1,0 +1,3 @@
+Two data sources, same stock, two different dividend yields. Usually neither is wrong: one sums the last 12 months of cash, the other annualises the latest payment. For KO since 2015, price return is 107.9% and total return is 185.1%. Dividends are 77 of those points.
+
+[BLOG_LINK]
