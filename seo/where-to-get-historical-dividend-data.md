@@ -96,7 +96,7 @@ For a worked example that uses both, see [does a high dividend yield predict a d
 Not in every dataset, and the difference is large. In xfinlink, `adj_close` is adjusted for splits only, so it is a clean price series; `return_daily` is the total return including dividends. Check which convention your source uses before comparing performance numbers across providers.
 
 **How do I separate regular dividends from specials?**
-No feed flags them reliably, so infer it: take the year's payments, compute the median, and discard anything far above it. A payment more than about one and a half times the year's median is almost always a special.
+Neither of the feeds in the table above carries a flag for it, so infer it: take the year's payments, compute the median, and discard anything far above it. A payment more than about one and a half times the year's median is almost always a special.
 
 **Can I get dividend data for delisted companies?**
 Only if the source keeps the delisted company's price history at all, which many do not. This is the same survivorship problem in a different guise, and it is worth testing on a known case before trusting a backtest built on the answer.
