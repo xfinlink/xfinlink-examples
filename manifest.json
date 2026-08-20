@@ -3163,6 +3163,18 @@
       "status": "success",
       "blog_slug": "high-dividend-yield-cut-risk-python",
       "script_path": "scripts/fundamental-analysis/high-dividend-yield-cut-risk-python.py"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "index_constituent_analysis, cross_sectional_analysis, quantitative_research, portfolio_construction",
+      "title": "How Many S&P 500 Stocks Beat the Index? Return Breadth Analysis in Python",
+      "tickers": [
+        "639-name union of the 2018-2025 point-in-time S&P 500 rosters",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "share-of-stocks-beating-the-index-python",
+      "script_path": "scripts/index-universe/share-of-stocks-beating-the-index-python.py"
     }
   ]
 }
