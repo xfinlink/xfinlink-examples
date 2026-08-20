@@ -3175,6 +3175,17 @@
       "status": "success",
       "blog_slug": "share-of-stocks-beating-the-index-python",
       "script_path": "scripts/index-universe/share-of-stocks-beating-the-index-python.py"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "earnings_quality, profitability_analysis, factor_construction, cross_sectional_analysis, signal_evaluation",
+      "title": "Does the Piotroski F-Score Still Work? Quality Screening in Python",
+      "tickers": [
+        "2,825 company-years from the 2018-2025 point-in-time S&P 500 rosters, ex financials, real estate and utilities"
+      ],
+      "status": "success",
+      "blog_slug": "piotroski-f-score-forward-returns-python",
+      "script_path": "scripts/fundamental-analysis/piotroski-f-score-forward-returns-python.py"
     }
   ]
 }

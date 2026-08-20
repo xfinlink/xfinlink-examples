@@ -1,0 +1,7 @@
+Ran the Piotroski F-Score across 2,825 S&P 500 company-years, 2018 to 2026.
+
+High scorers (7-9) beat low scorers (0-3) by 2.6 points of median return. But the hit rate gap is 8.2 points: 61.7% up years vs 53.5%.
+
+It's a distress filter, not an alpha engine.
+
+[BLOG_LINK]
