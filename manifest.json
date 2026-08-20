@@ -3186,6 +3186,18 @@
       "status": "success",
       "blog_slug": "piotroski-f-score-forward-returns-python",
       "script_path": "scripts/fundamental-analysis/piotroski-f-score-forward-returns-python.py"
+    },
+    {
+      "date": "2026-08-20",
+      "category": "index_rebalancing, index_constituent_analysis, signal_evaluation, market_timing_analysis, quantitative_research",
+      "title": "Does the Nasdaq-100 Index Effect Still Exist? Event Study in Python",
+      "tickers": [
+        "164 Nasdaq-100 membership changes 2014-2026, addressed by entity id",
+        "QQQ"
+      ],
+      "status": "success",
+      "blog_slug": "nasdaq-100-reconstitution-event-study-python",
+      "script_path": "scripts/index-universe/nasdaq-100-reconstitution-event-study-python.py"
     }
   ]
 }

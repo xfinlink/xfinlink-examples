@@ -1,0 +1,7 @@
+Event study on 164 Nasdaq-100 membership changes, 2014-2026.
+
+Additions: nothing. Median abnormal return vs QQQ is -0.18% by day 60, positive on exactly 50% of events.
+
+Removals: median +3.78% by day 20, and it all happens after the effective date, not before.
+
+[BLOG_LINK]
