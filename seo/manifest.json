@@ -326,5 +326,15 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-20",
+    "type": "concept explainer",
+    "title": "Why Beta Differs Between Data Sources",
+    "slug": "why-beta-differs-between-sources",
+    "competitors_mentioned": [
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]

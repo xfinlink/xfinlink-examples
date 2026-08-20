@@ -1,0 +1,5 @@
+Coca-Cola's beta against SPY is 0.35 on five years of monthly returns and -0.28 on one year of daily returns. Same prices, same benchmark, window ending 30 June 2026.
+
+Beta isn't a property of a stock. It's a regression with four settings nobody publishes.
+
+[BLOG_LINK]
