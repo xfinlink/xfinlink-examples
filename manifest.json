@@ -3220,6 +3220,18 @@
       "status": "success",
       "blog_slug": "vol-of-vol-forward-drawdown-python",
       "script_path": "scripts/price-analysis/vol-of-vol-forward-drawdown-python.py"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "macro_research, index_constituent_analysis, multi_endpoint_pipeline, signal_evaluation, market_timing_analysis",
+      "title": "Do Corporate Insiders Time the Market? S&P 500 Insider Buying Breadth in Python",
+      "tickers": [
+        "SPY",
+        "point-in-time S&P 500 rosters 2010-2025 (260,333 Form 4 open-market trades)"
+      ],
+      "status": "success",
+      "blog_slug": "insider-buying-breadth-market-timing-python",
+      "script_path": "scripts/insider-transactions/insider-buying-breadth-market-timing-python.py"
     }
   ]
 }
