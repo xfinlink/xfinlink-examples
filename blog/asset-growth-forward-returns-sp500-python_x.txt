@@ -1,0 +1,7 @@
+Sorted 10 years of point-in-time S&P 500 rosters on how fast total assets grew.
+
+Quintiles: nothing. No slope, wrong sign half the time.
+
+But the 185 company-years where assets grew 50%+ in a year returned 1.03% over the next 12 months, against 11.61% for the rest.
+
+[BLOG_LINK]
