@@ -1,0 +1,3 @@
+Move a script off yfinance and the column named close changes meaning. In xfinlink close is the raw traded price, adj_close is split-adjusted, return_daily is total return. Verizon, five years to July 2026: price -16.1%, total +2.7%. Same stock, opposite sign.
+
+[BLOG_LINK]

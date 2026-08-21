@@ -336,5 +336,16 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-21",
+    "type": "use-case guide",
+    "title": "How to Replace yfinance in a Python Script",
+    "slug": "how-to-replace-yfinance",
+    "competitors_mentioned": [
+      "yfinance",
+      "Yahoo Finance"
+    ],
+    "claims_verified": true
   }
 ]
