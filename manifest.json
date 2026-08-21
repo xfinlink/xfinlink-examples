@@ -3209,6 +3209,17 @@
       "status": "success",
       "blog_slug": "asset-growth-forward-returns-sp500-python",
       "script_path": "scripts/fundamental-analysis/asset-growth-forward-returns-sp500-python.py"
+    },
+    {
+      "date": "2026-08-21",
+      "category": "volatility_analysis, drawdown_analysis, signal_evaluation, time_series_analysis, quantitative_trading",
+      "title": "Does Unstable Volatility Warn of Deeper Drawdowns? Vol-of-Vol Sorts in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "vol-of-vol-forward-drawdown-python",
+      "script_path": "scripts/price-analysis/vol-of-vol-forward-drawdown-python.py"
     }
   ]
 }

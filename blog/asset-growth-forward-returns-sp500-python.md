@@ -1,6 +1,8 @@
-# Does Fast Asset Growth Predict Weak Stock Returns? Decile Sorts in Python
+**Does Fast Asset Growth Predict Weak Stock Returns? Decile Sorts in Python**
 
-## What's the question?
+August 21, 2026 · FUNDAMENTAL-ANALYSIS
+
+**What's the question?**
 
 Asset growth is the year-over-year percentage change in a company's total assets. It is blunt by design: acquisitions, factory construction, inventory builds and cash raised from a bond sale all push it up together. One number records how much bigger the balance sheet became, without asking how.
 
@@ -8,7 +10,7 @@ Cooper, Gulen and Schill published evidence in 2008 that this blunt number predi
 
 That work covered the whole US market, where small companies dominate the count. The S&P 500 is a different population of large, heavily analysed businesses. Two questions follow: does the pattern survive there, and if it does, where in the distribution does it live?
 
-## The approach
+**The approach**
 
 1. Take the point-in-time S&P 500 roster at each 30 June from 2016 to 2025 through the `as_of` parameter, so companies that later left the index still enter the sample for the years they were members
 2. Pull annual balance sheets for every company that was a member at least once, addressed by entity id rather than ticker, so a reassigned symbol cannot enter
@@ -19,7 +21,7 @@ That work covered the whole US market, where small companies dominate the count.
 
 That leaves 4,926 company-years drawn from 644 companies.
 
-## Code
+**Code**
 
 ```python
 import numpy as np
@@ -70,7 +72,7 @@ print(d.groupby(big)["fwd"].mean())
 
 Full script with formatting and visualisation: [asset-growth-forward-returns-sp500-python.py](https://github.com/xfinlink/xfinlink-examples/blob/main/scripts/fundamental-analysis/asset-growth-forward-returns-sp500-python.py)
 
-## Output
+**Output**
 
 ![Mean forward 12-month return by asset-growth decile for S&P 500 members 2016 to 2025, and the annual return gap between companies whose assets grew more than 50 per cent and the rest of the index](/blog-images/asset-growth-forward-returns-sp500-python.png)
 
@@ -120,7 +122,7 @@ Companies whose total assets grew more than 50% in one fiscal year
     2025   -13.51
 ```
 
-## What this tells us
+**What this tells us**
 
 As a factor tilt, asset growth carries nothing. Mean forward returns by quintile run 10.93, 10.86, 12.04, 12.53 and 9.71 per cent, which is not a slope in any direction, and the Q1-minus-Q5 spread was positive in only 4 of the 10 cohorts. Median returns rise across the sort rather than falling, from 6.81 per cent in the slowest quintile to 8.60 per cent in the fastest. The average spread of 1.19 percentage points a year came from a signal that pointed the wrong way half the time.
 
@@ -130,7 +132,7 @@ Cutting at a fixed threshold sharpens the point. The 185 company-years where tot
 
 The mechanism is visible in what expanding a balance sheet by half in twelve months requires. Organic demand almost never does it. Large acquisitions, debt-funded construction and equity raises do, and each arrives with integration risk, goodwill that may later be written down, and interest that must be paid whatever revenue does.
 
-## So what?
+**So what?**
 
 Do not build a factor on this. A quintile tilt would have paid roughly one percentage point a year with a coin-flip hit rate, which is indistinguishable from nothing once costs are counted.
 

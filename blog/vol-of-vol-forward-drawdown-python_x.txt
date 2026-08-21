@@ -1,0 +1,7 @@
+Does unstable volatility warn of a deeper fall? 59,608 S&P 500 stock-months, 2016-2026.
+
+Steadiest fifth: -13.57% worst fall next quarter. Wobbliest: -13.73%. t = 0.63.
+
+Hold the vol level fixed and it flips. Among the wildest names, wobbly vol fell 16.9% vs 18.1%.
+
+[BLOG_LINK]
