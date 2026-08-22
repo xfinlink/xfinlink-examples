@@ -3232,6 +3232,17 @@
       "status": "success",
       "blog_slug": "insider-buying-breadth-market-timing-python",
       "script_path": "scripts/insider-transactions/insider-buying-breadth-market-timing-python.py"
+    },
+    {
+      "date": "2026-08-22",
+      "category": "balance_sheet_health, drawdown_analysis, cross_sectional_analysis, risk_management, signal_evaluation",
+      "title": "Does Cash on the Balance Sheet Cushion a Crash? Quintile Sorts in Python",
+      "tickers": [
+        "427 S&P 500 members across three declines (AAPL, XOM, WAT, INTU, ...)"
+      ],
+      "status": "success",
+      "blog_slug": "cash-balance-drawdown-cushion-python",
+      "script_path": "scripts/cross-endpoint/cash-balance-drawdown-cushion-python.py"
     }
   ]
 }
