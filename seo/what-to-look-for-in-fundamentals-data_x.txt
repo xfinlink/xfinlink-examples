@@ -1,0 +1,5 @@
+Most fundamentals bugs are silent. You can eyeball a price series; you cannot eyeball a balance sheet.
+
+Five checks before committing to a source: schema mapping, stated units, whether banks and REITs keep their own line items, segments, and ticker history.
+
+[BLOG_LINK]
