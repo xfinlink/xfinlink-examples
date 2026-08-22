@@ -3243,6 +3243,17 @@
       "status": "success",
       "blog_slug": "cash-balance-drawdown-cushion-python",
       "script_path": "scripts/cross-endpoint/cash-balance-drawdown-cushion-python.py"
+    },
+    {
+      "date": "2026-08-22",
+      "category": "earnings_quality, balance_sheet_health, cross_sectional_analysis, sector_comparison, quantitative_research",
+      "title": "Are Buybacks Funded by Cash Flow or by Debt? S&P 500 Payout Analysis in Python",
+      "tickers": [
+        "495 point-in-time S&P 500 members ex-financials/real estate, 2015-2024"
+      ],
+      "status": "success",
+      "blog_slug": "buybacks-funded-by-cash-flow-or-debt-python",
+      "script_path": "scripts/fundamental-analysis/buybacks-funded-by-cash-flow-or-debt-python.py"
     }
   ]
 }
