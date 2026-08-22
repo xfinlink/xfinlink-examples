@@ -3254,6 +3254,28 @@
       "status": "success",
       "blog_slug": "buybacks-funded-by-cash-flow-or-debt-python",
       "script_path": "scripts/fundamental-analysis/buybacks-funded-by-cash-flow-or-debt-python.py"
+    },
+    {
+      "date": "2026-08-22",
+      "category": "sector_rotation, drawdown_analysis, market_timing_analysis, rotation_strategies, time_series_analysis",
+      "title": "Which Sectors Lead Out of a Market Bottom? Sector Recovery Analysis in Python",
+      "tickers": [
+        "SPY",
+        "XLK",
+        "XLF",
+        "XLE",
+        "XLV",
+        "XLI",
+        "XLY",
+        "XLP",
+        "XLU",
+        "XLB",
+        "XLRE",
+        "XLC"
+      ],
+      "status": "success",
+      "blog_slug": "sector-leadership-out-of-market-bottoms-python",
+      "script_path": "scripts/price-analysis/sector-leadership-out-of-market-bottoms-python.py"
     }
   ]
 }
