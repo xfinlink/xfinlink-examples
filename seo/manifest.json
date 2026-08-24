@@ -359,5 +359,17 @@
             "yfinance"
         ],
         "claims_verified": true
+    },
+    {
+        "date": "2026-08-24",
+        "type": "question post",
+        "title": "Where to Get Free Cash Flow Data for Stocks in Python",
+        "slug": "where-to-get-free-cash-flow-data-python",
+        "competitors_mentioned": [
+            "yfinance",
+            "Alpha Vantage",
+            "SEC EDGAR"
+        ],
+        "claims_verified": true
     }
 ]

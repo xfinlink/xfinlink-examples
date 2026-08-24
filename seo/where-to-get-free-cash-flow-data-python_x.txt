@@ -1,0 +1,5 @@
+Need free cash flow for a stock in Python? It's operating cash flow minus capex — simple, until you want ten clean years of it across a few hundred names.
+
+A quick rundown of yfinance, Alpha Vantage, SEC EDGAR and xfinlink, and which fits which job.
+
+[BLOG_LINK]
