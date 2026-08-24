@@ -3276,6 +3276,32 @@
       "status": "success",
       "blog_slug": "sector-leadership-out-of-market-bottoms-python",
       "script_path": "scripts/price-analysis/sector-leadership-out-of-market-bottoms-python.py"
+    },
+    {
+      "date": "2026-08-24",
+      "category": "profitability_analysis, earnings_quality, cross_sectional_analysis, fundamental_analysis",
+      "title": "How Much Profit Becomes Cash? Free Cash Flow Conversion in Python",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "JNJ",
+        "XOM",
+        "PG",
+        "KO",
+        "HD",
+        "WMT",
+        "UNH",
+        "COST",
+        "MRK",
+        "ORCL",
+        "CSCO"
+      ],
+      "status": "success",
+      "blog_slug": "free-cash-flow-conversion-megacaps-python",
+      "script_path": "scripts/fundamental-analysis/free-cash-flow-conversion-megacaps-python.py"
     }
   ]
 }
