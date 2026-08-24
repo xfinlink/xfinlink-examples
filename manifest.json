@@ -3350,6 +3350,33 @@
       "status": "success",
       "blog_slug": "profit-margin-valuation-premium-python",
       "script_path": "scripts/fundamental-analysis/profit-margin-valuation-premium-python.py"
+    },
+    {
+      "date": "2026-08-24",
+      "category": "volatility_analysis, cross_sectional_analysis, risk_management, time_series_analysis",
+      "title": "Are Stock Returns Skewed? Return Skewness in Python",
+      "tickers": [
+        "SPY",
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "JPM",
+        "JNJ",
+        "XOM",
+        "PG",
+        "KO",
+        "HD",
+        "WMT",
+        "UNH",
+        "V",
+        "CVX",
+        "CAT"
+      ],
+      "status": "success",
+      "blog_slug": "stock-return-skewness-python",
+      "script_path": "scripts/price-analysis/stock-return-skewness-python.py"
     }
   ]
 }
