@@ -1,0 +1,3 @@
+Tried pulling 20 years of daily bars out of your broker's API? Alpaca's stock history starts in 2016 and IBKR paces you at 60 historical requests per 10 minutes (Aug 2026). Fine for a live loop, painful for a backtest.
+
+What each one is actually built for: [BLOG_LINK]
