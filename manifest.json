@@ -3425,6 +3425,22 @@
       "status": "success",
       "blog_slug": "cash-conversion-cycle-analysis-python",
       "script_path": "scripts/fundamental-analysis/cash-conversion-cycle-analysis-python.py"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "index_constituent_analysis, cross_sectional_analysis, portfolio_construction",
+      "title": "How Concentrated Is the S&P 500? Index Weight Analysis in Python",
+      "tickers": [
+        "497 current S&P 500 members priced 2026-08-21",
+        "NVDA",
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-index-weight-concentration-python",
+      "script_path": "scripts/index-universe/sp500-index-weight-concentration-python.py"
     }
   ]
 }
