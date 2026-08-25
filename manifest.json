@@ -3441,6 +3441,36 @@
       "status": "success",
       "blog_slug": "sp500-index-weight-concentration-python",
       "script_path": "scripts/index-universe/sp500-index-weight-concentration-python.py"
+    },
+    {
+      "date": "2026-08-25",
+      "category": "econometric_research, profitability_analysis, cross_sectional_analysis, volatility_analysis",
+      "title": "How Much Do Profits Move When Sales Move? Operating Leverage Regression in Python",
+      "tickers": [
+        "GLW",
+        "TEL",
+        "SBUX",
+        "ROST",
+        "FDX",
+        "GWW",
+        "CAT",
+        "DG",
+        "NVDA",
+        "LH",
+        "SNPS",
+        "DVA",
+        "CPRT",
+        "CI",
+        "RSG",
+        "AEE",
+        "GD",
+        "HPQ",
+        "ROP",
+        "PH"
+      ],
+      "status": "success",
+      "blog_slug": "operating-leverage-regression-python",
+      "script_path": "scripts/econometric-research/operating-leverage-regression-python.py"
     }
   ]
 }
