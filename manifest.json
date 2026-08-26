@@ -3501,6 +3501,36 @@
       "status": "success",
       "blog_slug": "operating-lease-hidden-leverage-python",
       "script_path": "scripts/balance-sheet-health/operating-lease-hidden-leverage-python.py"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "signal_evaluation, earnings_quality, time_series_analysis, financial_forecasting",
+      "title": "Does Deferred Revenue Predict Next Quarter's Sales? Leading Indicator Test in Python",
+      "tickers": [
+        "CRWD",
+        "GDDY",
+        "NOW",
+        "CRM",
+        "ADSK",
+        "PANW",
+        "FTNT",
+        "VRSN",
+        "IT",
+        "MRNA",
+        "MAR",
+        "RCL",
+        "DAL",
+        "UAL",
+        "ABNB",
+        "BKNG",
+        "DELL",
+        "CSCO",
+        "FFIV",
+        "TRMB"
+      ],
+      "status": "success",
+      "blog_slug": "deferred-revenue-leading-indicator-python",
+      "script_path": "scripts/signal-evaluation/deferred-revenue-leading-indicator-python.py"
     }
   ]
 }

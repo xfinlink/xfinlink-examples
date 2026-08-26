@@ -1,0 +1,7 @@
+Deferred revenue is contracted sales sitting on the balance sheet, so it should forecast next quarter. Across 50 S&P 500 names it does: rank correlation +0.61.
+
+This quarter's revenue line alone scores +0.76.
+
+Real signal, mostly redundant.
+
+[BLOG_LINK]
