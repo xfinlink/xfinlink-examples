@@ -382,5 +382,13 @@
       "Interactive Brokers"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-26",
+    "type": "concept explainer",
+    "title": "Comparing Companies With Different Fiscal Year Ends",
+    "slug": "comparing-different-fiscal-year-ends",
+    "competitors_mentioned": [],
+    "claims_verified": true
   }
 ]
