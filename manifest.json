@@ -3531,6 +3531,36 @@
       "status": "success",
       "blog_slug": "deferred-revenue-leading-indicator-python",
       "script_path": "scripts/signal-evaluation/deferred-revenue-leading-indicator-python.py"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "macro_research, balance_sheet_health, cross_sectional_analysis, time_series_analysis",
+      "title": "How Much Has Corporate Debt Actually Repriced? Effective Interest Rates in Python",
+      "tickers": [
+        "BKNG",
+        "UAL",
+        "SWK",
+        "ADP",
+        "WDC",
+        "J",
+        "JBHT",
+        "ADM",
+        "MAS",
+        "KHC",
+        "LITE",
+        "AKAM",
+        "ECHO",
+        "PPL",
+        "KO",
+        "MCD",
+        "HD",
+        "CAT",
+        "VZ",
+        "SO"
+      ],
+      "status": "success",
+      "blog_slug": "corporate-debt-repricing-effective-rate-python",
+      "script_path": "scripts/macro-research/corporate-debt-repricing-effective-rate-python.py"
     }
   ]
 }
