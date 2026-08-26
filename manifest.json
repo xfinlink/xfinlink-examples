@@ -3471,6 +3471,36 @@
       "status": "success",
       "blog_slug": "operating-leverage-regression-python",
       "script_path": "scripts/econometric-research/operating-leverage-regression-python.py"
+    },
+    {
+      "date": "2026-08-26",
+      "category": "balance_sheet_health, valuation_ratios, sector_comparison, cross_sectional_analysis",
+      "title": "How Much Debt Is Hidden in Operating Leases? Lease-Adjusted Leverage in Python",
+      "tickers": [
+        "MGM",
+        "DG",
+        "SBUX",
+        "CMG",
+        "TSCO",
+        "DLTR",
+        "DRI",
+        "PNW",
+        "FDX",
+        "BBY",
+        "TJX",
+        "AMZN",
+        "ROST",
+        "HCA",
+        "MDT",
+        "TMUS",
+        "UAL",
+        "LUV",
+        "SHW",
+        "HRL"
+      ],
+      "status": "success",
+      "blog_slug": "operating-lease-hidden-leverage-python",
+      "script_path": "scripts/balance-sheet-health/operating-lease-hidden-leverage-python.py"
     }
   ]
 }
