@@ -1,0 +1,1 @@
+Your fundamentals panel is dated when the quarter closed. Nobody could read those numbers for another month: median 32 days across 100 S&P 500 names. Rebalance on a quarter end and 85 of 100 rows carry results the market hadn't seen yet. Join on filing_date. [BLOG_LINK]

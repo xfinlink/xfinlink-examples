@@ -390,5 +390,16 @@
     "slug": "comparing-different-fiscal-year-ends",
     "competitors_mentioned": [],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-27",
+    "type": "use-case guide",
+    "title": "How to Build a Stock Dataset for Machine Learning",
+    "slug": "stock-dataset-for-machine-learning",
+    "competitors_mentioned": [
+      "SEC EDGAR",
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]
