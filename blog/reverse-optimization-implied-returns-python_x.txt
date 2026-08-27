@@ -1,0 +1,5 @@
+Reverse-optimized the S&P 500 at nine year-ends. The "equilibrium returns" Black-Litterman starts from turn out to be beta x 5%, exact to 1e-16.
+
+They ranked next year's volatility at +0.47, nine years out of nine. Next year's return: +0.03.
+
+[BLOG_LINK]

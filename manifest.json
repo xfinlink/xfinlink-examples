@@ -3582,6 +3582,19 @@
       "status": "success",
       "blog_slug": "sector-revenue-beta-vs-stock-beta-python",
       "script_path": "scripts/macro-research/sector-revenue-beta-vs-stock-beta-python.py"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "portfolio_construction, optimization_problem, correlation_beta, risk_management, cross_sectional_analysis, factor_construction",
+      "title": "What Expected Returns Does the S&P 500 Imply? Reverse Optimization in Python",
+      "tickers": [
+        "653-entity union of the 2016-2024 year-end point-in-time S&P 500 rosters",
+        "SPY",
+        "BIL"
+      ],
+      "status": "success",
+      "blog_slug": "reverse-optimization-implied-returns-python",
+      "script_path": "scripts/portfolio-construction/reverse-optimization-implied-returns-python.py"
     }
   ]
 }
