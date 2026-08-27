@@ -3595,6 +3595,17 @@
       "status": "success",
       "blog_slug": "reverse-optimization-implied-returns-python",
       "script_path": "scripts/portfolio-construction/reverse-optimization-implied-returns-python.py"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "technical_analysis, mean_reversion, signal_evaluation, time_series_analysis",
+      "title": "Do Price Gaps Get Filled? Gap-Fill Rates Against a Random Walk in Python",
+      "tickers": [
+        "all 500 S&P 500 members as of 2016-01-01 followed by entity id to 2025-12-31 (527 price series, 26,863 gap events)"
+      ],
+      "status": "success",
+      "blog_slug": "do-price-gaps-get-filled-random-walk-python",
+      "script_path": "scripts/price-analysis/do-price-gaps-get-filled-random-walk-python.py"
     }
   ]
 }

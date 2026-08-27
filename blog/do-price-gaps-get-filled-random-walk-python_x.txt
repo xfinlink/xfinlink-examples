@@ -1,0 +1,5 @@
+Technical analysis says price gaps get filled. Across 26,863 S&P 500 gaps from 2016-2025, 64% of gap-ups did return to the prior close within 20 sessions.
+
+A random walk of the same volatility fills 66%.
+
+The fill isn't reversion, it's just volatility. [BLOG_LINK]
