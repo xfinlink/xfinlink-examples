@@ -3561,6 +3561,27 @@
       "status": "success",
       "blog_slug": "corporate-debt-repricing-effective-rate-python",
       "script_path": "scripts/macro-research/corporate-debt-repricing-effective-rate-python.py"
+    },
+    {
+      "date": "2026-08-27",
+      "category": "macro_research, sector_comparison, macro_forecasting, multi_endpoint_pipeline",
+      "title": "Which Sectors Are Really Cyclical? Revenue Betas vs Stock Betas in Python",
+      "tickers": [
+        "628-entity union of the 2018Q3-2026Q1 point-in-time S&P 500 rosters ex Financials/Real Estate",
+        "XLE",
+        "XLY",
+        "XLB",
+        "XLI",
+        "XLK",
+        "XLU",
+        "XLC",
+        "XLV",
+        "XLP",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "sector-revenue-beta-vs-stock-beta-python",
+      "script_path": "scripts/macro-research/sector-revenue-beta-vs-stock-beta-python.py"
     }
   ]
 }
