@@ -6,7 +6,7 @@ A stock dataset for machine learning is a panel keyed on company and date, where
 
 One row per company per rebalance date. Features on the left, drawn only from what had been published by that date, and a label on the right measured over the window after it.
 
-Two decisions inside that shape do more damage than any model choice. The first is the join key: an equity panel keyed on ticker strings will splice two unrelated companies together whenever a symbol is reassigned, and nothing in the data raises an error when it happens. Key on a permanent company identifier instead. Every xfinlink frame carries `entity_id` for that purpose, and the [data requirements for backtesting](/blog/data-requirements-for-backtesting) guide works through the price-side version of the same problem.
+Two decisions inside that shape do more damage than any model choice. The first is the join key: an equity panel keyed on ticker strings will splice two unrelated companies together whenever a symbol is reassigned, and nothing in the data raises an error when it happens. Key on a permanent company identifier instead. Every xfinlink frame carries `entity_id` for that purpose, and the guide on [data requirements for backtesting](/blog/data-requirements-for-backtesting) works through the price-side version of the same problem.
 
 The second is the date on each row, which is the subject of the rest of this guide.
 
@@ -102,7 +102,7 @@ The comparison worth making is against the sources people usually try first. Eve
 | xfinlink Free | 100 requests/day, 1 ticker per call, 1-year rolling history |
 | xfinlink Pro | $29/month, 10,000 requests/day, 100 tickers per call, full history |
 
-EDGAR deserves the credit here. Each fact in its company-concept API carries `filed`, `accn` and `form`, so the availability date is in the primary source at no cost, and a small study can be built on it directly. Pulling Apple's revenue concept today returns, among others, a fact for the year to 30 September 2017 with `"filed": "2019-10-31"`, which is the same figure re-presented as a comparative in a later 10-K. That is the shape of the work EDGAR leaves you: one company, one concept, many facts, several vintages, and a panel to assemble before any of it becomes a training set.
+EDGAR deserves the credit here. Each fact in its company-concept API carries `filed`, `accn` and `form`, so the availability date is in the primary source at no cost, and a small study can be built on it directly. Pulling Apple's revenue concept today returns, among others, a fact for the year to 30 September 2017 stamped `"filed": "2019-10-31"`, which is the same figure re-presented as a comparative in a later 10-K. That is the shape of the work EDGAR leaves you: one company, one concept, many facts, several vintages, and a panel to assemble before any of it becomes a training set.
 
 A commercial API sells that assembly. The dataset above took two calls and arrived as a DataFrame with `entity_id`, `period_end` and `filing_date` already on every row. A free xfinlink key covers writing and debugging the pipeline against a rolling twelve-month window; the [Pro plan](/pricing) at $29 a month opens full history and the 100-ticker request cap, and the [docs](/docs) list every field the panel can carry.
 
