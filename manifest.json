@@ -3617,6 +3617,27 @@
       "status": "success",
       "blog_slug": "do-high-accrual-companies-underperform-python",
       "script_path": "scripts/earnings-quality/do-high-accrual-companies-underperform-python.py"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "macro_research, sector_comparison, cross_sectional_analysis, fundamental_analysis, time_series_analysis",
+      "title": "Is the S&P 500 Getting More Capital Intensive? Capex Analysis in Python",
+      "tickers": [
+        "581-entity union of the 2012-2025 year-end point-in-time S&P 500 rosters ex Financials/Real Estate (5,304 company-years)",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "ORCL",
+        "XOM",
+        "CVX",
+        "WMT",
+        "T",
+        "VZ"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-capital-intensity-python",
+      "script_path": "scripts/macro-research/sp500-capital-intensity-python.py"
     }
   ]
 }
