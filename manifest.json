@@ -3606,6 +3606,17 @@
       "status": "success",
       "blog_slug": "do-price-gaps-get-filled-random-walk-python",
       "script_path": "scripts/price-analysis/do-price-gaps-get-filled-random-walk-python.py"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "earnings_quality, signal_evaluation, factor_construction, cross_sectional_analysis",
+      "title": "Do High-Accrual Companies Underperform? Accruals Screening in Python",
+      "tickers": [
+        "645-entity union of the 2014-2024 year-end point-in-time S&P 500 rosters (4,751 company-years)"
+      ],
+      "status": "success",
+      "blog_slug": "do-high-accrual-companies-underperform-python",
+      "script_path": "scripts/earnings-quality/do-high-accrual-companies-underperform-python.py"
     }
   ]
 }

@@ -1,0 +1,7 @@
+Sloan's accruals anomaly, retested on the S&P 500 over 2015-2024.
+
+Lowest-accrual quintile returned 12.8% the next year. Highest returned 10.9%.
+
+Looks like a signal until you check the middle: quintiles 2 and 3 landed below 4 and 5. p=0.45 across 4,751 company-years.
+
+[BLOG_LINK]
