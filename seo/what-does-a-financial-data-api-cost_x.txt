@@ -1,0 +1,5 @@
+Four financial data APIs all start around $29/month. The number that decides your bill isn't the price, it's how many companies you get per call.
+
+At 1 company per call, five years of S&P 500 closes costs 500 requests. At 100 per call, it costs 5.
+
+[BLOG_LINK]

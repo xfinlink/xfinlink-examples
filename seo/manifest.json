@@ -401,5 +401,17 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-28",
+    "type": "buyers guide",
+    "title": "What Does a Financial Data API Cost?",
+    "slug": "what-does-a-financial-data-api-cost",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (formerly Polygon.io)"
+    ],
+    "claims_verified": true
   }
 ]
