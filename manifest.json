@@ -3638,6 +3638,17 @@
       "status": "success",
       "blog_slug": "sp500-capital-intensity-python",
       "script_path": "scripts/macro-research/sp500-capital-intensity-python.py"
+    },
+    {
+      "date": "2026-08-28",
+      "category": "seasonality, market_timing_analysis, signal_evaluation, quantitative_trading",
+      "title": "Does the Turn-of-the-Month Effect Still Work? Calendar Anomaly Test in Python",
+      "tickers": [
+        "696-entity union of the 2014-2024 year-end point-in-time S&P 500 rosters (1,360,168 daily observations, 2,766 trading days)"
+      ],
+      "status": "success",
+      "blog_slug": "turn-of-the-month-effect-python",
+      "script_path": "scripts/seasonality/turn-of-the-month-effect-python.py"
     }
   ]
 }

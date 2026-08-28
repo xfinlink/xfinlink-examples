@@ -1,0 +1,7 @@
+The turn-of-the-month effect, tested on 696 S&P 500 companies over 2015-2025.
+
+Those four days averaged +0.031% a day. Every other day averaged +0.052%.
+
+The window was worse, p=0.70. And the last trading day of the month, the one the theory leans on hardest, was the only negative day in the table.
+
+[BLOG_LINK]
