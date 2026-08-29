@@ -1,0 +1,10 @@
+An S&P 500 fund holds ~490 stocks. It does not hold ~490 bets.
+
+Eigenvalues of the yearly correlation matrix, 2015-2025:
+
+2017: 88 effective bets, one factor holds 16% of variance
+2020: 13.6 bets, one factor holds 55%
+
+Only 6-11 directions clear the noise floor.
+
+[BLOG_LINK]

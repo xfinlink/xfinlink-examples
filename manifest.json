@@ -3660,6 +3660,17 @@
       "status": "success",
       "blog_slug": "revenue-forecast-own-history-sp500-python",
       "script_path": "scripts/econometric-research/revenue-forecast-own-history-sp500-python.py"
+    },
+    {
+      "date": "2026-08-29",
+      "category": "portfolio_construction, cross_sectional_analysis, correlation_beta, index_constituent_analysis, quantitative_research",
+      "title": "How Many Independent Bets Are There in the S&P 500? Principal Component Analysis in Python",
+      "tickers": [
+        "Point-in-time S&P 500 members at 1 January of each year 2015-2025 (474-495 names per year, carried by entity_id)"
+      ],
+      "status": "success",
+      "blog_slug": "how-many-independent-bets-sp500-pca-python",
+      "script_path": "scripts/portfolio-construction/how-many-independent-bets-sp500-pca-python.py"
     }
   ]
 }
