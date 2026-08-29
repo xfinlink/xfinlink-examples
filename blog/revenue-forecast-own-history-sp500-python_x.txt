@@ -1,0 +1,7 @@
+Assume an S&P 500 company's revenue does not grow next year: you are off by 7.3% at the median.
+
+Repeat last year's growth rate instead and you get 6.8%, with a much fatter tail.
+
+Growth does not repeat. Regress next year's growth on this year's, slope -0.01.
+
+[BLOG_LINK]

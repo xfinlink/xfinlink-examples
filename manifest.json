@@ -3649,6 +3649,17 @@
       "status": "success",
       "blog_slug": "turn-of-the-month-effect-python",
       "script_path": "scripts/seasonality/turn-of-the-month-effect-python.py"
+    },
+    {
+      "date": "2026-08-29",
+      "category": "financial_forecasting, econometric_research, cross_sectional_analysis, time_series_analysis",
+      "title": "Can a Company's Revenue Be Forecast From Its Own History? Out-of-Sample Test in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at each year end 2015-2024 (680-entity union), annual revenue 2008-2026, carried by entity_id"
+      ],
+      "status": "success",
+      "blog_slug": "revenue-forecast-own-history-sp500-python",
+      "script_path": "scripts/econometric-research/revenue-forecast-own-history-sp500-python.py"
     }
   ]
 }
