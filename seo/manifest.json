@@ -413,5 +413,15 @@
       "Massive (formerly Polygon.io)"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-29",
+    "type": "question post",
+    "title": "What Is EBITDA and Why Do Sources Disagree?",
+    "slug": "what-is-ebitda-and-why-sources-disagree",
+    "competitors_mentioned": [
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]
