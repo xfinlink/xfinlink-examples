@@ -33,6 +33,9 @@ import xfinlink as xfl
 
 xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
 
+def chunked(seq, n):
+    return [seq[i:i + n] for i in range(0, len(seq), n)]
+
 quarter_ends = pd.date_range("2014-03-31", "2025-06-30", freq="QE")
 rosters = {q: set(xfl.index("sp500", as_of=q.strftime("%Y-%m-%d"))["entity_id"])
            for q in quarter_ends}
@@ -46,7 +49,7 @@ ins = pd.concat([xfl.insiders(entity_id=chunk, form_type="4",
 # codes read as filed, then normalised: P is an open-market purchase, S a sale
 ins["code"] = ins["transaction_code"].astype(str).str.strip().str.upper()
 trades = ins[ins["code"].isin(["P", "S"])]
-trades["q"] = trades["transaction_date"].dt.to_period("Q")
+trades["q"] = trades["transaction_date"].dt.tz_localize(None).dt.to_period("Q")
 
 px = pd.concat([xfl.prices(entity_id=chunk, start="2014-01-01", end="2026-08-31",
                            interval="1mo", fields=["return_daily"], max_rows=200_000)
@@ -100,26 +103,26 @@ company-quarters by insider activity, 12-month window (22,396 in total)
   No open-market trades   5,629 (25.1%)   prior 12m vs index  -7.47%
 
 forward return after the signal, mean across company-quarters (%)
-                            1m      3m      6m     12m         1m      3m      6m     12m
-                                                   raw                        vs index
-  Insider buying only    1.49    2.25    4.53   11.63     -0.15   -0.55   -1.23   -1.32
-  Buying and selling     1.43    2.74    5.25   12.59      0.02   -0.02   -0.09    0.28
-  Insider selling only   1.58    2.86    5.67   11.61      0.09    0.11    0.32    0.66
-  No open-market trades  1.52    2.52    5.34   10.61     -0.19   -0.16   -0.49   -1.44
+                             1m      3m      6m     12m         1m      3m      6m     12m
+                                                    raw                        vs index
+  Insider buying only     1.49    2.25    4.53   11.63     -0.15   -0.55   -1.23   -1.32
+  Buying and selling      1.43    2.74    5.25   12.59      0.02   -0.02   -0.09    0.28
+  Insider selling only    1.58    2.86    5.67   11.61      0.09    0.11    0.32    0.66
+  No open-market trades   1.52    2.52    5.34   10.61     -0.19   -0.16   -0.49   -1.44
 
 spread between groups, tested on the 46 quarterly cross-sectional means
    1m  Insider buying only minus Insider selling only    -0.23pp  t=-0.56  p=0.577
    1m  Insider buying only minus No open-market trades   +0.08pp  t=+0.30  p=0.765
-   1m  Insider selling only minus No open-market trades  +0.31pp  t=+1.24  p=0.221
+   1m  Insider selling only minus No open-market trades   +0.31pp  t=+1.24  p=0.221
    3m  Insider buying only minus Insider selling only    -0.51pp  t=-0.69  p=0.495
    3m  Insider buying only minus No open-market trades   -0.16pp  t=-0.35  p=0.731
-   3m  Insider selling only minus No open-market trades  +0.34pp  t=+0.74  p=0.461
+   3m  Insider selling only minus No open-market trades   +0.34pp  t=+0.74  p=0.461
    6m  Insider buying only minus Insider selling only    -1.76pp  t=-1.38  p=0.176
    6m  Insider buying only minus No open-market trades   -0.85pp  t=-1.12  p=0.270
-   6m  Insider selling only minus No open-market trades  +0.91pp  t=+1.18  p=0.243
+   6m  Insider selling only minus No open-market trades   +0.91pp  t=+1.18  p=0.243
   12m  Insider buying only minus Insider selling only    -2.54pp  t=-1.39  p=0.170
   12m  Insider buying only minus No open-market trades   -0.36pp  t=-0.30  p=0.768
-  12m  Insider selling only minus No open-market trades  +2.18pp  t=+2.08  p=0.043
+  12m  Insider selling only minus No open-market trades   +2.18pp  t=+2.08  p=0.043
 
 12-month window: buying-only beat selling-only in 19 of 46 quarters
   2014Q1-2019Q4:  -6.65pp  t=-3.12  p=0.005  n=24
