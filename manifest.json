@@ -3671,6 +3671,17 @@
       "status": "success",
       "blog_slug": "how-many-independent-bets-sp500-pca-python",
       "script_path": "scripts/portfolio-construction/how-many-independent-bets-sp500-pca-python.py"
+    },
+    {
+      "date": "2026-08-29",
+      "category": "signal_evaluation, cross_sectional_analysis, quantitative_research, multi_endpoint_pipeline",
+      "title": "Do Company Insiders Predict Their Own Stock's Returns? Form 4 Cross-Section in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at each quarter end 2014Q1-2025Q2 (721 entities, 22,396 company-quarters, 119,089 open-market Form 4 transactions)"
+      ],
+      "status": "success",
+      "blog_slug": "do-insiders-predict-their-own-stock-returns-python",
+      "script_path": "scripts/insider-transactions/do-insiders-predict-their-own-stock-returns-python.py"
     }
   ]
 }
