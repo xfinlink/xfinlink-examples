@@ -1,0 +1,7 @@
+Index volatility says little about how far apart S&P 500 stocks finish the year.
+
+2008: 41% index vol, 25% dispersion.
+2009: 27% vol, 56% dispersion.
+Correlation across 20 years: 0.22, p=0.35.
+
+The best tenth beats the worst by about 3.5x dispersion, every year. [BLOG_LINK]
