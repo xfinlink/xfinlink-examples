@@ -1,0 +1,7 @@
+Heavy volume today does predict a bigger move tomorrow. 460 S&P 500 names, 778,518 name-days.
+
+Busiest fifth of sessions: next-day move 1.36x the name's average. Quietest fifth: 0.83x. Volume beats t=1.96 on 454 of 460 names.
+
+Out of sample it helps only 275.
+
+[BLOG_LINK]
