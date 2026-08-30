@@ -89,6 +89,7 @@ Full script with formatting and visualisation: [sp500-return-dispersion-python.p
 ```
 S&P 500 cross-sectional return dispersion, 2006-2025
 point-in-time membership, 9,532 member-years, 250-253 trading days per year
+
 year  members  dispersion  index vol  index return   top decile  bottom decile  decile spread
 ---------------------------------------------------------------------------------------------
 2006      447       22.5%      10.0%       +15.8%       +57.1%        -22.0%         79.1pp
@@ -111,14 +112,18 @@ year  members  dispersion  index vol  index return   top decile  bottom decile  
 2023      495       31.7%      13.1%       +26.2%       +80.7%        -29.3%        110.0pp
 2024      494       28.7%      12.6%       +24.9%       +68.8%        -33.0%        101.8pp
 2025      489       35.4%      19.5%       +16.4%       +83.4%        -35.9%        119.3pp
+
 widest dispersion    2009  55.8%   (index volatility 26.6%)
 narrowest dispersion 2018  21.8%   (index volatility 17.0%)
 loudest index        2008  index volatility 41.3%, dispersion 25.1%
+
 average dispersion 28.7%, median 26.4%
+
 dispersion against index volatility, same year   r=+0.22  p=0.351  rank r=+0.19
 dispersion against index volatility, prior year  r=+0.58  p=0.009  rank r=+0.08
    leaving one year out, that r runs +0.02 to +0.64; without 2009 alone it is +0.02
 dispersion against its own prior year            r=-0.20  p=0.400
+
 decile spread divided by dispersion: mean 3.51, range 3.35-3.63  (3.51 if annual returns were normal)
 ```
 

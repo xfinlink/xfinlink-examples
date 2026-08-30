@@ -39,7 +39,7 @@ def fetch(**kwargs):
 
 
 # ── Calendar-year total return for every index member ─────────────────
-rows, annual = [], {}
+rows = []
 for year in YEARS:
     roster = xfl.index("sp500", as_of=f"{year}-01-01")
     ids = sorted({int(e) for e in roster["entity_id"].dropna()})
@@ -60,12 +60,9 @@ for year in YEARS:
     kept = counts[counts >= 0.95 * days].index.intersection(agrees[agrees <= 0.5].index)
     ann = px[px["entity_id"].isin(kept)].groupby("entity_id")["return_daily"].apply(
         lambda s: float(np.prod(1.0 + s.values) - 1.0))
-    annual[year] = ann
-
     n10 = int(round(len(ann) * 0.1))
     rows.append(dict(year=year, days=days, members=len(ann), dispersion=ann.std(ddof=1),
-                     average=ann.mean(), top=ann.nlargest(n10).mean(),
-                     bottom=ann.nsmallest(n10).mean()))
+                     top=ann.nlargest(n10).mean(), bottom=ann.nsmallest(n10).mean()))
 
 t = pd.DataFrame(rows).set_index("year")
 t["spread"] = t["top"] - t["bottom"]
