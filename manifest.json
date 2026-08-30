@@ -3693,6 +3693,17 @@
       "status": "success",
       "blog_slug": "does-volume-predict-volatility-python",
       "script_path": "scripts/econometric-research/does-volume-predict-volatility-python.py"
+    },
+    {
+      "date": "2026-08-30",
+      "category": "quantitative_trading, market_timing_analysis, index_rebalancing, signal_evaluation",
+      "title": "How Much Does the Rebalance Date Change a Backtest? 21 Rebalance Days in Python",
+      "tickers": [
+        "141 point-in-time S&P 500 month-end rosters 2014-11 to 2026-07 (730 entities, 700 names after screens, 1,801,128 daily observations, 21 offsets x 126 holding periods)"
+      ],
+      "status": "success",
+      "blog_slug": "rebalance-date-luck-backtest-python",
+      "script_path": "scripts/signal-evaluation/rebalance-date-luck-backtest-python.py"
     }
   ]
 }
