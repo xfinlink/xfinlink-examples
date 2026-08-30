@@ -1,0 +1,1 @@
+The Ken French library publishes SMB and momentum for the whole US market. It does not publish them for your universe. Built inside the S&P 500 on point-in-time rosters, 2021-2024: momentum correlates 0.81 with the published series, size 0.59. Code and numbers: [BLOG_LINK]

@@ -423,5 +423,16 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-30",
+    "type": "comparison",
+    "title": "Fama-French Factor Data: Download or Build Your Own?",
+    "slug": "fama-french-factor-data-download-or-build",
+    "competitors_mentioned": [
+      "Ken French Data Library",
+      "pandas-datareader"
+    ],
+    "claims_verified": true
   }
 ]
