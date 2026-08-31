@@ -3726,6 +3726,44 @@
       "status": "success",
       "blog_slug": "benfords-law-reported-financials-python",
       "script_path": "scripts/earnings-quality/benfords-law-reported-financials-python.py"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "time_series_analysis, sector_comparison, cross_sectional_analysis, financial_forecasting",
+      "title": "How Seasonal Is Quarterly Revenue? Fiscal Quarter Share Analysis in Python",
+      "tickers": [
+        "HD",
+        "LOW",
+        "TGT",
+        "BBY",
+        "ROST",
+        "NKE",
+        "WMT",
+        "COST",
+        "KO",
+        "PG",
+        "CL",
+        "KMB",
+        "MSFT",
+        "ADBE",
+        "ORCL",
+        "CRM",
+        "INTU",
+        "AAPL",
+        "HON",
+        "CAT",
+        "UNP",
+        "EMR",
+        "ABT",
+        "MRK",
+        "UNH",
+        "XOM",
+        "CVX",
+        "COP"
+      ],
+      "status": "success",
+      "blog_slug": "quarterly-revenue-seasonality-python",
+      "script_path": "scripts/fundamental-analysis/quarterly-revenue-seasonality-python.py"
     }
   ]
 }
