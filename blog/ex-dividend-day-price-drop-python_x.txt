@@ -1,0 +1,1 @@
+A stock is supposed to open lower by exactly the dividend it just detached. Across 7,690 S&P 500 ex-dividend events since 2021, market-adjusted, the median drop is 0.90 of the dividend. Where dividends are largest it's 0.933, 4.5 SEs below 1. [BLOG_LINK]

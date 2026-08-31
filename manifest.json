@@ -3764,6 +3764,18 @@
       "status": "success",
       "blog_slug": "quarterly-revenue-seasonality-python",
       "script_path": "scripts/fundamental-analysis/quarterly-revenue-seasonality-python.py"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "dividend_screening, technical_analysis, cross_sectional_analysis, signal_evaluation",
+      "title": "How Much Does a Stock Fall on Its Ex-Dividend Date? Event Study in Python",
+      "tickers": [
+        "497 S&P 500 members as of 2025-12-31 carried by entity_id (406 payers, 7,690 ex-dividend events 2021-2025)",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "ex-dividend-day-price-drop-python",
+      "script_path": "scripts/price-analysis/ex-dividend-day-price-drop-python.py"
     }
   ]
 }
