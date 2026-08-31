@@ -3715,6 +3715,17 @@
       "status": "success",
       "blog_slug": "sp500-return-dispersion-python",
       "script_path": "scripts/index-universe/sp500-return-dispersion-python.py"
+    },
+    {
+      "date": "2026-08-31",
+      "category": "earnings_quality, cross_sectional_analysis, quantitative_research, data_quality",
+      "title": "Do Reported Financials Follow Benford's Law? First-Digit Analysis in Python",
+      "tickers": [
+        "Point-in-time S&P 500 roster as of 2015-12-31 (471 companies after screens, 6,495 company-years, 38,970 leading digits)"
+      ],
+      "status": "success",
+      "blog_slug": "benfords-law-reported-financials-python",
+      "script_path": "scripts/earnings-quality/benfords-law-reported-financials-python.py"
     }
   ]
 }

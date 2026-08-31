@@ -1,0 +1,5 @@
+38,970 leading digits from S&P 500 filings, 2010-2025. Revenue, assets, cash flow: MAD 0.0035 against Benford, close conformity. Diluted EPS: 0.0147, near failure.
+
+EPS isn't suspicious. It's squeezed into one order of magnitude, so its digits can't go logarithmic.
+
+[BLOG_LINK]
