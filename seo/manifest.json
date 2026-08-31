@@ -434,5 +434,13 @@
       "pandas-datareader"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-08-31",
+    "type": "concept explainer",
+    "title": "What Is Book Value? Why Price-to-Book Stopped Working",
+    "slug": "what-is-book-value-price-to-book",
+    "competitors_mentioned": [],
+    "claims_verified": true
   }
 ]
