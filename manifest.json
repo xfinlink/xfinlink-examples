@@ -3793,6 +3793,23 @@
       "status": "success",
       "blog_slug": "buyback-timing-dollar-weighted-price-python",
       "script_path": "scripts/portfolio-construction/buyback-timing-dollar-weighted-price-python.py"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "growth_screening, fundamental_analysis, cross_sectional_analysis, sector_comparison, financial_forecasting",
+      "title": "How Much Revenue Does a Dollar of Acquisitions Buy? Growth Decomposition in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at each year end 2014-2024 (562 companies after screens, $3.74tn of acquisition spending)",
+        "AVGO",
+        "AMT",
+        "ROP",
+        "ICE",
+        "PANW",
+        "CRM"
+      ],
+      "status": "success",
+      "blog_slug": "acquisitions-revenue-growth-python",
+      "script_path": "scripts/fundamental-analysis/acquisitions-revenue-growth-python.py"
     }
   ]
 }
