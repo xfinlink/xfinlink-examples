@@ -442,5 +442,17 @@
     "slug": "what-is-book-value-price-to-book",
     "competitors_mentioned": [],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-01",
+    "type": "use-case guide",
+    "title": "What Data You Need for Comparable Company Analysis",
+    "slug": "data-for-comparable-company-analysis",
+    "competitors_mentioned": [
+      "SEC EDGAR APIs",
+      "yfinance",
+      "Alpha Vantage"
+    ],
+    "claims_verified": true
   }
 ]
