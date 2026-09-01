@@ -3776,6 +3776,23 @@
       "status": "success",
       "blog_slug": "ex-dividend-day-price-drop-python",
       "script_path": "scripts/price-analysis/ex-dividend-day-price-drop-python.py"
+    },
+    {
+      "date": "2026-09-01",
+      "category": "quantitative_research, portfolio_construction, market_timing_analysis, cross_sectional_analysis, multi_endpoint_pipeline",
+      "title": "Do Companies Buy Back Stock at Good Prices? Dollar-Weighted Analysis in Python",
+      "tickers": [
+        "Point-in-time S&P 500 roster at 2015-12-31 carried by entity_id (377 companies with >=5 repurchase years, 3,256 company-years, $6.34tn)",
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "BRK",
+        "ORCL"
+      ],
+      "status": "success",
+      "blog_slug": "buyback-timing-dollar-weighted-price-python",
+      "script_path": "scripts/portfolio-construction/buyback-timing-dollar-weighted-price-python.py"
     }
   ]
 }
