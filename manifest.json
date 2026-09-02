@@ -3821,6 +3821,28 @@
       "status": "success",
       "blog_slug": "inventory-build-margin-squeeze-python",
       "script_path": "scripts/earnings-quality/inventory-build-margin-squeeze-python.py"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "quantitative_trading, drawdown_analysis, signal_evaluation, market_timing_analysis",
+      "title": "What Does a Trailing Stop Cost? Stop-Loss Backtest in Python",
+      "tickers": [
+        "AMZN",
+        "LLY",
+        "ISRG",
+        "MSI",
+        "URI",
+        "DHI",
+        "MNK",
+        "UA",
+        "M",
+        "BEN",
+        "HOG",
+        "SLB"
+      ],
+      "status": "success",
+      "blog_slug": "trailing-stop-loss-cost-python",
+      "script_path": "scripts/signal-evaluation/trailing-stop-loss-cost-python.py"
     }
   ]
 }

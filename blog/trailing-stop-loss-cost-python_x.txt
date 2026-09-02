@@ -1,0 +1,3 @@
+A 20% trailing stop on 89 S&P 500 names, 2015-2024: median cost 114 points of total return, 8.2 pts a year. It beat buy-and-hold on 19% of them.
+
+The tail truncation is real: nothing finishes below -50%, against 3 names held. It also sold AMZN in year one. [BLOG_LINK]
