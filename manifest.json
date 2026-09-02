@@ -3843,6 +3843,32 @@
       "status": "success",
       "blog_slug": "trailing-stop-loss-cost-python",
       "script_path": "scripts/signal-evaluation/trailing-stop-loss-cost-python.py"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "valuation_ratios, factor_construction, cross_sectional_analysis, quantitative_research",
+      "title": "Did Earnings or the Multiple Drive the Last Decade of Returns? Return Decomposition in Python",
+      "tickers": [
+        "MU",
+        "GLW",
+        "STX",
+        "FICO",
+        "IFF",
+        "TFX",
+        "EL",
+        "MSI",
+        "REGN",
+        "NRG",
+        "DAL",
+        "OXY",
+        "CNC",
+        "TMUS",
+        "MPWR",
+        "ADBE"
+      ],
+      "status": "success",
+      "blog_slug": "earnings-vs-multiple-return-decomposition-python",
+      "script_path": "scripts/fundamental-analysis/earnings-vs-multiple-return-decomposition-python.py"
     }
   ]
 }
