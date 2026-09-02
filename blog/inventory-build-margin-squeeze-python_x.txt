@@ -1,0 +1,1 @@
+Tested the inventory-build warning on 2,949 S&P 500 company-years. Companies whose inventory outgrew revenue lost 0.86 points more gross margin the next year than companies whose inventory lagged. Negative in 9 of 10 years, all 8 sectors. Revenue still grew faster. [BLOG_LINK]

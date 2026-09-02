@@ -3810,6 +3810,17 @@
       "status": "success",
       "blog_slug": "acquisitions-revenue-growth-python",
       "script_path": "scripts/fundamental-analysis/acquisitions-revenue-growth-python.py"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "earnings_quality, financial_forecasting, cross_sectional_analysis, fundamental_analysis",
+      "title": "Does an Inventory Build Predict a Margin Squeeze? Cross-Sectional Test in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at each year end 2013-2024, carried by entity_id (371 companies after screens, 2,949 company-years, signal years 2014-2023)"
+      ],
+      "status": "success",
+      "blog_slug": "inventory-build-margin-squeeze-python",
+      "script_path": "scripts/earnings-quality/inventory-build-margin-squeeze-python.py"
     }
   ]
 }
