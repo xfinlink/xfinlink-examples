@@ -454,5 +454,17 @@
       "Alpha Vantage"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-02",
+    "type": "question post",
+    "title": "Why Do Stock Prices Differ Between Data Sources?",
+    "slug": "why-stock-prices-differ-between-sources",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage",
+      "Massive (polygon.io)"
+    ],
+    "claims_verified": true
   }
 ]

@@ -1,0 +1,1 @@
+Two sources, one stock, two closing prices. Divide the bigger by the smaller: a clean 4.0 means one is split-adjusted and the other is not. Apple closed at 499.23 on 28 Aug 2020, or 124.81, depending on the column. The other three causes are harder. [BLOG_LINK]
