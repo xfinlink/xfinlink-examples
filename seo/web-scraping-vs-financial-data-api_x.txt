@@ -1,0 +1,3 @@
+Your scraper survives the markup changes. It does not survive FB becoming META in June 2022, because a web page is keyed by today's ticker and a ticker is not a company.
+
+What scraping is genuinely fine for, and where it quietly breaks a backtest: [BLOG_LINK]

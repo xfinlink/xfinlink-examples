@@ -466,5 +466,19 @@
       "Massive (polygon.io)"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-03",
+    "type": "comparison",
+    "title": "Web Scraping vs a Financial Data API: What Breaks",
+    "slug": "web-scraping-vs-financial-data-api",
+    "competitors_mentioned": [
+      "Yahoo Finance",
+      "yfinance",
+      "SEC EDGAR APIs",
+      "Wikipedia"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]
