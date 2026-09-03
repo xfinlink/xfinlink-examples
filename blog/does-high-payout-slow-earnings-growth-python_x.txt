@@ -1,0 +1,3 @@
+Higher dividend payout is supposed to mean slower earnings growth. Across 609 S&P 500 companies and two 5-year windows it does not: rank correlation +0.11, and zero once the firms paying out more than they earned come out. Payout tracks revenue growth, not earnings.
+
+[BLOG_LINK]

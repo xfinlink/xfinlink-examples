@@ -3869,6 +3869,25 @@
       "status": "success",
       "blog_slug": "earnings-vs-multiple-return-decomposition-python",
       "script_path": "scripts/fundamental-analysis/earnings-vs-multiple-return-decomposition-python.py"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "dividend_screening, growth_screening, cross_sectional_analysis, index_constituent_analysis",
+      "title": "Does a High Dividend Payout Ratio Slow Earnings Growth? S&P 500 Cross-Section in Python",
+      "tickers": [
+        "CVX",
+        "PG",
+        "CRM",
+        "NVDA",
+        "ADBE",
+        "LUMN",
+        "PCG",
+        "GEN",
+        "OXY"
+      ],
+      "status": "success",
+      "blog_slug": "does-high-payout-slow-earnings-growth-python",
+      "script_path": "scripts/fundamental-analysis/does-high-payout-slow-earnings-growth-python.py"
     }
   ]
 }
