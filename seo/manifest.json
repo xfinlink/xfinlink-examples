@@ -480,5 +480,19 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-09-04",
+    "type": "concept explainer",
+    "title": "What Is Look-Ahead Bias in Backtesting?",
+    "slug": "what-is-look-ahead-bias-in-backtesting",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "yfinance",
+      "SEC EDGAR submissions API",
+      "Kenneth French data library"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]

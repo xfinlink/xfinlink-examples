@@ -1,0 +1,3 @@
+Microsoft's fiscal 2026 ended June 30. The 10-K landed July 29, and the stock jumped 15.5% the next day. If your backtest reads FY26 revenue on June 30, it collected that move on a number nobody had.
+
+Look-ahead bias, and how to lag it away: [BLOG_LINK]
