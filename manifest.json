@@ -3906,6 +3906,24 @@
       "status": "success",
       "blog_slug": "cash-vs-book-tax-rate-python",
       "script_path": "scripts/fundamental-analysis/cash-vs-book-tax-rate-python.py"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "drawdown_analysis, risk_management, time_series_analysis, quantitative_research",
+      "title": "How Much Drawdown Does Month-End Data Hide? Sampling Frequency and Maximum Drawdown in Python",
+      "tickers": [
+        "Point-in-time S&P 500 roster at 2019-12-31, every 5th entity_id (101 companies, 2020-2024 daily closes)",
+        "SPY",
+        "LYB",
+        "LKQ",
+        "PWR",
+        "GWW",
+        "PH",
+        "SBAC"
+      ],
+      "status": "success",
+      "blog_slug": "max-drawdown-sampling-frequency-python",
+      "script_path": "scripts/price-analysis/max-drawdown-sampling-frequency-python.py"
     }
   ]
 }

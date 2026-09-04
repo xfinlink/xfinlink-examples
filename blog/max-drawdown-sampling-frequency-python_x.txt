@@ -1,0 +1,1 @@
+Factsheets measure max drawdown from month-end prices. Across 101 S&P 500 names in 2020-2024 the median worst drawdown is -37.9% that way, -47.2% on daily prices. SPY's 2020 crash reads -34.1% daily, -19.9% month-end. A month-end grid can't see a trough on the 23rd. [BLOG_LINK]
