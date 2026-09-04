@@ -3888,6 +3888,24 @@
       "status": "success",
       "blog_slug": "does-high-payout-slow-earnings-growth-python",
       "script_path": "scripts/fundamental-analysis/does-high-payout-slow-earnings-growth-python.py"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "earnings_quality, dcf_valuation, sector_comparison, cross_sectional_analysis",
+      "title": "Do Companies Pay the Tax They Report? Cash vs Book Tax Rates in Python",
+      "tickers": [
+        "Union of the point-in-time S&P 500 rosters at each year end 2013-2023 (701 entities, 248 with ten straight profitable years)",
+        "HWM",
+        "KMI",
+        "AWK",
+        "AEE",
+        "OKE",
+        "PNW",
+        "ATO"
+      ],
+      "status": "success",
+      "blog_slug": "cash-vs-book-tax-rate-python",
+      "script_path": "scripts/fundamental-analysis/cash-vs-book-tax-rate-python.py"
     }
   ]
 }
