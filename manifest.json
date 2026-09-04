@@ -3924,6 +3924,20 @@
       "status": "success",
       "blog_slug": "max-drawdown-sampling-frequency-python",
       "script_path": "scripts/price-analysis/max-drawdown-sampling-frequency-python.py"
+    },
+    {
+      "date": "2026-09-04",
+      "category": "cross_sectional_analysis, signal_evaluation, quantitative_research, multi_endpoint_pipeline, portfolio_construction",
+      "title": "Does Index-Fund Ownership Make a Stock Move With the Market? 13F Ownership and Beta in Python",
+      "tickers": [
+        "Point-in-time S&P 500 roster at 2024-12-31 carried by entity_id (484 companies after screens)",
+        "SPY",
+        "TMUS",
+        "ESS"
+      ],
+      "status": "success",
+      "blog_slug": "index-fund-ownership-stock-beta-python",
+      "script_path": "scripts/portfolio-construction/index-fund-ownership-stock-beta-python.py"
     }
   ]
 }
