@@ -1,0 +1,1 @@
+You're on a pricing page reading 10,000 requests a day, 100 tickers a call, 5M rows. Which number stops your job? Depends what the vendor counts as a request. Some count HTTP calls, some count symbols. Size it first: universe x endpoints x refresh rate. [BLOG_LINK]

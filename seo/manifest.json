@@ -494,5 +494,21 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-09-05",
+    "type": "buyers guide",
+    "title": "Financial Data API Rate Limits: How Much Do You Need?",
+    "slug": "financial-data-api-rate-limits",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "Twelve Data",
+      "EODHD",
+      "Massive (formerly Polygon.io)",
+      "Tiingo",
+      "yfinance"
+    ],
+    "claims_verified": true,
+    "status": "published"
   }
 ]
