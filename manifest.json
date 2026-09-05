@@ -3950,6 +3950,17 @@
       "status": "success",
       "blog_slug": "residual-momentum-vs-raw-momentum-python",
       "script_path": "scripts/signal-evaluation/residual-momentum-vs-raw-momentum-python.py"
+    },
+    {
+      "date": "2026-09-05",
+      "category": "earnings_quality, cross_sectional_analysis, fundamental_analysis, sector_research, econometric_research",
+      "title": "Does Revenue Concentration Explain Earnings Volatility? Segment Herfindahl Analysis in Python",
+      "tickers": [
+        "S&P 500 membership at 2015-12-31 plus the current roster carried by entity_id (661 companies, 290 in the final cross-section across 11 sectors)"
+      ],
+      "status": "success",
+      "blog_slug": "revenue-concentration-earnings-volatility-python",
+      "script_path": "scripts/earnings-quality/revenue-concentration-earnings-volatility-python.py"
     }
   ]
 }
