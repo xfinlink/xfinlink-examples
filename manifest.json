@@ -3938,6 +3938,18 @@
       "status": "success",
       "blog_slug": "index-fund-ownership-stock-beta-python",
       "script_path": "scripts/portfolio-construction/index-fund-ownership-stock-beta-python.py"
+    },
+    {
+      "date": "2026-09-05",
+      "category": "momentum_screening, factor_construction, correlation_beta, signal_evaluation, cross_sectional_analysis",
+      "title": "Is Residual Momentum Better Than Raw Momentum? Market-Adjusted Decile Sorts in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at 103 month ends, Jan 2018 to Jul 2026, carried by entity_id (651 companies in the union, median 477 ranked per sort)",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "residual-momentum-vs-raw-momentum-python",
+      "script_path": "scripts/signal-evaluation/residual-momentum-vs-raw-momentum-python.py"
     }
   ]
 }

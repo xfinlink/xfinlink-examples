@@ -1,0 +1,7 @@
+Raw 12-1 momentum on the S&P 500 turned $1 into $0.92 over 102 monthly sorts since 2018.
+
+Strip the market out with a fitted beta, rank on the residual instead, and it's $1.42 at lower vol.
+
+The two rankings correlate 0.82. Same names, different order.
+
+[BLOG_LINK]
