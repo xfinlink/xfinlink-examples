@@ -3961,6 +3961,25 @@
       "status": "success",
       "blog_slug": "revenue-concentration-earnings-volatility-python",
       "script_path": "scripts/earnings-quality/revenue-concentration-earnings-volatility-python.py"
+    },
+    {
+      "date": "2026-09-05",
+      "category": "balance_sheet_health, earnings_quality, cross_sectional_analysis, signal_evaluation, fundamental_analysis",
+      "title": "Does a Large Goodwill Balance Predict a Writedown? Impairment Risk Screening in Python",
+      "tickers": [
+        "Union of point-in-time S&P 500 rosters 2012-2024 ex Financials/Real Estate (549 companies, 4,893 company-years, 407 events)",
+        "GM",
+        "T",
+        "GE",
+        "HPQ",
+        "DVN",
+        "KHC",
+        "WBA",
+        "SLB"
+      ],
+      "status": "success",
+      "blog_slug": "does-large-goodwill-predict-writedowns-python",
+      "script_path": "scripts/balance-sheet-health/does-large-goodwill-predict-writedowns-python.py"
     }
   ]
 }
