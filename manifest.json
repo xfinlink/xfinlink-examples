@@ -4182,6 +4182,27 @@
       "status": "success",
       "blog_slug": "high-margin-screen-sector-bet-python",
       "script_path": "scripts/fundamental-analysis/high-margin-screen-sector-bet-python.py"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "optimization_problem, risk_management, portfolio_construction, time_series_analysis, sector_comparison",
+      "title": "How Much Leverage Maximises Long-Run Growth? Kelly Sizing in Python",
+      "tickers": [
+        "SPY",
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY",
+        "BIL"
+      ],
+      "status": "success",
+      "blog_slug": "growth-optimal-leverage-kelly-python",
+      "script_path": "scripts/portfolio-construction/growth-optimal-leverage-kelly-python.py"
     }
   ]
 }
