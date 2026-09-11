@@ -4171,6 +4171,17 @@
       "status": "success",
       "blog_slug": "52-week-high-vs-momentum-python",
       "script_path": "scripts/signal-evaluation/52-week-high-vs-momentum-python.py"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "profitability_analysis, sector_comparison, cross_sectional_analysis, econometric_research, factor_construction",
+      "title": "Is a High-Margin Screen Just a Sector Bet? Sector-Neutral Profitability Ranking in Python",
+      "tickers": [
+        "Union of the year-end S&P 500 rosters 2013-2023 carried by entity_id, ex Financials and Real Estate (543 companies, 4,607 company-years, fiscal 2014-2023, 9 sectors)"
+      ],
+      "status": "success",
+      "blog_slug": "high-margin-screen-sector-bet-python",
+      "script_path": "scripts/fundamental-analysis/high-margin-screen-sector-bet-python.py"
     }
   ]
 }
