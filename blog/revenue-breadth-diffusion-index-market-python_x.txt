@@ -1,0 +1,5 @@
+A diffusion index from 63,364 S&P 500 company-quarters: share of firms growing revenue year over year. Correlation with last quarter's market return, +0.48. With next quarter's, -0.003.
+
+d["grew"] = d["revenue"] > d["prev"]
+
+Fundamentals confirm, they don't forecast. [BLOG_LINK]

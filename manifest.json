@@ -4203,6 +4203,18 @@
       "status": "success",
       "blog_slug": "growth-optimal-leverage-kelly-python",
       "script_path": "scripts/portfolio-construction/growth-optimal-leverage-kelly-python.py"
+    },
+    {
+      "date": "2026-09-11",
+      "category": "macro_research, economic_forecasting, time_series_analysis, cross_sectional_analysis",
+      "title": "Does Revenue Breadth Predict the Stock Market? A Quarterly Diffusion Index in Python",
+      "tickers": [
+        "Union of the point-in-time S&P 500 rosters at each year end 2004-2025 plus the current roster, carried by entity_id (939 entities, 903 with a quarterly revenue series, 63,364 company-quarters, 89 quarters 2004Q1-2026Q1)",
+        "SPY"
+      ],
+      "status": "success",
+      "blog_slug": "revenue-breadth-diffusion-index-market-python",
+      "script_path": "scripts/macro-research/revenue-breadth-diffusion-index-market-python.py"
     }
   ]
 }
