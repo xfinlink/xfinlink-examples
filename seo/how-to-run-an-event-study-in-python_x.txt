@@ -1,0 +1,3 @@
+S&P announced the March 2025 index changes on the 7th. They took effect on the 24th. A window centred on the effective date puts the news 11 sessions outside it, and the study then measures something else entirely.
+
+Running an event study in Python, start to finish: [BLOG_LINK]

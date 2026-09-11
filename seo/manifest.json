@@ -568,5 +568,18 @@
     ],
     "claims_verified": true,
     "status": "published"
+  },
+  {
+    "date": "2026-09-11",
+    "type": "use-case guide",
+    "title": "How to Run an Event Study in Python",
+    "slug": "how-to-run-an-event-study-in-python",
+    "competitors_mentioned": [
+      "Kenneth French Data Library",
+      "Alpha Vantage",
+      "yfinance",
+      "S&P Dow Jones Indices"
+    ],
+    "claims_verified": true
   }
 ]
