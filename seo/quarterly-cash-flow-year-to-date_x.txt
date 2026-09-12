@@ -1,0 +1,5 @@
+Apple's Q2 10-Q says operating cash flow was $53,887m. The quarter was $23,952m.
+
+SEC rules make interim cash flow statements cumulative, so a 10-Q reports 3, 6 or 9 months. And Q4 is never filed at all — you derive it from the 10-K.
+
+How to fix it: [BLOG_LINK]

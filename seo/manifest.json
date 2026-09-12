@@ -581,5 +581,17 @@
       "S&P Dow Jones Indices"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-12",
+    "type": "question post",
+    "title": "Why Is Quarterly Cash Flow Year-to-Date in SEC Filings?",
+    "slug": "quarterly-cash-flow-year-to-date",
+    "competitors_mentioned": [
+      "SEC EDGAR XBRL company concept API",
+      "Alpha Vantage",
+      "yfinance"
+    ],
+    "claims_verified": true
   }
 ]
