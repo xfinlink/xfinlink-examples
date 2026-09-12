@@ -1,0 +1,5 @@
+2x leveraged sector ETFs are supposed to be a trap. Over 15 years, 7 of 9 beat the sector they double. Energy needed 11.7%/yr to break even and got 6.0%. Tech needed 8.6% and got 16.9%.
+
+xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
+
+[BLOG_LINK]

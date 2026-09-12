@@ -4230,6 +4230,34 @@
       "status": "success",
       "blog_slug": "quarterly-earnings-vs-revenue-forecastability-python",
       "script_path": "scripts/earnings-quality/quarterly-earnings-vs-revenue-forecastability-python.py"
+    },
+    {
+      "date": "2026-09-12",
+      "category": "financial_derivatives, volatility_analysis, sector_comparison, time_series_analysis",
+      "title": "Can 2x Leveraged Sector ETFs Beat Their Sector? Volatility Drag Analysis in Python",
+      "tickers": [
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY",
+        "UYM",
+        "DIG",
+        "UYG",
+        "UXI",
+        "ROM",
+        "UGE",
+        "UPW",
+        "RXL",
+        "UCC"
+      ],
+      "status": "success",
+      "blog_slug": "leveraged-sector-etf-volatility-drag-python",
+      "script_path": "scripts/price-analysis/leveraged-sector-etf-volatility-drag-python.py"
     }
   ]
 }
