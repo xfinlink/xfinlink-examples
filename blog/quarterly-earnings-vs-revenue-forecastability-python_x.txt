@@ -1,0 +1,7 @@
+441 S&P 500 firms: carrying last year's quarter forward misses revenue by 10% and net income by 40%. Same companies, same quarters.
+
+Foster's model cuts the revenue error 38%. On earnings it's a coin flip.
+
+xfl.fundamentals(t, period_type="quarterly")
+
+[BLOG_LINK]

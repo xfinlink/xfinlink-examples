@@ -4215,6 +4215,21 @@
       "status": "success",
       "blog_slug": "revenue-breadth-diffusion-index-market-python",
       "script_path": "scripts/macro-research/revenue-breadth-diffusion-index-market-python.py"
+    },
+    {
+      "date": "2026-09-12",
+      "category": "earnings_quality, financial_forecasting, time_series_analysis, econometric_research, cross_sectional_analysis",
+      "title": "Are Earnings Harder to Forecast Than Revenue? Quarterly Time-Series Models in Python",
+      "tickers": [
+        "AAPL",
+        "KO",
+        "MSFT",
+        "NVDA",
+        "WMT"
+      ],
+      "status": "success",
+      "blog_slug": "quarterly-earnings-vs-revenue-forecastability-python",
+      "script_path": "scripts/earnings-quality/quarterly-earnings-vs-revenue-forecastability-python.py"
     }
   ]
 }
