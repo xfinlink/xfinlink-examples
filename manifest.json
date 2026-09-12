@@ -4258,6 +4258,23 @@
       "status": "success",
       "blog_slug": "leveraged-sector-etf-volatility-drag-python",
       "script_path": "scripts/price-analysis/leveraged-sector-etf-volatility-drag-python.py"
+    },
+    {
+      "date": "2026-09-12",
+      "category": "valuation_ratios, balance_sheet_health, cross_sectional_analysis, index_constituent_analysis, multi_endpoint_pipeline",
+      "title": "Does the Balance Sheet Change Which Stocks Look Cheap? P/E Against EV/EBIT in Python",
+      "tickers": [
+        "Point-in-time S&P 500 roster at 2025-12-31 carried by entity_id (497 members; 212 non-financial companies with a fiscal year ending 1 Dec 2025 to 31 Jan 2026 and a reconciling profit line)",
+        "HUM",
+        "GM",
+        "UBER",
+        "NCLH",
+        "PCG",
+        "BKNG"
+      ],
+      "status": "success",
+      "blog_slug": "pe-versus-ev-ebit-sp500-python",
+      "script_path": "scripts/balance-sheet-health/pe-versus-ev-ebit-sp500-python.py"
     }
   ]
 }
