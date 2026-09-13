@@ -1,0 +1,1 @@
+Your script asks for 26 years of daily bars and gets back exactly 1,000 rows. That's not an error, it's a page. Python stock data libraries differ most in pagination, batching and types, not in the numbers they carry. What each one actually hands back: [BLOG_LINK]

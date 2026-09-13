@@ -593,5 +593,18 @@
       "yfinance"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-13",
+    "type": "comparison",
+    "title": "Python Stock Data Libraries: What Each Gives You",
+    "slug": "python-stock-data-libraries",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (formerly Polygon.io)"
+    ],
+    "claims_verified": true
   }
 ]
