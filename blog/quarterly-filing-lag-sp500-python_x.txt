@@ -1,0 +1,1 @@
+2,781 S&P 500 quarterly filings: the median 10-Q reaches the public record 31 days after the quarter ends. Just 3.2% are out by day 20, 98.4% by the 40-day deadline. Align fundamentals on period end instead of filing date and your backtest gets a month of hindsight. [BLOG_LINK]
