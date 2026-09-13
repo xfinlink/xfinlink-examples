@@ -1,0 +1,1 @@
+Everyone repeats that correlations spike in a crash. Across 6,540 days of sector ETF data they don't: average correlation with SPY falls from 0.78 to 0.69 on the worst 10% of days. Beta is what moves. Energy 0.99 to 1.42, Financials 1.23 to 1.48, Tech 1.16 to 0.89. [BLOG_LINK]

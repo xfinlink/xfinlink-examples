@@ -4275,6 +4275,26 @@
       "status": "success",
       "blog_slug": "pe-versus-ev-ebit-sp500-python",
       "script_path": "scripts/balance-sheet-health/pe-versus-ev-ebit-sp500-python.py"
+    },
+    {
+      "date": "2026-09-13",
+      "category": "correlation_beta, sector_research, sector_comparison, econometric_research",
+      "title": "Do Sector Correlations Spike When the Market Falls? Conditional Beta Analysis in Python",
+      "tickers": [
+        "SPY",
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY"
+      ],
+      "status": "success",
+      "blog_slug": "sector-beta-market-crash-python",
+      "script_path": "scripts/econometric-research/sector-beta-market-crash-python.py"
     }
   ]
 }
