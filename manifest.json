@@ -4336,6 +4336,17 @@
       "status": "success",
       "blog_slug": "calendar-anomaly-multiple-testing-bootstrap-python",
       "script_path": "scripts/signal-evaluation/calendar-anomaly-multiple-testing-bootstrap-python.py"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "earnings_quality, balance_sheet_health, cross_sectional_analysis, sector_comparison, fundamental_analysis",
+      "title": "How Much S&P 500 Profit Skips the Income Statement? Other Comprehensive Income in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "other-comprehensive-income-sp500-python",
+      "script_path": "scripts/earnings-quality/other-comprehensive-income-sp500-python.py"
     }
   ]
 }

@@ -1,0 +1,6 @@
+In 2022 the S&P 500 lost $221bn that never touched the income statement. That's 17.9% of reported profit. Banks marked their bond books to market and the hit went straight to equity, so EPS never showed it.
+
+One line catches it:
+comprehensive_income - net_income
+
+[BLOG_LINK]
