@@ -606,5 +606,16 @@
       "Massive (formerly Polygon.io)"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-14",
+    "type": "concept explainer",
+    "title": "Trading Days vs Calendar Days: Why 252 Is Only an Average",
+    "slug": "trading-days-vs-calendar-days",
+    "competitors_mentioned": [
+      "pandas",
+      "pandas_market_calendars"
+    ],
+    "claims_verified": true
   }
 ]

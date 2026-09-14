@@ -1,0 +1,1 @@
+A US equity year does not hold 252 trading days. Over 1996-2025 the count ran 248 to 254 and hit exactly 252 in 17 of 30 years. A plain business-day range hands you 261 dates for 2025 against 250 real sessions. Count the rows. [BLOG_LINK]
