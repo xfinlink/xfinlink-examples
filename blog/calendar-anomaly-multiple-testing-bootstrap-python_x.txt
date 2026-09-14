@@ -1,0 +1,5 @@
+Best of 60 month-by-weekday rules on SPY since 1996: April Thursdays, +0.252%/day, t = 2.28. Bootstrap the same search on reshuffled returns and half beat it. The 5% hurdle is t = 3.14, not 1.96.
+
+xfl.set_api_key("YOUR_API_KEY")  # free at https://xfinlink.com/signup
+
+[BLOG_LINK]

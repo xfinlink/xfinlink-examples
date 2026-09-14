@@ -4323,6 +4323,19 @@
       "status": "success",
       "blog_slug": "quarterly-filing-lag-sp500-python",
       "script_path": "scripts/fundamental-analysis/quarterly-filing-lag-sp500-python.py"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "signal_evaluation, econometric_research, seasonality, quantitative_research, time_series_analysis",
+      "title": "How Many Calendar Anomalies Survive Multiple Testing? Bootstrap Reality Check in Python",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "status": "success",
+      "blog_slug": "calendar-anomaly-multiple-testing-bootstrap-python",
+      "script_path": "scripts/signal-evaluation/calendar-anomaly-multiple-testing-bootstrap-python.py"
     }
   ]
 }
