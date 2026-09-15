@@ -1,0 +1,7 @@
+S&P 500 net margin: 8.91% in 2014, 12.04% in 2025. Looks like companies got more profitable.
+
+A quarter isn't. Hold membership fixed and 0.86 of the 3.14pp gain vanishes. Joiners came in at 9.84% margin, leavers left at 4.03%.
+
+xfl.index("sp500", as_of="2014-12-31")
+
+[BLOG_LINK]

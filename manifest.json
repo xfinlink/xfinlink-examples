@@ -4347,6 +4347,17 @@
       "status": "success",
       "blog_slug": "other-comprehensive-income-sp500-python",
       "script_path": "scripts/earnings-quality/other-comprehensive-income-sp500-python.py"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "profitability_analysis, index_constituent_analysis, cross_sectional_analysis, growth_screening, fundamental_analysis",
+      "title": "How Much of the S&P 500's Margin Expansion Is Index Turnover? Shift-Share Decomposition in Python",
+      "tickers": [
+        "Point-in-time S&P 500 rosters at each year end 2014-2025, carried by entity_id (720 distinct entities, 7,526 company-years with a usable revenue and net income line)"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-margin-expansion-index-turnover-python",
+      "script_path": "scripts/fundamental-analysis/sp500-margin-expansion-index-turnover-python.py"
     }
   ]
 }
