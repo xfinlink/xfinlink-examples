@@ -1,0 +1,5 @@
+Ranked the 9 sector SPDRs every quarter since 1999. Last quarter's winner leads again 10.7% of the time. Chance gives 11.1%. Rank correlation quarter to quarter: -0.007. Rank them on volatility instead and it's +0.77.
+
+ret.rank(axis=1, ascending=False)
+
+[BLOG_LINK]

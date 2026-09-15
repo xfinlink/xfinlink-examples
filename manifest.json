@@ -4358,6 +4358,25 @@
       "status": "success",
       "blog_slug": "sp500-margin-expansion-index-turnover-python",
       "script_path": "scripts/fundamental-analysis/sp500-margin-expansion-index-turnover-python.py"
+    },
+    {
+      "date": "2026-09-15",
+      "category": "sector_rotation, rotation_strategies, sector_research, sector_comparison, financial_forecasting",
+      "title": "Does Last Quarter's Best Sector Stay on Top? Sector Rank Persistence in Python",
+      "tickers": [
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY"
+      ],
+      "status": "success",
+      "blog_slug": "sector-rank-persistence-python",
+      "script_path": "scripts/signal-evaluation/sector-rank-persistence-python.py"
     }
   ]
 }
