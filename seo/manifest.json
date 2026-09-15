@@ -617,5 +617,16 @@
       "pandas_market_calendars"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-15",
+    "type": "use-case guide",
+    "title": "How to Build a Stock Database in Python",
+    "slug": "how-to-build-a-stock-database-in-python",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "SEC EDGAR bulk archives"
+    ],
+    "claims_verified": true
   }
 ]

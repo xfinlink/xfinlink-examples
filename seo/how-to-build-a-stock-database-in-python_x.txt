@@ -1,0 +1,1 @@
+A stock database keyed on ticker strings will eventually hold two companies under one key. And an append-only loader never notices that a 10-for-1 split rewrote the adjusted closes it already stored: NVDA 7 Jun 2024 sits at 1,208.88 raw, 120.888 adjusted. [BLOG_LINK]
