@@ -1,0 +1,9 @@
+The median S&P 500 membership lasts 13.5 years.
+
+Average the companies that already left and you get 9.6. The ones still in the index are the long ones, and dropping them biases the answer down 29%.
+
+Kaplan-Meier on 1,462 membership spells since 1957. Exit risk after year two: a flat 5% a year, whether a company has been in for five years or twenty-five.
+
+Membership does not wear out.
+
+[BLOG_LINK]

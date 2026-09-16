@@ -4377,6 +4377,17 @@
       "status": "success",
       "blog_slug": "sector-rank-persistence-python",
       "script_path": "scripts/signal-evaluation/sector-rank-persistence-python.py"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "index_constituent_analysis, index_rebalancing, survival_analysis, time_series_analysis, quantitative_research",
+      "title": "How Long Does an S&P 500 Membership Last? Kaplan-Meier Survival Analysis in Python",
+      "tickers": [
+        "Full S&P 500 membership event log 1957-2026, 3,019 events reconstructed into 1,462 membership spells"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-membership-kaplan-meier-hazard-python",
+      "script_path": "scripts/index-universe/sp500-membership-kaplan-meier-hazard-python.py"
     }
   ]
 }
