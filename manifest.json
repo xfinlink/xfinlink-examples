@@ -4388,6 +4388,17 @@
       "status": "success",
       "blog_slug": "sp500-membership-kaplan-meier-hazard-python",
       "script_path": "scripts/index-universe/sp500-membership-kaplan-meier-hazard-python.py"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "earnings_quality, growth_screening, cross_sectional_analysis, fundamental_analysis",
+      "title": "How Much of EPS Growth Comes From Share Buybacks? EPS Growth Decomposition in Python",
+      "tickers": [
+        "171 large caps with a continuous annual diluted share count over 2014-2024, drawn from 484 entities and 5,553 annual rows"
+      ],
+      "status": "success",
+      "blog_slug": "eps-growth-decomposition-share-count",
+      "script_path": "scripts/earnings-quality/eps-growth-decomposition-share-count.py"
     }
   ]
 }
