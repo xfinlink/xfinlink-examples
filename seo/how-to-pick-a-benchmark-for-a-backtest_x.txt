@@ -1,0 +1,1 @@
+Three ways to benchmark the same nine years of the S&P 500, from one price file: cap-weighted 13.10% a year, equal weight on the roster as it stood 9.25%, equal weight on today's roster run backwards 13.77%. Only two of those are benchmarks. [BLOG_LINK]

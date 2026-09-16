@@ -628,5 +628,18 @@
       "SEC EDGAR bulk archives"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-16",
+    "type": "question post",
+    "title": "How to Pick a Benchmark for a Backtest",
+    "slug": "how-to-pick-a-benchmark-for-a-backtest",
+    "competitors_mentioned": [
+      "yfinance",
+      "Alpha Vantage",
+      "Yahoo Finance",
+      "Kenneth French Data Library"
+    ],
+    "claims_verified": true
   }
 ]
