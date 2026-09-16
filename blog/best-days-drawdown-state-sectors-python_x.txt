@@ -1,0 +1,5 @@
+"The best days are rebounds inside crashes" is usually asserted, not measured. So measure it: across SPY and the 9 sector SPDRs since 1999, 194 of the 200 best sessions happened while the fund was already down more than 10% from its peak. Base rate for that state: 50.1%.
+
+draw[t] = (level / level.cummax() - 1).shift(1)
+
+[BLOG_LINK]

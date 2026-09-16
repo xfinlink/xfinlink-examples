@@ -4399,6 +4399,26 @@
       "status": "success",
       "blog_slug": "eps-growth-decomposition-share-count",
       "script_path": "scripts/earnings-quality/eps-growth-decomposition-share-count.py"
+    },
+    {
+      "date": "2026-09-16",
+      "category": "market_timing_analysis, quantitative_trading, time_series_analysis, drawdown_analysis",
+      "title": "Are the Market's Best Days Always Rebounds? Drawdown-State Analysis Across Sectors in Python",
+      "tickers": [
+        "SPY",
+        "XLB",
+        "XLE",
+        "XLF",
+        "XLI",
+        "XLK",
+        "XLP",
+        "XLU",
+        "XLV",
+        "XLY"
+      ],
+      "status": "success",
+      "blog_slug": "best-days-drawdown-state-sectors-python",
+      "script_path": "scripts/price-analysis/best-days-drawdown-state-sectors-python.py"
     }
   ]
 }
