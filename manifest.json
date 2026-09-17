@@ -4419,6 +4419,17 @@
       "status": "success",
       "blog_slug": "best-days-drawdown-state-sectors-python",
       "script_path": "scripts/price-analysis/best-days-drawdown-state-sectors-python.py"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "macro_research, macro_forecasting, time_series_analysis, econometric_research, sector_research",
+      "title": "Which Corporate Line Item Turns First? Lead-Lag Analysis of S&P 500 Fundamentals in Python",
+      "tickers": [
+        "SP500"
+      ],
+      "status": "success",
+      "blog_slug": "corporate-line-item-lead-lag-sp500-python",
+      "script_path": "scripts/macro-research/corporate-line-item-lead-lag-sp500-python.py"
     }
   ]
 }
