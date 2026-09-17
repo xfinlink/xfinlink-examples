@@ -1,0 +1,1 @@
+Your $29 market data plan probably licenses the data for one pair of eyes: yours. Showing a price to a customer is a different license, and usually a different contract. What Alpha Vantage, Twelve Data, Massive, Tiingo and EDGAR permit, as of September 2026: [BLOG_LINK]

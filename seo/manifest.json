@@ -641,5 +641,20 @@
       "Kenneth French Data Library"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-09-17",
+    "type": "buyers guide",
+    "title": "Financial Data API Licensing: What You Can Redistribute",
+    "slug": "financial-data-api-licensing",
+    "competitors_mentioned": [
+      "Alpha Vantage",
+      "Twelve Data",
+      "Massive (formerly Polygon.io)",
+      "Tiingo",
+      "Yahoo Finance",
+      "SEC EDGAR"
+    ],
+    "claims_verified": true
   }
 ]
