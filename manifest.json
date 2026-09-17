@@ -4430,6 +4430,36 @@
       "status": "success",
       "blog_slug": "corporate-line-item-lead-lag-sp500-python",
       "script_path": "scripts/macro-research/corporate-line-item-lead-lag-sp500-python.py"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "entity_resolution_showcase, ticker_recycling, volatility_analysis, drawdown_analysis, index_constituent_analysis",
+      "title": "How Much of a Ticker History Belongs to Another Company? Entity Resolution in Python",
+      "tickers": [
+        "GM",
+        "APP",
+        "LITE",
+        "PM",
+        "WTW",
+        "DELL",
+        "ANET",
+        "CF",
+        "BG",
+        "BR",
+        "V",
+        "AVGO",
+        "ALLE",
+        "AWK",
+        "BKR",
+        "CEG",
+        "AMP",
+        "KEYS",
+        "DOW",
+        "PSX"
+      ],
+      "status": "success",
+      "blog_slug": "recycled-ticker-price-history-risk-python",
+      "script_path": "scripts/price-analysis/recycled-ticker-price-history-risk-python.py"
     }
   ]
 }
