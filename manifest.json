@@ -4460,6 +4460,19 @@
       "status": "success",
       "blog_slug": "recycled-ticker-price-history-risk-python",
       "script_path": "scripts/price-analysis/recycled-ticker-price-history-risk-python.py"
+    },
+    {
+      "date": "2026-09-17",
+      "category": "signal_evaluation, quantitative_research, portfolio_construction, cross_sectional_analysis, multi_endpoint_pipeline",
+      "title": "Which Part of a 13F Is Worth Copying? Top Holdings Against New Buys in Python",
+      "tickers": [
+        "Form 13F books of 15 selective managers at 46 quarter ends 2013Q1-2024Q2 (79,081 rows, 684 manager-quarters)",
+        "SPY",
+        "RSP"
+      ],
+      "status": "success",
+      "blog_slug": "13f-top-holdings-vs-new-buys-python",
+      "script_path": "scripts/signal-evaluation/13f-top-holdings-vs-new-buys-python.py"
     }
   ]
 }
