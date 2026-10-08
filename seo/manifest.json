@@ -656,5 +656,17 @@
       "SEC EDGAR"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-10-08",
+    "type": "question post",
+    "title": "S&P 500 Additions and Deletions: Full History by Date",
+    "slug": "sp500-additions-and-deletions-history",
+    "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+    "target_phrase": "s&p 500 additions and deletions history",
+    "competitors_mentioned": [
+      "Chartrow"
+    ],
+    "claims_verified": true
   }
 ]
