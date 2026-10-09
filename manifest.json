@@ -4473,6 +4473,20 @@
       "status": "success",
       "blog_slug": "13f-top-holdings-vs-new-buys-python",
       "script_path": "scripts/signal-evaluation/13f-top-holdings-vs-new-buys-python.py"
+    },
+    {
+      "date": "2026-10-09",
+      "category": "index_constituent_analysis, cross_sectional_analysis, time_series_analysis, entity_resolution_showcase",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 companies (long-tail: largest s&p 500 companies by year)",
+      "title": "Largest S&P 500 Companies by Year: Top 10 Since 1980",
+      "tickers": [
+        "S&P 500 rosters on the first trading day of each January 1980-2026 (47 dates, 498-505 members each)",
+        "BRK-A"
+      ],
+      "status": "success",
+      "blog_slug": "largest-sp500-companies-top-10-history-python",
+      "script_path": "scripts/index-universe/largest-sp500-companies-top-10-history-python.py"
     }
   ]
 }
