@@ -4487,6 +4487,19 @@
       "status": "success",
       "blog_slug": "largest-sp500-companies-top-10-history-python",
       "script_path": "scripts/index-universe/largest-sp500-companies-top-10-history-python.py"
+    },
+    {
+      "date": "2026-10-10",
+      "category": "index_constituent_analysis, index_rebalancing, cross_sectional_analysis, time_series_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 additions (long-tail: how big are companies added to the s&p 500)",
+      "title": "S&P 500 Additions: How Big Are New Members at Entry?",
+      "tickers": [
+        "All S&P 500 additions effective 1990-2025 (859 events, 813 valued), each ranked against the roster priced on its first day in the index"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-additions-market-cap-at-entry-python",
+      "script_path": "scripts/index-universe/sp500-additions-market-cap-at-entry-python.py"
     }
   ]
 }
