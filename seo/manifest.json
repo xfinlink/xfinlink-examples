@@ -668,5 +668,15 @@
       "Chartrow"
     ],
     "claims_verified": true
+  },
+  {
+    "date": "2026-10-15",
+    "type": "question post",
+    "title": "Survivorship Bias Examples in Investing: 7 Real Cases",
+    "slug": "survivorship-bias-examples-investing",
+    "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+    "target_phrase": "survivorship bias examples in investing",
+    "competitors_mentioned": [],
+    "claims_verified": true
   }
 ]
