@@ -8,12 +8,12 @@ An S&P 500 roster refreshed once a year was wrong on 20.9 names on an average we
 
 The index has no fixed membership calendar. S&P Dow Jones Indices announces each change in a press release, and its recent quarterly changes take effect on the Monday after the third Friday of March, June, September and December: the release of 4 September 2026 set changes "effective prior to the open of trading on Monday, September 21, 2026, to coincide with the quarterly rebalance", and the March 2026 release named Monday, 23 March. The rest take effect on other dates through the year.
 
-A backtest usually pulls a constituent list once, often each January, and holds it until the next pull, so between pulls the list keeps members the index has already dropped and lacks the ones it has added. A survivorship-free list settles which companies were members; refresh frequency decides how current that list is on a given day. An earlier post compares [a backtest run on each January's S&P 500 roster with one run on today's](/blog/survivorship-bias-point-in-time-sp500-python); this one measures how far the January roster itself drifts.
+A backtest often pulls a constituent list once a year, typically each January, and holds it until the next pull, so between pulls the list keeps members the index has already dropped and lacks the ones it has added. A survivorship-free list settles which companies were members; refresh frequency decides how current that list is on a given day. An earlier post compares [a backtest run on each January's S&P 500 roster with one run on today's](/blog/survivorship-bias-point-in-time-sp500-python); this one measures how far the January roster itself drifts.
 
 ## Rebuilding the true roster for every weekday since 1990
 
 1. Page through the full S&P 500 event log with `index_events`: 3,612 dated additions and removals from 1928 to October 2026. The [guide to S&P 500 additions and deletions history](/blog/sp500-additions-and-deletions-history) explains which date each row carries.
-2. Turn the log into membership spells keyed by `entity_id`, from an addition's first day in the index to a removal's last day, giving the true roster on every weekday from 1990 to 2025.
+2. Turn the log into membership spells keyed by `entity_id`, from an addition's first day in the index to a removal's last day, giving each member's status on every weekday from 1990 to 2025.
 3. Simulate five refresh schedules (1 January, twice a year, the first day of each calendar quarter, each rebalance Monday, the first of every month), holding each roster until the next pull.
 4. On each weekday, count the names wrong: members held after their last day plus members missing after their first day. One swap the list has missed counts as two.
 5. Count the additions and removals dated from a rebalance Friday to the Monday after, by five-year period from 1980.
@@ -121,13 +121,13 @@ period
 
 The yearly schedule's error follows the number of changes. Its worst day was 22 December 2000, when the January roster was 53 removals and 53 additions out of date at the end of the busiest year in the window (110 events). The other peaks on the chart, 1998–99, 2007 and 2016, are also among the busiest years, with 76 to 84 events each.
 
-Frequency does most of the work: 20.9 wrong names for a yearly refresh, 10.3 for twice a year, 4.8 for quarterly and 1.7 for monthly. The worst day shrinks less, from 106 names to 24, because a burst of changes inside one month still lands between two monthly pulls.
+Frequency does most of the work: 20.9 wrong names for a yearly refresh, 10.3 for twice a year, 4.8 for quarterly and 1.7 for monthly. The worst day shrinks less, from 106 names to 24, since a burst of changes can still land between two monthly pulls: 12 swaps took effect between 1 and 22 December 2000.
 
 Timing started to matter only recently. Through the 2000s a refresh on each rebalance Monday did worse than one on the first day of each calendar quarter, 7.4 names against 6.0; with so few changes dated in the rebalance window, the Monday had no advantage to offer. From 2020 to 2025 the order reversed, 2.6 against 3.2, as 100 of the 220 events fell in that window. The other 120 still arrived between rebalances, which is why no quarterly schedule reaches the monthly figure.
 
 ## How often to refresh a backtest's S&P 500 universe
 
-Pull the roster on the dates the strategy trades. A monthly strategy that takes the members on each rebalance date instead of reusing January's list removes about 19 of the 21 wrong names on an average day. A daily strategy, or a study of returns around index changes, needs membership by day, built from the event log as above. For a quarterly strategy tested after 2020, refreshing on the rebalance Monday rather than the quarter's first day removes part of the remaining drift at no cost.
+Pull the roster on the dates the strategy trades. A monthly strategy that takes the members on each rebalance date instead of reusing January's list removes about 19 of the 21 wrong names on an average day. A daily strategy, or a study of returns around index changes, needs membership by day, built from the event log as above. For a quarterly strategy tested on 2020–2025 data, refreshing on the rebalance Monday rather than the quarter's first day removes part of the remaining drift at no cost.
 
 Membership on any date is one call, `index("sp500", as_of=date)`, set out in the [index membership reference](/docs/index-membership). The [historical S&P 500 constituents lookup](/historical-sp500-constituents) shows the same rosters for any past date without code.
 
