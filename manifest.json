@@ -4513,6 +4513,19 @@
       "status": "success",
       "blog_slug": "sp500-members-1957-originals-python",
       "script_path": "scripts/index-universe/sp500-members-1957-originals-python.py"
+    },
+    {
+      "date": "2026-10-16",
+      "category": "index_constituent_analysis, index_rebalancing, time_series_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 changes (long-tail: how often does the s&p 500 change its companies)",
+      "title": "How Often Does the S&P 500 Change? Stale Rosters Measured",
+      "tickers": [
+        "Full S&P 500 event log 1928-2026 (3,612 events); true daily membership 1990-2025 against five roster refresh schedules"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-roster-refresh-frequency-python",
+      "script_path": "scripts/index-universe/sp500-roster-refresh-frequency-python.py"
     }
   ]
 }

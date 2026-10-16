@@ -1,0 +1,7 @@
+Pull the S&P 500 list in January and hold it all year, and your backtest is wrong on about 21 names on an average day (1990-2025).
+
+Refresh monthly and it drops to 1.7.
+
+Since 2020, 45% of index changes land on the quarterly rebalance; before 2010 it was under 4%.
+
+[BLOG_LINK]
