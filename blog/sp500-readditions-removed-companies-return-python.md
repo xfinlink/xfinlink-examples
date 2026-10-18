@@ -12,7 +12,7 @@ Returns break shortcuts that assume a stable list: one span per company keeps a 
 
 ## Pairing every removal with the same security’s next addition
 
-1. Rebuild each security’s stays in the index from the 3,612 dated S&P 500 changes in the [index events log](/docs/index-events).
+1. Rebuild each security’s stays in the index from the full log of dated S&P 500 changes in the [index events reference](/docs/index-events).
 2. Set aside stays shorter than 30 days, such as Lamb Weston’s single day as a spin-off in November 2016; these are placements, not memberships.
 3. Count a gap between two stays of one security as a removal followed by a return, for removals from 1990 onward. A company that returns as a new security, as General Motors did after its 2009 bankruptcy, starts a new history and is not counted.
 4. Mark every weekday from 1990 to 2025 on which one of these securities sat outside the index between two stays.
@@ -131,11 +131,11 @@ MAXIM INTEGRATED PRODUCTS INC       MXIM        MXIM 2007-09-26 2018-12-03      
 
 ## Which removed companies came back, and after how long?
 
-Fewer than one removal in 25 has been reversed, and 19 of the 33 returns took more than five years. The security that left at the end of 1998 as Venator Group, the renamed Woolworth, under the symbol Z came back in 2016 as Foot Locker (FL), 17.3 years later; Ciena left in December 2009 and rejoined on 9 February 2026, replacing Dayforce (S&P Dow Jones Indices release, 4 February 2026). Nobody returned inside a year, consistent with the one-year minimum.
+Fewer than one removal in 25 has been reversed, and 19 of the 33 returns took more than five years. The security that left at the end of 1998 as Venator Group, the renamed Woolworth, under the symbol Z came back in 2016 as Foot Locker (FL), 17.3 years later; Ciena left in December 2009 and rejoined on 9 February 2026, replacing Dayforce (S&P Dow Jones Indices release, 4 February 2026). Nobody returned inside a year, consistent with today’s one-year minimum.
 
 The quick returns cluster in one episode: seven of the nine absences under two and a half years began between July 2008 and September 2009. S&P announced on 11 December 2008 that Transocean, “in the process of redomesticating to Switzerland”, was “ineligible for continued inclusion in the S&P 500” and would leave after the close on 18 December, the date in the log. ACE left in July 2008 after moving its holding company from the Cayman Islands to Switzerland, and was readmitted in July 2010 once S&P had revised its definition of a U.S. company that May (*The Royal Gazette*, 12 July 2010). Tyco, Noble, Covidien, TE Connectivity, Ingersoll-Rand and Cooper Industries, all removed in 2009, were back between August 2010 and November 2011.
 
-Long absences make the one-span error persistent. Foot Locker alone is wrongly counted for 17 years and Ciena for 16, so at least one false member sits in the index on 91% of weekdays, peaking at 17 on 21 December 2009. Symbols add a second failure: American Airlines left as AMR and came back as AAL, and SAIC’s security left as SAI and returned as Leidos (LDOS).
+Long absences make the one-span error persistent. Foot Locker alone is wrongly counted for 17 years and Ciena for 16, so the gaps from removals since 1990 alone put at least one false member in the index on 91% of weekdays, peaking at 17 on 21 December 2009. Symbols add a second failure: American Airlines left as AMR and came back as AAL, and SAIC’s security left as SAI and returned as Leidos (LDOS).
 
 ## Building an S&P 500 membership table that handles returns
 
@@ -143,6 +143,6 @@ Store membership as stays, one row per entry and exit, never as one span per com
 
 Key the history on a security identifier rather than the symbol, since seven of the 33 came back under a new ticker. Symbols also move the other way, as [a test of ticker recycling in a mean-reversion backtest](/blog/ticker-recycling-mean-reversion-backtest-python) examines.
 
-Flag returning members in any study built on index changes. The dated list of [S&P 500 additions and deletions](/blog/sp500-additions-and-deletions-history) shows each entry and exit in sequence, and an analysis of [what happens to stocks after removal](/blog/sp500-replacement-pairs-deletion-returns-python) should treat a later return as part of the same history.
+Flag returning members in any study built on index changes. The dated list of [S&P 500 additions and deletions](/blog/sp500-additions-and-deletions-history) shows each entry and exit in sequence, and any study of what happens to stocks after removal, such as [a replacement-pair test of deleted members](/blog/sp500-replacement-pairs-deletion-returns-python), should treat a later return as part of the same history.
 
 *Built with [xfinlink](https://xfinlink.com) — free financial data API for Python. `pip install -U xfinlink`*
