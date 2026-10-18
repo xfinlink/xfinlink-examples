@@ -4539,6 +4539,19 @@
       "status": "success",
       "blog_slug": "how-long-after-ipo-sp500-python",
       "script_path": "scripts/index-universe/how-long-after-ipo-sp500-python.py"
+    },
+    {
+      "date": "2026-10-18",
+      "category": "index_constituent_analysis, index_rebalancing, time_series_analysis, entity_resolution_showcase",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "removed from the s&p 500",
+      "title": "Removed From the S&P 500: How Many Companies Come Back?",
+      "tickers": [
+        "All S&P 500 removals effective 1990 onward (850; stays under 30 days set aside), paired with the same security's next addition"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-readditions-removed-companies-return-python",
+      "script_path": "scripts/index-universe/sp500-readditions-removed-companies-return-python.py"
     }
   ]
 }
