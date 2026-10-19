@@ -1,0 +1,5 @@
+Run a 12-1 momentum backtest on today's S&P 500 list and the top decile makes 21.2% a year over 2000-2024. On the rosters each month really had: 8.1%.
+
+The loser decile gets the bigger lift, 4.6% to 20.0%. Survivors that fell and recovered fill it.
+
+[BLOG_LINK]

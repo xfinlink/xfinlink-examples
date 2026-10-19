@@ -4552,6 +4552,19 @@
       "status": "success",
       "blog_slug": "sp500-readditions-removed-companies-return-python",
       "script_path": "scripts/index-universe/sp500-readditions-removed-companies-return-python.py"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "index_constituent_analysis, momentum_screening, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "momentum strategy backtest (long-tail: momentum strategy backtest survivorship bias)",
+      "title": "Momentum Strategy Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Nov 2024 (300) vs the roster served on 2026-10-19; 1,095 securities, monthly total returns 1999-2024"
+      ],
+      "status": "success",
+      "blog_slug": "momentum-strategy-backtest-survivorship-bias-python",
+      "script_path": "scripts/index-universe/momentum-strategy-backtest-survivorship-bias-python.py"
     }
   ]
 }
