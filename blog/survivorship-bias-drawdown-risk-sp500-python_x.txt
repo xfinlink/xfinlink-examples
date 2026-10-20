@@ -1,0 +1,5 @@
+Backtest an equal-weight S&P 500 on today's members and the 2007-09 drawdown reads 47.2%. On the rosters each month really had: 55.8%, and 44 months to get back.
+
+Volatility barely moves (16.8% vs 17.7%). The survivor list hides the crashes that never recovered.
+
+[BLOG_LINK]
