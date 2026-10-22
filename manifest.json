@@ -4578,6 +4578,19 @@
       "status": "success",
       "blog_slug": "survivorship-bias-drawdown-risk-sp500-python",
       "script_path": "scripts/index-universe/survivorship-bias-drawdown-risk-sp500-python.py"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "index_constituent_analysis, portfolio_construction, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (long-tail: survivorship bias cap weighted vs equal weighted backtest)",
+      "title": "Survivorship Bias: Cap-Weighted vs Equal-Weight Backtests",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Nov 2024 (300) vs the roster served on 2026-10-22; 1,100 securities, monthly total returns and market values 2000-2024"
+      ],
+      "status": "success",
+      "blog_slug": "survivorship-bias-cap-weighted-vs-equal-weight-python",
+      "script_path": "scripts/index-universe/survivorship-bias-cap-weighted-vs-equal-weight-python.py"
     }
   ]
 }

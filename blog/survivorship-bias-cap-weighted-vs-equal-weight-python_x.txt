@@ -1,0 +1,5 @@
+Survivorship bias in an S&P 500 backtest, 2000-2024: today's roster adds 6.99 points a year under equal weight.
+
+Cap-weight the same test and the lift drops to 1.63 points. Smaller, but $1 still ends at $9.46 instead of $6.51.
+
+[BLOG_LINK]
