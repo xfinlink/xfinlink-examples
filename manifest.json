@@ -4591,6 +4591,19 @@
       "status": "success",
       "blog_slug": "survivorship-bias-cap-weighted-vs-equal-weight-python",
       "script_path": "scripts/index-universe/survivorship-bias-cap-weighted-vs-equal-weight-python.py"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "index_constituent_analysis, index_rebalancing, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "look ahead bias (long-tail: look ahead bias index constituents backtest)",
+      "title": "Look-Ahead Bias in Yearly S&P 500 Constituent Lists",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Dec 2024 (301): each month's roster vs each December's and each prior December's roster applied to the whole year; 1,067 securities, monthly total returns 2000-2024"
+      ],
+      "status": "success",
+      "blog_slug": "lookahead-bias-year-end-sp500-roster-python",
+      "script_path": "scripts/index-universe/lookahead-bias-year-end-sp500-roster-python.py"
     }
   ]
 }
