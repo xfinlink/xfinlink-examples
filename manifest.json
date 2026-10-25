@@ -4617,6 +4617,19 @@
       "status": "success",
       "blog_slug": "low-volatility-anomaly-survivorship-bias-python",
       "script_path": "scripts/index-universe/low-volatility-anomaly-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "index_constituent_analysis, mean_reversion, signal_evaluation, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (long-tail: short-term reversal survivorship bias)",
+      "title": "Short-Term Reversal: Survivorship Bias Creates a Fake Edge",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Nov 2024 (300) vs today's roster; deciles by prior-month return; 1,100 securities, monthly total returns 1999-2024"
+      ],
+      "status": "success",
+      "blog_slug": "short-term-reversal-survivorship-bias-python",
+      "script_path": "scripts/index-universe/short-term-reversal-survivorship-bias-python.py"
     }
   ]
 }
