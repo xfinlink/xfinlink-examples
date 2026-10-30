@@ -4643,6 +4643,19 @@
       "status": "success",
       "blog_slug": "dividend-strategy-backtest-survivorship-bias-python",
       "script_path": "scripts/index-universe/dividend-strategy-backtest-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "index_constituent_analysis, portfolio_construction, volatility_analysis, drawdown_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (long-tail: how many stocks to diversify survivorship bias)",
+      "title": "Portfolio Diversification: Survivorship Bias Hides Losses",
+      "tickers": [
+        "S&P 500 point-in-time year-end rosters 1999-2014 (16) vs today's roster; 2,000 random equal-weight buy-and-hold portfolios of 1-100 stocks per start, universe and size (448,000); 1,038 securities, monthly total returns 2000-2024"
+      ],
+      "status": "success",
+      "blog_slug": "how-many-stocks-to-diversify-survivorship-bias-python",
+      "script_path": "scripts/index-universe/how-many-stocks-to-diversify-survivorship-bias-python.py"
     }
   ]
 }
