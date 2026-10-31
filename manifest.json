@@ -4656,6 +4656,19 @@
       "status": "success",
       "blog_slug": "how-many-stocks-to-diversify-survivorship-bias-python",
       "script_path": "scripts/index-universe/how-many-stocks-to-diversify-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-10-31",
+      "category": "index_constituent_analysis, signal_evaluation, drawdown_analysis, quantitative_trading, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "stop loss backtest survivorship bias",
+      "title": "Stop-Loss Backtest: Survivorship Bias Inflates the Cost",
+      "tickers": [
+        "S&P 500 point-in-time year-end rosters 1999-2019 (21) vs today's roster; every member held five years under buy and hold and four stops (trailing 15%/30%, fixed 15%/30%, exit to cash); 1,078 securities, daily total returns 2000-2024"
+      ],
+      "status": "success",
+      "blog_slug": "stop-loss-backtest-survivorship-bias-python",
+      "script_path": "scripts/index-universe/stop-loss-backtest-survivorship-bias-python.py"
     }
   ]
 }
