@@ -4669,6 +4669,19 @@
       "status": "success",
       "blog_slug": "stop-loss-backtest-survivorship-bias-python",
       "script_path": "scripts/index-universe/stop-loss-backtest-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "index_constituent_analysis, technical_analysis, market_timing_analysis, signal_evaluation, time_series_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "market breadth survivorship bias",
+      "title": "Market Breadth: Survivorship Bias in the 200-Day Indicator",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Dec 2024 (301) vs today's roster; share of members above their 200-day SMA of split-adjusted close; 50% timing rule on SPY total return; 1,100 securities, daily closes 1999-2024"
+      ],
+      "status": "success",
+      "blog_slug": "market-breadth-200-day-survivorship-bias-python",
+      "script_path": "scripts/index-universe/market-breadth-200-day-survivorship-bias-python.py"
     }
   ]
 }
