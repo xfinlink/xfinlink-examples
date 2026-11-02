@@ -678,5 +678,18 @@
     "target_phrase": "survivorship bias examples in investing",
     "competitors_mentioned": [],
     "claims_verified": true
+  },
+  {
+    "date": "2026-11-02",
+    "type": "use-case guide",
+    "title": "How to Backtest a Stock Strategy in Python: 7 Steps",
+    "slug": "how-to-backtest-a-stock-strategy",
+    "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+    "target_phrase": "backtest stock strategy (long form: how to backtest a stock strategy)",
+    "competitors_mentioned": [
+      "Backtesting.py",
+      "Backtrader"
+    ],
+    "claims_verified": true
   }
 ]

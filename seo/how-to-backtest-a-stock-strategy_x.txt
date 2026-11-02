@@ -1,0 +1,1 @@
+Backtesting a stock strategy? One 50-stock momentum rule, 2000-2024: 8.51% a year on the S&P 500 as it stood each month, 21.10% on today's list. Same rule, one input changed. Seven steps in Python, with what each shortcut does to the result. [BLOG_LINK]
