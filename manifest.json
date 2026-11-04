@@ -4695,6 +4695,19 @@
       "status": "success",
       "blog_slug": "sp500-new-members-vs-veterans-returns-python",
       "script_path": "scripts/index-universe/sp500-new-members-vs-veterans-returns-python.py"
+    },
+    {
+      "date": "2026-11-04",
+      "category": "index_constituent_analysis, signal_evaluation, cross_sectional_analysis, factor_construction, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "look ahead bias (long-tail: look ahead bias split adjusted prices)",
+      "title": "Look-Ahead Bias in Split-Adjusted Prices, Tested in Python",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Nov 2024 (300); members sorted on month-end traded close vs adj_close as served 2026-11-04; cheapest and dearest quintiles held equal-weight monthly 2000-2024; $10 price filter both ways; 1,062 securities, monthly total returns 1999-2024"
+      ],
+      "status": "success",
+      "blog_slug": "lookahead-bias-split-adjusted-prices-python",
+      "script_path": "scripts/index-universe/lookahead-bias-split-adjusted-prices-python.py"
     }
   ]
 }

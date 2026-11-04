@@ -1,0 +1,7 @@
+Ranking S&P 500 stocks on split-adjusted prices leaks the future into a backtest.
+
+Cheapest fifth by adj_close, 2000-2024: 16.82% a year. Same rule on the price that actually traded: 10.24%.
+
+Apple closed 1999 at $102.81. That day's adjusted close now reads $0.918.
+
+[BLOG_LINK]
