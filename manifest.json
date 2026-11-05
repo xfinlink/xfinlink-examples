@@ -4708,6 +4708,19 @@
       "status": "success",
       "blog_slug": "lookahead-bias-split-adjusted-prices-python",
       "script_path": "scripts/index-universe/lookahead-bias-split-adjusted-prices-python.py"
+    },
+    {
+      "date": "2026-11-05",
+      "category": "index_constituent_analysis, cross_sectional_analysis, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "how many s&p 500 stocks beat the index (long-tail of 's&p 500 stocks'; top five results thetrading.tools, theglobeandmail.com, awealthofcommonsense.com, benzinga.com, moomoo.com)",
+      "title": "How Many S&P 500 Stocks Beat the Index Since 2000?",
+      "tickers": [
+        "S&P 500 point-in-time roster of 2000-01-03 (500) held to 2024-12 vs today's members that traded in 2000-01 (348); January rosters 1995-2015 vs December rosters 2004-2024 for 21 ten-year windows; 1,222 securities, monthly total returns 1995-2024 with delisting returns; SPY"
+      ],
+      "status": "success",
+      "blog_slug": "how-many-sp500-stocks-beat-the-index-python",
+      "script_path": "scripts/index-universe/how-many-sp500-stocks-beat-the-index-python.py"
     }
   ]
 }
