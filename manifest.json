@@ -4721,6 +4721,19 @@
       "status": "success",
       "blog_slug": "how-many-sp500-stocks-beat-the-index-python",
       "script_path": "scripts/index-universe/how-many-sp500-stocks-beat-the-index-python.py"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "seasonality, index_constituent_analysis, cross_sectional_analysis, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "january effect survivorship bias (long-tail; top five results quantconnect.com forum, arxiv.org, fifthperson.com, luxalgo.com, marketbeat.com)",
+      "title": "January Effect Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time month-end rosters Dec 1999-Nov 2024 (300) vs the roster served on 2026-11-06; members sorted into quintiles on trailing 12-month total return, held equal-weight the next month 2000-2024; December sort (calendar-year losers) held in January vs the other 11 months; 1,098 securities, monthly total returns 1999-2024 with delisting returns; SPY"
+      ],
+      "status": "success",
+      "blog_slug": "january-effect-survivorship-bias-python",
+      "script_path": "scripts/index-universe/january-effect-survivorship-bias-python.py"
     }
   ]
 }
