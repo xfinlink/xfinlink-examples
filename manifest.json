@@ -4734,6 +4734,19 @@
       "status": "success",
       "blog_slug": "january-effect-survivorship-bias-python",
       "script_path": "scripts/index-universe/january-effect-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-07",
+      "category": "index_constituent_analysis, index_rebalancing, drawdown_analysis, time_series_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "stocks removed from the S&P 500 (top five results kucoin.com, bajajbroking.in, getquin.com, aaii.com, fool.com; one large financial publisher, phrase kept)",
+      "title": "Stocks Removed From the S&P 500: The Slide Before Exit",
+      "tickers": [
+        "S&P 500 removals 1995-2024 from the dated event log (775; 702 with 24+ months of membership), each followed by entity_id over its last 504 trading days as a member, daily total return minus SPY's; split by trading days of prices after removal (<=5 stopped trading 391, >=63 still trading 285, between 26); SPY"
+      ],
+      "status": "success",
+      "blog_slug": "stocks-removed-from-sp500-before-removal-python",
+      "script_path": "scripts/index-universe/stocks-removed-from-sp500-before-removal-python.py"
     }
   ]
 }
