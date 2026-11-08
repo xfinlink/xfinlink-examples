@@ -4747,6 +4747,19 @@
       "status": "success",
       "blog_slug": "stocks-removed-from-sp500-before-removal-python",
       "script_path": "scripts/index-universe/stocks-removed-from-sp500-before-removal-python.py"
+    },
+    {
+      "date": "2026-11-08",
+      "category": "drawdown_analysis, index_constituent_analysis, time_series_analysis, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'do stocks recover after a 50% drop' (top five results wrightresearch.in, bitget.cloud wiki, dginv.com, metricgate.com, fe.training; for 'how often do stocks recover from a 50% drawdown' ofdollarsanddata.com, wrightresearch.in, irishtimes.com, eatonvance.com)",
+      "title": "Do Stocks Recover After a 50% Drop? Survivorship Bias Test",
+      "tickers": [
+        "S&P 500 membership spells 1995-2019 (1,189 spells, 1,164 securities: January 1995 roster plus dated additions and removals) vs today's list (502); monthly total returns 1990-2024 by entity_id; events = first month-end 50%+ below the running total-return peak while a member, 1995-2019, followed 60 months (785 point-in-time events, 500 on today's list, 288 on today's list in member months)"
+      ],
+      "status": "success",
+      "blog_slug": "stock-recovery-after-50-percent-drop-python",
+      "script_path": "scripts/index-universe/stock-recovery-after-50-percent-drop-python.py"
     }
   ]
 }
