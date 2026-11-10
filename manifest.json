@@ -4773,6 +4773,19 @@
       "status": "success",
       "blog_slug": "sp500-companies-nasdaq-vs-nyse-history-python",
       "script_path": "scripts/index-universe/sp500-companies-nasdaq-vs-nyse-history-python.py"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "quantitative_trading, mean_reversion, index_constituent_analysis, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'pairs trading survivorship bias' (top five results cxoadvisory.com (two pages), capital.com (two locales), quantrocket docs; no authority majority, phrase kept; none measures it)",
+      "title": "Pairs Trading Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the Friday before each of 50 six-month trading periods 2000-2024 (as_of; 499 names a period with complete formation prices) vs the end-2024 list (431) and the end-2024 list restricted to members at the time (323); 1,064 securities, weekly total returns 1999-2024 by entity_id; distance method, 12-month formation, top 20 pairs, open at 2 SD, close on crossing or period end; legs that stop trading close at the last weekly close with the recorded delisting return"
+      ],
+      "status": "success",
+      "blog_slug": "pairs-trading-survivorship-bias-python",
+      "script_path": "scripts/index-universe/pairs-trading-survivorship-bias-python.py"
     }
   ]
 }

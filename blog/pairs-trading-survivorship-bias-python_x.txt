@@ -1,0 +1,7 @@
+Pairs trading on the S&P 500 rosters of the time, 2000-2024: -0.01% per six months.
+
+On the end-2024 list: +0.59%. $1 ends at $1.31, not $0.98.
+
+Takeovers hit only 15 of 917 pairs (avg +2.74%). The gap (t = -1.43, not significant) tracks who the list keeps.
+
+[BLOG_LINK]
