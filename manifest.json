@@ -4786,6 +4786,19 @@
       "status": "success",
       "blog_slug": "pairs-trading-survivorship-bias-python",
       "script_path": "scripts/index-universe/pairs-trading-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "index_constituent_analysis, index_rebalancing, cross_sectional_analysis, quantitative_research, signal_evaluation",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 spin-offs after joining the index (long tail of 's&p 500 additions'; top five results gurufocus.com, mckinsey.com and karriere.mckinsey.de (three URLs of one McKinsey article), business.purdue.edu (McConnell et al. PDF); no reference site or index provider in the top five, no authority majority, phrase kept; none measures spin-off additions on the dated log)",
+      "title": "S&P 500 Spin-Offs: How Did They Do After Joining?",
+      "tickers": [
+        "S&P 500 spin-off additions effective 1993-02-01 to 2021-12-31 from the dated additions log (75 kept first entries, 17 placements under 30 days, 2015-2020), classified with the how-long-after-ipo route rules; daily total returns by entity_id from the first close as a member over 252/504/756 trading days minus SPY; exits follow SPY from the last close; a long unpriced run (Garrett Motion's 2020-2021 over-the-counter stretch) is bridged from the closes on either side; survivor subset = same membership still running on the end-2024 roster (25)"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-spin-offs-after-joining-python",
+      "script_path": "scripts/index-universe/sp500-spin-offs-after-joining-python.py"
     }
   ]
 }
