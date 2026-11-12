@@ -1,0 +1,5 @@
+Optimizing today's S&P 500 list over 2000-2024 adds 6.44 points a year of survivorship bias to max Sharpe, 5.20 to equal weight, 3.92 to min variance.
+
+It also skews the comparison: max Sharpe leads 1/N by 0.070 Sharpe on survivors, 0.007 on real ones.
+
+[BLOG_LINK]

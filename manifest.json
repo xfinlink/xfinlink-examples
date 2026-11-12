@@ -4799,6 +4799,19 @@
       "status": "success",
       "blog_slug": "sp500-spin-offs-after-joining-python",
       "script_path": "scripts/index-universe/sp500-spin-offs-after-joining-python.py"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "optimization_problem, index_constituent_analysis, index_rebalancing, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'portfolio optimization survivorship bias' (top five results arxiv.org (two papers, 2604.09060 and 0810.1922 via ar5iv), fe.training (three URLs of one page), dimensional.com; no authority majority, phrase kept; none measures the effect by weighting rule)",
+      "title": "Portfolio Optimization: Survivorship Bias by Weighting Rule",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the first trading day of each January 2000-2024 (as_of; 459-491 names a year with 60 complete monthly returns and a priced January) vs the end-2024 list used at every date (288-481) and the end-2024 list restricted to members at the time; 1,062 securities, monthly total returns 1995-2024 by entity_id; equal weight, long-only minimum variance and maximum Sharpe (Ledoit-Wolf covariance, 5% cap), 12-month buy and hold; exits take the recorded delisting return, then the proceeds follow SPY; robustness 36-month window and 10% cap"
+      ],
+      "status": "success",
+      "blog_slug": "portfolio-optimization-survivorship-bias-python",
+      "script_path": "scripts/index-universe/portfolio-optimization-survivorship-bias-python.py"
     }
   ]
 }
