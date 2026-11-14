@@ -1,0 +1,5 @@
+An ML stock model trained on today's S&P 500 list backtests at 7.6 points a year, top decile minus bottom, 2005-2024 (t 1.79).
+
+On the rosters that existed each month: 0.0. It learned that volatile, crashed stocks rebound. The ones that left the index were never in its data.
+
+[BLOG_LINK]

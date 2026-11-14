@@ -4825,6 +4825,19 @@
       "status": "success",
       "blog_slug": "dow-jones-additions-deletions-performance-python",
       "script_path": "scripts/index-universe/dow-jones-additions-deletions-performance-python.py"
+    },
+    {
+      "date": "2026-11-14",
+      "category": "financial_forecasting, signal_evaluation, index_constituent_analysis, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'machine learning survivorship bias stock prediction' (top five results ceur-ws.org (workshop paper PDF), digital-ai-finance.github.io (course lecture PDF), journals.sagepub.com (Algorithmic Finance paper), daotao.dau.edu.vn (auto-generated page), oreilly.com (Hands-On Machine Learning for Algorithmic Trading excerpt); no reference site, major financial publisher or index provider, no authority majority, phrase kept; none trains the same model on point-in-time and survivor rosters)",
+      "title": "Survivorship Bias in Machine Learning Stock Prediction",
+      "tickers": [
+        "S&P 500 point-in-time rosters at each month end Dec 1999-Nov 2024 (as_of; 300 rosters, next-month universe) vs today's roster (no as_of, 503 members on 2026-11-14) applied to every month; 1,100 securities, monthly total returns 1998-12 to 2024-12 by entity_id; exits take the recorded delisting return in the exit month (exit records read one exit year per single-page call); features last-month return, 12-1 momentum, 12-month volatility, distance below 12-month high, ranked within each universe; label beat the universe median next month; logistic regression and HistGradientBoosting (random_state 0), expanding walk-forward refit each January 2005-2024; top-minus-bottom decile equal weight, t-stat, AUC, rank IC; LEH, ENE, WCOM, WM, FRC exits checked"
+      ],
+      "status": "success",
+      "blog_slug": "machine-learning-stock-prediction-survivorship-bias-python",
+      "script_path": "scripts/index-universe/machine-learning-stock-prediction-survivorship-bias-python.py"
     }
   ]
 }
