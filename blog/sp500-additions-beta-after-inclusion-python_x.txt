@@ -1,0 +1,7 @@
+Does a stock move more with the S&P 500 once it joins?
+
+612 additions, 1995-2023: R-squared with SPY up 0.035 vs incumbents (t 5.17). Beta up 0.089, but 0.032 outside 1998-2001, not significant.
+
+1995-2007 beta change: +0.194 for names since removed, +0.016 for today's members.
+
+[BLOG_LINK]

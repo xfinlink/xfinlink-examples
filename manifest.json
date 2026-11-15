@@ -4838,6 +4838,19 @@
       "status": "success",
       "blog_slug": "machine-learning-stock-prediction-survivorship-bias-python",
       "script_path": "scripts/index-universe/machine-learning-stock-prediction-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-15",
+      "category": "correlation_beta, index_rebalancing, index_constituent_analysis, econometric_research, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 additions (guide row) with long tail 's&p 500 inclusion beta' (head phrase top five: bankrate.com, webull.com, euronews.com, barchart.com, chartrow.com; long tail 's&p 500 additions beta after inclusion' top five: ueaeprints.uea.ac.uk, biz.uiowa.edu (Vijh 1994 PDF), icmaif.soc.uoc.gr (PDF), newyorkfed.org (Staff Report 484, two URLs); no reference site or index provider, no authority majority, long tail kept in the title; none measures the beta change by later membership status)",
+      "title": "S&P 500 Additions: Does Joining Raise a Stock's Beta?",
+      "tickers": [
+        "S&P 500 dated event log 1990-2024 (index_events, security grain); 758 additions and 755 removals 1995-2023 whose post window ends by 2024-12-23, 612 additions and 265 removals kept (52 priced weeks each side of a 4-week skip, outside/inside the index before/after, removals still trading 56 weeks on); weekly total returns (interval 1w) by entity_id vs SPY; OLS beta and R-squared weeks -56..-5 vs +5..+56; control: 60 random incumbents per event year that were members through the whole window (index as_of window start, seed 0), same weeks, plus a pre-beta-matched control; one-sample t, Wilcoxon, 29 cohort-year means; splits 1995-2007 vs 2008-2023, outside 1998-2001, pre-addition return vs SPY halves, member of today's roster (503 names on 2026-11-15) vs removed since"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-additions-beta-after-inclusion-python",
+      "script_path": "scripts/index-universe/sp500-additions-beta-after-inclusion-python.py"
     }
   ]
 }
