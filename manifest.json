@@ -4851,6 +4851,19 @@
       "status": "success",
       "blog_slug": "sp500-additions-beta-after-inclusion-python",
       "script_path": "scripts/index-universe/sp500-additions-beta-after-inclusion-python.py"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "valuation_ratios, factor_construction, index_constituent_analysis, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'value investing backtest survivorship bias' (top five results quant-investing.com (two backtest blog posts), wealth-lab.com, portfoliopilot.com, yonesuke.github.io; variant 'price to book strategy backtest survivorship bias': alphaarchitect.com (two URLs of one post), quant-investing.com, greenbackd.com, tangiblebruce.substack.com; no reference site, major financial publisher or index provider, no authority majority, phrase kept; none measures a book-to-market spread on point-in-time vs survivor rosters)",
+      "title": "Value Investing Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1999-2023 (as_of; about 462 companies a year with a book value filed by the date) vs today's roster (502 members with a ticker on 2026-11-16) applied to every company in it that traded on the sort date (about 414 a year), plus point-in-time members still in the index today (about 294); market value and P/B from metrics period ttm as_of the sort date (statements filed by that date), book equity from fundamentals as_of where P/B is blank; positive-book book-to-market quintiles, negative book equity its own group (about 13 a year); calendar-year holding 2000-2024, equal weight rebalanced monthly (market-value weight check), monthly total returns by entity_id for 1,006 securities; exits take the recorded delisting return (356 exit records read in single-page calls by exit year), an exit with no recorded value keeps its last price; ENE 2001, BSC/LEH/WM 2008, SIVB/FRC 2023 checked"
+      ],
+      "status": "success",
+      "blog_slug": "value-investing-backtest-survivorship-bias-python",
+      "script_path": "scripts/index-universe/value-investing-backtest-survivorship-bias-python.py"
     }
   ]
 }

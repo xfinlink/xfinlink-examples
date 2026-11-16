@@ -1,0 +1,5 @@
+Backtest a price-to-book value strategy on today's S&P 500 list and every quintile earns 5.1 to 7.5 points a year more than on the rosters that existed, 2000-2024.
+
+The cheap-minus-expensive spread barely moves: 2.7 points vs 1.7. Neither is significant.
+
+[BLOG_LINK]
