@@ -4864,6 +4864,19 @@
       "status": "success",
       "blog_slug": "value-investing-backtest-survivorship-bias-python",
       "script_path": "scripts/index-universe/value-investing-backtest-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-17",
+      "category": "profitability_analysis, index_constituent_analysis, index_rebalancing, earnings_quality, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 new additions (guide row; top five investing.com, euronews.com, seekingalpha.com, finance.yahoo.com, webull.com: three major financial publishers, so swapped) -> long tail 's&p 500 profitability requirement' in the title (top five investinglive.com, letsdatascience.com, fool.com, technicaltwist.substack.com, itiger.com; one major publisher, no reference site or index provider, kept; none tests additions on point-in-time filed figures)",
+      "title": "S&P 500 Profitability Requirement: Do New Additions Pass?",
+      "tickers": [
+        "S&P 500 dated additions 2011-01-01 to 2026-09-30 (index_events, one year per call, checked against meta.total): 348, less 7 extra share classes of existing members = 341; quarterly net income (attributable to parent, else net income) from fundamentals as_of the day before each effective date; test = four most recent consecutive quarters sum > 0 and latest > 0; split by 12 months of trading before joining (first monthly price): 269 established (242 pass, 19 fail, 8 not testable), 72 spin-offs/merger-created (10 pass, 4 fail, 58 not testable; AA 2016 not scored on its former parent's figures); failures' routes from S&P DJI announcements (16 MidCap 400 including AGL, which replaced Nicor after acquiring it, 1 SmallCap 600, Coty and Arista outside; migration exemption explicit since July 2017); restated re-run on today's figures (1 of 275 verdicts changes, Amentum 2024; 7 change on quarters ended but not yet filed); later trailing four-quarter losses on version=original quarters within 1-3 years vs incumbents passing the same test on each 31 December roster 2010-2024 with a year of tenure, weighted to additions' years; removal within 5 years from the event log; TSLA 2020, UBER 2023, ABNB 2023 checked"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-additions-profitability-rule-python",
+      "script_path": "scripts/index-universe/sp500-additions-profitability-rule-python.py"
     }
   ]
 }
