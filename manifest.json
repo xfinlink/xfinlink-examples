@@ -4877,6 +4877,19 @@
       "status": "success",
       "blog_slug": "sp500-additions-profitability-rule-python",
       "script_path": "scripts/index-universe/sp500-additions-profitability-rule-python.py"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "dividend_screening, index_constituent_analysis, quantitative_research, signal_evaluation, time_series_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'dividend aristocrats survivorship bias' (SERP check by the orchestrator: top five presentationbuilder.internationaltrucks.com, advisorperspectives.com, investing.com x2, dividendgrowthinvestor.com; one authority site, phrase kept; none measures the streak rule on point-in-time rosters)",
+      "title": "Dividend Aristocrats Backtest: Survivorship Bias Measured",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1999-2024 (index as_of; 1,063 securities); aristocrat-style screen = regular dividend per share raised for 25+ consecutive calendar years, rebuilt from monthly dividend/split_ratio rows since 1962 (special_dividends excluded, a regular+special payment counted at the previous regular amount, split and mixed months re-read daily: 1,709 months; four payments classed regular/special from company filings: BF-B 2007-04, CINF 2015-12, CTAS 2014-11 and 2020-11), timing rule for ex-dates crossing the year end (payment count changes by one, or a payment brought forward as in Dec 2012; T+1 ex-dates in Jan 2025); validated on the end-2024 roster against the 69-name official list after the January 2025 rebalance: 61 matched, 0 extra; misses ABBV AMCR KVUE LIN PNR (own record under 25 years), ABT (2013), NUE (supplemental on the same dates), CTAS (annual-to-quarterly 2020); portfolios held calendar years 2000-2024, equal weight buy-and-hold, delisting returns (430 exit records); point-in-time screen vs end-2024 list held from 2000 vs end-2024 roster screened each December vs equal-weight members; returns end 2024-12-31"
+      ],
+      "status": "success",
+      "blog_slug": "dividend-aristocrats-survivorship-bias-python",
+      "script_path": "scripts/index-universe/dividend-aristocrats-survivorship-bias-python.py"
     }
   ]
 }
