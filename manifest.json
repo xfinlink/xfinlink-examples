@@ -4890,6 +4890,19 @@
       "status": "success",
       "blog_slug": "dividend-aristocrats-survivorship-bias-python",
       "script_path": "scripts/index-universe/dividend-aristocrats-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-20",
+      "category": "index_constituent_analysis, index_rebalancing, cross_sectional_analysis, quantitative_research, time_series_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 removals, long tail 'how small before removal from s&p 500' (SERP top five: chase.com, kalkinemedia.com, inkl.com, metro.us, kucoin.com; one authority site, phrase kept). Rejected: 's&p 500 removal criteria' (bnn.ca, dailymaverick.co.za, bankrate.com, fool.com, kucoin.com: three authority sites); 's&p 500 deletions market cap at removal' (chase.com, kucoin.com, press.spglobal.com x2, inkl.com)",
+      "title": "S&P 500 Removals: How Small Do Members Get Before Exit?",
+      "tickers": [
+        "S&P 500 removals effective 1990-2025 from index_events (852, second share classes folded into the company; 1,593 securities in the index since 1980); point-in-time rosters rebuilt from the 1979-12-31 roster plus the event log (equal index(as_of) on 4 test dates); company market value (listed classes summed, BRK-A added) at the last month-end on or before each removal from monthly bars; removals classed by own daily bars after the removal (<=5 stopped trading 446, >=63 still trading 374, between 32); set aside: members under 30 days 23, 2002-07-19 non-US removals 7, no month-end value 2; 342 demoted valued; entry rank at first month-end for spells from 1980 (257); S&P DJI additions guideline 2007-07-18 to 2025-07-01 (methodology appendix + press releases); today's roster valued 2026-11-18"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-removals-market-cap-at-removal-python",
+      "script_path": "scripts/index-universe/sp500-removals-market-cap-at-removal-python.py"
     }
   ]
 }
