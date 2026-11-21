@@ -4903,6 +4903,19 @@
       "status": "success",
       "blog_slug": "sp500-removals-market-cap-at-removal-python",
       "script_path": "scripts/index-universe/sp500-removals-market-cap-at-removal-python.py"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "factor_construction, index_constituent_analysis, cross_sectional_analysis, quantitative_research, signal_evaluation",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'size effect survivorship bias' (SERP top five: core.ac.uk, wikipedia.org, ideas.repec.org, pages.stern.nyu.edu, archive.nyu.edu; one large authority site, phrase kept; mostly academic papers on the US size effect, none measures it on point-in-time index rosters). Also tried 'small cap premium survivorship bias' (arxiv.org x2, blogs.cfainstitute.org, nbim.no x2)",
+      "title": "Size Effect Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1999-2023 (index as_of) plus today's roster 2026-11-21 (502 lines with an id); 1,098 securities; company market value at the December month-end from monthly bars, index share classes summed (GOOG/GOOGL, DISCA/DISCK, FOX/FOXA x2, NWS/NWSA, UA/UAA, BRK-A added to BRK-B); three universes (point-in-time roster, members then still in today's index, today's roster valued on the same date) each sorted into size quintiles every December; equal weight, bought and held for the next calendar year 2000-2024, recorded delisting returns (430 exit records) then cash; Q1-Q5 mean annual gap, t-stat, years ahead; decomposition into removed members vs names not yet in the index; LH and UHS 2000 returns checked against StatMuse"
+      ],
+      "status": "success",
+      "blog_slug": "size-effect-survivorship-bias-python",
+      "script_path": "scripts/index-universe/size-effect-survivorship-bias-python.py"
     }
   ]
 }
