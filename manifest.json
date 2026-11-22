@@ -4916,6 +4916,19 @@
       "status": "success",
       "blog_slug": "size-effect-survivorship-bias-python",
       "script_path": "scripts/index-universe/size-effect-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "index_constituent_analysis, dividend_screening, time_series_analysis, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 companies (guide row) with long tail 's&p 500 dividend payers by year' (SERP top five: dqydj.com x2, ftportfolios.com x3; no large authority site, phrase kept). Swapped from 'how many s&p 500 companies pay dividends' (seekingalpha.com, insight.factset.com, ftportfolios.com, spglobal.com, titan.com: three authority sites)",
+      "title": "S&P 500 Dividend Payers by Year: 95% in 1980, 81% in 2025",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1979-2025 (index as_of) plus today's roster 2026-11-22; 1,564 securities; index lines sharing a company name counted once (share classes, tracking stocks); payer = at least one cash dividend with an ex-date in the calendar year from monthly dividend rows 1979-2025, special dividends included (special-only years at most 4 a year); 12 lone sub-2-cent payments treated as rights-plan redemptions (Navistar 2001-10 verified in its 8-A/A); denominator = members with a December bar (8 December-1983 additions trading from 1984 set aside); today's roster traced back through members' own histories when trading that December; split into members still in the index, removed since, and not yet members; stops/starts among members on consecutive rosters; turnover 1995-2002 (198 joined, 198 left); checked against S&P DJI year-end payer counts via First Trust (469 in 1980, 351 in 2001-2002)"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-dividend-payers-by-year-python",
+      "script_path": "scripts/index-universe/sp500-dividend-payers-by-year-python.py"
     }
   ]
 }
