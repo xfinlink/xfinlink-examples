@@ -4929,6 +4929,19 @@
       "status": "success",
       "blog_slug": "sp500-dividend-payers-by-year-python",
       "script_path": "scripts/index-universe/sp500-dividend-payers-by-year-python.py"
+    },
+    {
+      "date": "2026-11-23",
+      "category": "balance_sheet_health, factor_construction, index_constituent_analysis, cross_sectional_analysis, signal_evaluation, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "survivorship bias (guide row) with long tail 'altman z score backtest' (SERP for 'altman z score backtest survivorship bias': onveston.beehiiv.com, arxiv.org, onveston.substack.com, repositorio.ucp.pt, wikipedia.org; one large authority site, phrase kept; none measures the bias on point-in-time index rosters)",
+      "title": "Altman Z-Score Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1999-2023 (index as_of) plus today's roster 2026-11-23 (502 lines); Altman Z-score (original 1968 public-company weights, market value at fiscal year-end close) from the metrics altman_z_score field on the latest annual report filed by each sort date (as_of), latest report with all five inputs and fiscal year ended within 18 months; financials (SIC 6000-6999 on record today) set aside, except years whose business on the sort date differed (REIT conversions AMT/CCI/IRM/EQIX/SBAC/PCH, successor records Kmart-Sears Holdings and Wyndham Worldwide: NOT_FINANCIAL_THROUGH override), 33 company-years with no SIC kept; companies priced in the December of the sort; three universes (point-in-time roster, members then still in today's index, today's roster scored on the same date); Altman zones (distress <1.81, safe >2.99) plus Z quintiles; equal weight, bought and held for the next calendar year 2000-2024, recorded delisting returns (283 exit records) then cash; run with and without SIC 4900-4999 (utilities, pipelines, power producers, waste services); distress-minus-safe mean annual gap, t-stats, years ahead; decomposition into removed members vs names not yet in the index; Enron (Dec 2000), Kmart (Dec 2001), US Airways, Calpine, Delta, Dana, Circuit City checked against their bankruptcy filing dates; 783 securities, 604 API requests all 200"
+      ],
+      "status": "success",
+      "blog_slug": "altman-z-score-survivorship-bias-python",
+      "script_path": "scripts/index-universe/altman-z-score-survivorship-bias-python.py"
     }
   ]
 }

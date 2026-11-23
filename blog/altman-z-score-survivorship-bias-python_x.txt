@@ -1,0 +1,5 @@
+Backtest an Altman Z-score screen on today's S&P 500 list and survivorship bias adds 8.5 points a year to distressed stocks since 2000, 6.3 to safe ones.
+
+The gap moves 2.2 (t 1.5). Drop SIC 49 (utilities, pipelines, power) and it becomes a fake 9.5-point edge.
+
+[BLOG_LINK]
