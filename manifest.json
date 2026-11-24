@@ -4942,6 +4942,19 @@
       "status": "success",
       "blog_slug": "altman-z-score-survivorship-bias-python",
       "script_path": "scripts/index-universe/altman-z-score-survivorship-bias-python.py"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "index_constituent_analysis, profitability_analysis, earnings_quality, time_series_analysis, cross_sectional_analysis, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 companies losing money by year (long tail; SERP top five: theglobeandmail.com, startribune.com, m.startribune.com, inkl.com, warc.com; two large publishers, phrase kept, no year-by-year series among them). Swapped from 'how many s&p 500 companies are unprofitable' (theglobeandmail.com, startribune.com, voronoiapp.com, m.startribune.com, money.com: three large publishers)",
+      "title": "S&P 500 Companies Losing Money by Year, 2008-2025",
+      "tickers": [
+        "S&P 500 point-in-time rosters on 31 December 2008-2025 (index as_of) plus today's roster 2026-11-24; securities mapped to companies by resolving each ticker on the first roster date it appears (fundamentals meta.tickers_resolved; resolve for tickers naming several securities), share classes counted once; annual net_income (attributable to parent), fiscal years ending Jun-Dec in that calendar year, Jan-May in the year before; figures as on file at the end of the following year (fundamentals as_of), else as on file today (30 company-years); one row per company-year at the company's usual year-end month, 12-month windows ending in another month within 300 days of a neighbouring year-end excluded; members without a usable figure leave the year's count (coverage 478-500 a year, 95.8%-100%); roster lines of different companies sharing one company record set aside; loss-maker = net income < 0; today's roster traced back, split into still in / removed since / not yet members; largest losses checked against public reports (AIG 2008 -99.3bn, Exxon 2020 -22.4bn); 835 companies, 569 API requests in the run incl. probes, all 200 apart from one 409 and one 404 during probing"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-loss-making-companies-by-year-python",
+      "script_path": "scripts/index-universe/sp500-loss-making-companies-by-year-python.py"
     }
   ]
 }
