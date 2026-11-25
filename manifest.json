@@ -4955,6 +4955,19 @@
       "status": "success",
       "blog_slug": "sp500-loss-making-companies-by-year-python",
       "script_path": "scripts/index-universe/sp500-loss-making-companies-by-year-python.py"
+    },
+    {
+      "date": "2026-11-25",
+      "category": "index_constituent_analysis, entity_resolution_showcase, index_rebalancing, quantitative_research, time_series_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 dual class shares history (long tail; SERP top five: congress.gov (CRS IF11992), corpgov.law.harvard.edu x3, wsgr.com; one government reference and a law-school forum, no large financial publisher or index-provider page in the top five, phrase kept; none gives a year-by-year line count). Rejected: 'why does the s&p 500 have 503 stocks' (wikipedia x2, barchart, theglobeandmail, wikiwand) and 's&p 500 share classes by year' (Wikipedia-heavy)",
+      "title": "S&P 500 Dual-Class Shares History: Two Lines, One Company",
+      "tickers": [
+        "S&P 500 point-in-time rosters on the last business day of each December 1980-2025 (index as_of); lines sharing a company name on one roster counted as one company, plus an initials-stem screen (U S X, I T T, A T & T, U S, F M C, G E) ruled by hand: only USX's Marathon Group / U.S. Steel Group tracking stocks joined by an explicit override, ended at the 2001-12-31 separation; dated additions and removals 1980-2025 (index_events, 2,221 events) to catch two-line spells between year-ends (Comcast CMCSA/CMCSK 2015-09-21 to 2015-12-11); ten companies: USX MRO/X, U S West UMG/USW and Sprint FON/PCS tracking stocks, GOOG/GOOGL, DISCA/DISCK, NWSA/NWS, FOXA/FOX (Twenty-First Century Fox, then Fox Corp), CMCSA/CMCSK, UA/UAA; GM E/H, Celera, Timber Co, Pittston groups, AT&T Wireless tracking, MCI group, Disney Internet Group, Genzyme divisions, Viacom and Royal Dutch checked: parent line only; equal-weight portfolios of each December roster 1995-2024 bought and held the next calendar year, one slot per line vs one slot per company, monthly total returns with recorded delisting returns then cash; pair monthly return correlations; external dates checked against S&P DJI press releases (2014-03-11, 2015-08-10, 2017-07-31, 2019-03-14, 2022-06-03), Davis Polk (2023-04-17 announcement), Comcast, SEC filings (USX chronology and 2001 8-K, U S West, Sprint FY1998 and FY2004 10-Ks), UPI (Discovery-WarnerMedia close); 1,195 securities, 150 API requests all 200"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-dual-class-shares-history-python",
+      "script_path": "scripts/index-universe/sp500-dual-class-shares-history-python.py"
     }
   ]
 }

@@ -1,0 +1,5 @@
+The S&P 500 has listed some companies twice: GOOG and GOOGL today, USX's Marathon and U.S. Steel tracking stocks in the 1990s. Ten companies since 1980, up to five at once.
+
+Give each line its own slot in an equal-weight backtest and returns drift about 11 bp in affected years.
+
+[BLOG_LINK]
