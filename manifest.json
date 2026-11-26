@@ -4968,6 +4968,19 @@
       "status": "success",
       "blog_slug": "sp500-dual-class-shares-history-python",
       "script_path": "scripts/index-universe/sp500-dual-class-shares-history-python.py"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "factor_construction, valuation_ratios, index_constituent_analysis, signal_evaluation, quantitative_research, cross_sectional_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "look ahead bias vs survivorship bias (SERP top five: bowtiedraptor.substack.com, arxiv.org, arxiv.org, wikipedia.org, tradermath.org; one large reference site, phrase kept). Rejected: 'look-ahead bias earnings yield backtest' (dev.to, corporatefinanceinstitute.com x3, dev.to) and 'look ahead bias backtest example' (arxiv.org, corporatefinanceinstitute.com x3, dev.to): three CFI reference pages each",
+      "title": "Look-Ahead Bias vs Survivorship Bias in an E/P Backtest",
+      "tickers": [
+        "S&P 500 rosters in force on the last business day of each December 2010-2023 (index as_of) plus today's roster 2026-11-26 (502 lines) traced back; market value all share classes at the sort-date close (metrics ttm as_of); annual net_income from year-end fundamentals snapshots (as_of each sort date and 2024-12-31), one figure per fiscal year (first snapshot holding it) shared by both timings; point-in-time = latest fiscal year filed by the sort date, look-ahead = latest fiscal year ending by 31 December; fiscal-year month keyed on rows with revenue, off-month 12-month windows within 300 days of a year-end dropped, period ends under 300 days apart treated as one year; common sample with both figures (474-500 roster companies a year, today's roster 416-490); loss-makers (NI <= 0) own group, positive E/P quintiles, financials kept; MeadWestvaco (8097) to 2014, Tyco/JCI (4074) to 2015 and AGL Resources (670) 2012-2013 set aside; equal weight buy-and-hold next calendar year 2011-2024, monthly total returns, recorded delisting returns then cash; 782 securities, 163 exit records; sorts start Dec 2010, the first year-end with both E/P figures for 95%+ of roster companies; external claim: Banz & Breen (1986, JF 41(4) 779-793) abstract; 380 API requests in the run incl. probes, all 200"
+      ],
+      "status": "success",
+      "blog_slug": "lookahead-bias-vs-survivorship-bias-earnings-yield-python",
+      "script_path": "scripts/index-universe/lookahead-bias-vs-survivorship-bias-earnings-yield-python.py"
     }
   ]
 }

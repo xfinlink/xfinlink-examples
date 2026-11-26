@@ -1,0 +1,6 @@
+One S&P 500 earnings-yield backtest, two biases, 2011-2024.
+
+Survivorship: today's list adds 4.0 points a year to the average quintile, every year.
+Look-ahead: reading earnings before they were filed only re-ranks stocks. It moves the spread 0.29 points.
+
+[BLOG_LINK]
