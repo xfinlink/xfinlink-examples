@@ -4981,6 +4981,19 @@
       "status": "success",
       "blog_slug": "lookahead-bias-vs-survivorship-bias-earnings-yield-python",
       "script_path": "scripts/index-universe/lookahead-bias-vs-survivorship-bias-earnings-yield-python.py"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "index_constituent_analysis, time_series_analysis, cross_sectional_analysis, entity_resolution_showcase, quantitative_research",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "s&p 500 stock split count by year since 1980 (long tail; head phrase 's&p 500 stock splits by year' had 3+ authority sites: morningstar.com, nasdaq.com, businessinsider.in x2, walnutinvest.com; long-tail SERP top five 2026-11-27: nasdaq.com, businessinsider.in, globaltrading.net, walnutinvest.com, businessinsider.in; none gives a full year-by-year table)",
+      "title": "S&P 500 Stock Splits by Year: 105 at the Peak, 1 in 2009",
+      "tickers": [
+        "S&P 500 point-in-time membership 1980-2025 (events and prices fetched through 2026-11-26, nothing after 2025-12-31 counted): rosters on the last business day of each December 1979-2025 plus today's roster 2026-11-27 (503 lines) (index as_of), with spells between year-ends from index_events (2,289 events 1979-2026-11-26); removal dates inclusive; 1,592 securities; lines sharing a name on one roster = one company; monthly bars 1979-12 to 2026-11 (prices interval 1mo: close, adj_close, split_ratio, shares_outstanding); split = recorded split_ratio confirmed by the close/adj_close factor (3%) or shares_outstanding change (15%), factor agreed on 3,339 of 3,370 candidates; forward = plain ratio p/q (q<=4) >= 1.25 (Phillips 1985 3-for-1 and Wrigley 1986 Class B distribution kept on share count; Phillips via UPI 1985-07-23); reverse = plain ratio <= 0.8 confirmed by the factor or the company's filing (AT&T 2002, Allegheny Teledyne 1999, Tyco 2007, Time Warner 2009, Motorola 2011, Expedia 2011 verified in SEC filings / CNN Money); Viacom/CBS 2006-01 share conversion excluded by override; Masonite 1982 1-for-3 dropped (no public source, factor disagrees); 22 member reverse splits 1980-2025; reverse names as on the last roster before the ex-date; 25 non-plain ratios (merger exchange ratios, recapitalisations) and 4 unconfirmed set aside; share dividends filed as splits counted: Google 2014-04, Discovery 2014-08 and Under Armour 2016-04 Class C dividends as 2-for-1 (Alphabet 8-K ex. 99.2 2016, Discovery FY2014 10-K, Under Armour FY2017 10-K 'Stock Split'), Wrigley 2006-04 Class B dividend of one share per four as 5-for-4 (Wrigley FY2006 10-K ex. 13, Note 9); results: 1980-1989 582 splits (58.2 a year, 11.1%), 1990-1999 585 (58.5, 11.2%), 2000-2009 258 (25.8, 4.9%), 2010-2019 79 (7.9, 1.5%), 2020-2025 48 (8.0, 1.5%); 105 in 1986 and 1987, 1 in 2009, 16 in 2024; today's roster share higher in 44 of 46 years (+3.0 points); 634 of 1,552 member splits from companies in the index today; ex-date pinned by 31 daily pulls where a spell started or ended in the split month; rate = splitting members / companies in the index at any time that year; today's roster traced back = its companies trading that year; spot checks AAPL, MSFT, WMT, NVDA, AMZN, GOOGL, TSLA, C, AIG, GE; 183 HTTP requests, 182 x 200 and one 400 (events end date past coverage)"
+      ],
+      "status": "success",
+      "blog_slug": "sp500-stock-splits-by-year-python",
+      "script_path": "scripts/index-universe/sp500-stock-splits-by-year-python.py"
     }
   ]
 }
