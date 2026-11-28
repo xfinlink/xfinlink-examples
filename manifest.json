@@ -4994,6 +4994,19 @@
       "status": "success",
       "blog_slug": "sp500-stock-splits-by-year-python",
       "script_path": "scripts/index-universe/sp500-stock-splits-by-year-python.py"
+    },
+    {
+      "date": "2026-11-28",
+      "category": "earnings_quality, factor_construction, index_constituent_analysis, signal_evaluation, quantitative_research, cross_sectional_analysis",
+      "cluster": "S&P 500 history and survivorship-bias-free backtesting",
+      "target_phrase": "accrual anomaly backtest (SERP check by the orchestrator 2026-11-28: podcast.ausha.co, quantconnect.com x2, quantpedia.com, nber.org; no three large authority sites, phrase kept)",
+      "title": "Accrual Anomaly Backtest: Survivorship Bias in the S&P 500",
+      "tickers": [
+        "S&P 500 rosters in force on the last business day of each December 2010-2024 (index as_of) plus today's roster 2026-11-28 (502 lines) traced back (its companies with a December close on the sort date); roster tickers resolved to companies through fundamentals(tickers, as_of); accruals = (net_income - operating_cash_flow) / average of the latest and prior fiscal year's total_assets, from annual statements as_of each sort date, latest fiscal year with all three inputs ended within 548 days, prior year 300-430 days earlier; fiscal-year month keyed on rows with revenue, off-month 12-month windows within 300 days of a year-end dropped; roster lines with accruals 95.4%-99.4% a year (Dec 2010 the first year-end at 95%+); financials (current SIC 6000-6799) and companies with no SIC left out; MeadWestvaco (8097) to 2014, Tyco/JCI (4074) to 2015, AGL Resources (670) 2012-2013 set aside; 387-405 companies a year on the roster in force (5,957 company-years), 329-396 on today's roster (5,494); quintiles within universe and year, equal weight buy-and-hold next calendar year 2011-2025, monthly total returns, recorded delisting returns then cash; 787 securities, 177 exit records (2 without a delisting return, both financials outside the sample); results: Q1-Q5 +1.26 (t 0.60, 8/15) roster in force vs +7.41 (t 2.63, 10/15) today's roster; survivorship +6.15 on the spread (paired t 2.26), +6.26 on the quintile average (t 7.18, 15/15), +12.21 on Q1; members since removed 33.8% of Q1 (3.3% vs 19.9%) and 27.8% of Q5 (4.9% vs 16.1%); not-yet members 33.1% of today's-roster Q1 (40.2%); checked with 1/99 winsorised returns (+0.67 vs +6.16) and medians; external claim: Sloan (1996), The Accounting Review 71(3) 289-315, abstract only; 403 API requests in the run incl. probes, all 200"
+      ],
+      "status": "success",
+      "blog_slug": "accrual-anomaly-backtest-survivorship-bias-python",
+      "script_path": "scripts/index-universe/accrual-anomaly-backtest-survivorship-bias-python.py"
     }
   ]
 }

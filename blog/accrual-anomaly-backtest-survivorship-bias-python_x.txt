@@ -1,0 +1,8 @@
+S&P 500 accrual anomaly backtest, 2011-2025.
+
+On today's index list: low accruals beat high by 7.41 points a year (t 2.63).
+On the list as it stood each December: 1.26 points (t 0.60).
+
+The gap sits in the low-accrual tail, where removed and future members cluster.
+
+[BLOG_LINK]
